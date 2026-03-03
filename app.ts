@@ -5,7 +5,7 @@ import http from 'http'; // Import HTTP module
 import fs from 'fs/promises'; // Import File System promises
 import { Question } from './logic_scripts.js'; // Import Types
 import * as dotenv from 'dotenv';
-dotenv.config({ path: '/opt/render/project/src/.env' });
+dotenv.config();
 // Global variable for quiz data
 let DATA: Question[] = []; 
 
