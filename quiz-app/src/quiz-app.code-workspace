@@ -1,0 +1,13 @@
+{
+    "folders": [
+        {
+            "path": "../.."
+        },
+        {
+            "path": "../../../quiz-app"
+        },
+        {
+            "path": "../../../../c_plus_plus_code"
+        }
+    ]
+}

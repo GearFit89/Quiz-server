@@ -1,0 +1,62 @@
+{
+  "s1": {
+    "id": "s1",
+    "title": "Quick Solo Practice",
+    "questions": 10,
+    "settings": { "numQuestions": 10, "verseSelection": "random", "mode": "quiz" }
+  },
+  "s2": {
+    "id": "s2",
+    "title": "March Madness",
+    "questions": 20,
+    "settings": { "numQuestions": 20, "month": ["march"], "verseSelection": "quiz" }
+  },
+  "s3": {
+    "id": "s3",
+    "title": "Chapter 1 Mastery",
+    "questions": 15,
+    "settings": { "numQuestions": 15, "chapter": ["1"], "verseSelection": "sequential" }
+  },
+  "s4": {
+    "id": "s4",
+    "title": "Speed Trial",
+    "questions": 20,
+    "settings": { "numQuestions": 20, "lenOfTimer": 10, "speed_tOf_text": 0.4 }
+  },
+  "a1": {
+    "id": "a1",
+    "title": "Training Bot",
+    "questions": 10,
+    "settings": { "numQuestions": 10, "difficulty": "easy", "flight": ["A", "B", "C", "T"] }
+  },
+  "a2": {
+    "id": "a2",
+    "title": "Cyber Challenger",
+    "questions": 20,
+    "settings": { "numQuestions": 20, "difficulty": "medium", "lenOfTimer": 12 }
+  },
+  "a3": {
+    "id": "a3",
+    "title": "Grandmaster AI",
+    "questions": 30,
+    "settings": { "numQuestions": 30, "difficulty": "hard" }
+  },
+  "o1": {
+    "id": "o1",
+    "title": "Standard Online Match",
+    "questions": 20,
+    "settings": { "numQuestions": 20, "mode": "online" }
+  },
+  "o2": {
+    "id": "o2",
+    "title": "Elite Team Battle",
+    "questions": 50,
+    "settings": { "numQuestions": 50, "mode": "online",  "month": ["march"] }
+  },
+  "o3": {
+    "id": "o3",
+    "title": "Blitz Duel",
+    "questions": 10,
+    "settings": { "numQuestions": 10, "lenOfTimer": 8, "mode": "online" }
+  }
+}

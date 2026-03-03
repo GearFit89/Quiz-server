@@ -1,0 +1,325 @@
+[2026-03-03T04:13:29.687Z] hi app is running
+[2026-03-03T04:13:30.115Z] Successfully loaded 1227 questions.
+[2026-03-03T04:13:30.142Z] Server running on port: 3000
+[2026-03-03T04:13:35.669Z] coks {"refreshToken":"eyJhbGciOiJIUzI1NiJ9.eyJ0b2tlbiI6IjEzZTIxMzE1YzAxMjIwOGFmZTI0ODE0NzNjYWNhZjg2MWNmM2UyNmMyNjg4YWU5ZGFhNzU5MmQ4OTU1NjM2MjAiLCJpZCI6IjcwNjM0MDdhLTkzMTctNDljMi04Y2U4LTBmMjgwZjFjMTVmNCJ9._1ZfH_1FmU3qjGZRMaFYQRNz8T7jrtOPb5ZLLvPJeWE","accessToken":"eyJhbGciOiJIUzI1NiJ9.ImQzZjBhZmU3N2EwNTQyY2M3ZjNlNTM1Yzk2MTNhNTYyNDBjMzE5ZjVjYWZkYmZkNjEzMDZhMmEyNmJmNmZjYTUi.g7h-4loTDHk0hEE91nz1w0IDsts21H2-7-pLKSiO-0Q"}
+[2026-03-03T04:13:35.698Z] coks {"refreshToken":"eyJhbGciOiJIUzI1NiJ9.eyJ0b2tlbiI6IjEzZTIxMzE1YzAxMjIwOGFmZTI0ODE0NzNjYWNhZjg2MWNmM2UyNmMyNjg4YWU5ZGFhNzU5MmQ4OTU1NjM2MjAiLCJpZCI6IjcwNjM0MDdhLTkzMTctNDljMi04Y2U4LTBmMjgwZjFjMTVmNCJ9._1ZfH_1FmU3qjGZRMaFYQRNz8T7jrtOPb5ZLLvPJeWE","accessToken":"eyJhbGciOiJIUzI1NiJ9.ImQzZjBhZmU3N2EwNTQyY2M3ZjNlNTM1Yzk2MTNhNTYyNDBjMzE5ZjVjYWZkYmZkNjEzMDZhMmEyNmJmNmZjYTUi.g7h-4loTDHk0hEE91nz1w0IDsts21H2-7-pLKSiO-0Q"} eyJhbGciOiJIUzI1NiJ9.eyJ0b2tlbiI6IjEzZTIxMzE1YzAxMjIwOGFmZTI0ODE0NzNjYWNhZjg2MWNmM2UyNmMyNjg4YWU5ZGFhNzU5MmQ4OTU1NjM2MjAiLCJpZCI6IjcwNjM0MDdhLTkzMTctNDljMi04Y2U4LTBmMjgwZjFjMTVmNCJ9._1ZfH_1FmU3qjGZRMaFYQRNz8T7jrtOPb5ZLLvPJeWE rr
+[2026-03-03T04:13:35.713Z] {"token":"13e21315c012208afe2481473cacaf861cf3e26c2688ae9daa7592d895563620","id":"7063407a-9317-49c2-8ce8-0f280f1c15f4"} v now it is access "d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5"
+[2026-03-03T04:13:35.716Z] vtok {"token":"13e21315c012208afe2481473cacaf861cf3e26c2688ae9daa7592d895563620","id":"7063407a-9317-49c2-8ce8-0f280f1c15f4"} "d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5"
+[2026-03-03T04:13:37.147Z] supa data {"id":"7063407a-9317-49c2-8ce8-0f280f1c15f4","username":"mary.cramer@hotmail.ppp","created_at":"2026-01-25T02:47:25.465058+00:00","friends":[],"state_of_qs_answered":{},"modules_completed":null,"access_id":"d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5","session_id":"13e21315c012208afe2481473cacaf861cf3e26c2688ae9daa7592d895563620","email":"mary.cramer@hotmail.ppp","team_name":null,"online_quiz_data":[{"a":"{\"userConfig\":{\"username\":\"a\",\"roomId\":\"52ec204450.0afa\",\"xp\":0,\"status\":\"connected\",\"seatNum\":1,\"points\":0,\"teamId\":\"a91ukpb9u.prf\",\"teamName\":\"\"}}","xp":0,"points":0,"status":"finished","seatNum":1,"teamScore":0}],"xp":null,"league":null,"badges":null,"avatar":null,"role":null,"access_level":null,"profile_settings":null,"streak":null} refresh d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5
+[2026-03-03T04:13:37.147Z] refreash/refresh 13e21315c012208afe2481473cacaf861cf3e26c2688ae9daa7592d895563620 verus fromcok eyJhbGciOiJIUzI1NiJ9.ImQzZjBhZmU3N2EwNTQyY2M3ZjNlNTM1Yzk2MTNhNTYyNDBjMzE5ZjVjYWZkYmZkNjEzMDZhMmEyNmJmNmZjYTUi.g7h-4loTDHk0hEE91nz1w0IDsts21H2-7-pLKSiO-0Q false "d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5" vs d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5
+[2026-03-03T04:13:37.147Z] user a 
+[2026-03-03T04:13:37.147Z] success for dev 7063407a-9317-49c2-8ce8-0f280f1c15f4
+[2026-03-03T04:13:37.152Z] 
+---------------
+----
+
+ {"payload":{"update":"profile","data":{"id":"","username":"mary.cramer@hotmail.ppp","created_at":"2026-01-25T02:47:25.465058+00:00","friends":[],"state_of_qs_answered":{},"modules_completed":null,"access_id":"d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5","session_id":"","email":"mary.cramer@hotmail.ppp","team_name":null,"online_quiz_data":[{"a":"{\"userConfig\":{\"username\":\"a\",\"roomId\":\"52ec204450.0afa\",\"xp\":0,\"status\":\"connected\",\"seatNum\":1,\"points\":0,\"teamId\":\"a91ukpb9u.prf\",\"teamName\":\"\"}}","xp":0,"points":0,"status":"finished","seatNum":1,"teamScore":0}],"xp":null,"league":null,"badges":null,"avatar":null,"role":null,"access_level":null,"profile_settings":null,"streak":null,"refresh_id":""}}} data being sent touser  a 
+
+-------
+[2026-03-03T04:13:37.234Z] sub to  user:a:req_id:* {}
+[2026-03-03T04:13:37.252Z] sub to  user:a:friend_reqs {}
+[2026-03-03T04:13:37.414Z] Client connected from: ::1
+[2026-03-03T04:13:38.406Z] Connection closed. Code: 1001, Reason: 
+[2026-03-03T04:13:38.589Z] unscribing  room:undefined
+[2026-03-03T04:13:38.651Z] Unsubscribed from pattern: room:undefined
+[2026-03-03T04:13:38.652Z] unscribing  user:a:req_id:*
+[2026-03-03T04:13:38.714Z] Unsubscribed from pattern: user:a:req_id:*
+[2026-03-03T04:13:38.715Z] unscribing  user:a:friend_reqs
+[2026-03-03T04:13:38.786Z] Unsubscribed from pattern: user:a:friend_reqs
+[2026-03-03T04:13:42.587Z] --session apemt-- {"refreshToken":"eyJhbGciOiJIUzI1NiJ9.eyJ0b2tlbiI6IjEzZTIxMzE1YzAxMjIwOGFmZTI0ODE0NzNjYWNhZjg2MWNmM2UyNmMyNjg4YWU5ZGFhNzU5MmQ4OTU1NjM2MjAiLCJpZCI6IjcwNjM0MDdhLTkzMTctNDljMi04Y2U4LTBmMjgwZjFjMTVmNCJ9._1ZfH_1FmU3qjGZRMaFYQRNz8T7jrtOPb5ZLLvPJeWE","accessToken":"eyJhbGciOiJIUzI1NiJ9.ImQzZjBhZmU3N2EwNTQyY2M3ZjNlNTM1Yzk2MTNhNTYyNDBjMzE5ZjVjYWZkYmZkNjEzMDZhMmEyNmJmNmZjYTUi.g7h-4loTDHk0hEE91nz1w0IDsts21H2-7-pLKSiO-0Q"} sogned {} eyJhbGciOiJIUzI1NiJ9.ImQzZjBhZmU3N2EwNTQyY2M3ZjNlNTM1Yzk2MTNhNTYyNDBjMzE5ZjVjYWZkYmZkNjEzMDZhMmEyNmJmNmZjYTUi.g7h-4loTDHk0hEE91nz1w0IDsts21H2-7-pLKSiO-0Q
+[2026-03-03T04:13:42.861Z] ---string vefity--
+
+[2026-03-03T04:13:43.553Z] {"access_id":"d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5","session_id":"13e21315c012208afe2481473cacaf861cf3e26c2688ae9daa7592d895563620"} upd saup virg data 13e21315c012208afe2481473cacaf861cf3e26c2688ae9daa7592d895563620 "d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5"
+[2026-03-03T04:13:43.566Z] compare refrsh 13e21315c012208afe2481473cacaf861cf3e26c2688ae9daa7592d895563620 vs 13e21315c012208afe2481473cacaf861cf3e26c2688ae9daa7592d895563620
+[2026-03-03T04:13:43.566Z] d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5 access vs "d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5"
+[2026-03-03T04:13:43.963Z] success with session v: undefined "d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5" 7063407a-9317-49c2-8ce8-0f280f1c15f4
+[2026-03-03T04:13:47.209Z] coks {"refreshToken":"eyJhbGciOiJIUzI1NiJ9.eyJ0b2tlbiI6IjEzZTIxMzE1YzAxMjIwOGFmZTI0ODE0NzNjYWNhZjg2MWNmM2UyNmMyNjg4YWU5ZGFhNzU5MmQ4OTU1NjM2MjAiLCJpZCI6IjcwNjM0MDdhLTkzMTctNDljMi04Y2U4LTBmMjgwZjFjMTVmNCJ9._1ZfH_1FmU3qjGZRMaFYQRNz8T7jrtOPb5ZLLvPJeWE","accessToken":"eyJhbGciOiJIUzI1NiJ9.ImQzZjBhZmU3N2EwNTQyY2M3ZjNlNTM1Yzk2MTNhNTYyNDBjMzE5ZjVjYWZkYmZkNjEzMDZhMmEyNmJmNmZjYTUi.g7h-4loTDHk0hEE91nz1w0IDsts21H2-7-pLKSiO-0Q"}
+[2026-03-03T04:13:47.210Z] coks {"refreshToken":"eyJhbGciOiJIUzI1NiJ9.eyJ0b2tlbiI6IjEzZTIxMzE1YzAxMjIwOGFmZTI0ODE0NzNjYWNhZjg2MWNmM2UyNmMyNjg4YWU5ZGFhNzU5MmQ4OTU1NjM2MjAiLCJpZCI6IjcwNjM0MDdhLTkzMTctNDljMi04Y2U4LTBmMjgwZjFjMTVmNCJ9._1ZfH_1FmU3qjGZRMaFYQRNz8T7jrtOPb5ZLLvPJeWE","accessToken":"eyJhbGciOiJIUzI1NiJ9.ImQzZjBhZmU3N2EwNTQyY2M3ZjNlNTM1Yzk2MTNhNTYyNDBjMzE5ZjVjYWZkYmZkNjEzMDZhMmEyNmJmNmZjYTUi.g7h-4loTDHk0hEE91nz1w0IDsts21H2-7-pLKSiO-0Q"} eyJhbGciOiJIUzI1NiJ9.eyJ0b2tlbiI6IjEzZTIxMzE1YzAxMjIwOGFmZTI0ODE0NzNjYWNhZjg2MWNmM2UyNmMyNjg4YWU5ZGFhNzU5MmQ4OTU1NjM2MjAiLCJpZCI6IjcwNjM0MDdhLTkzMTctNDljMi04Y2U4LTBmMjgwZjFjMTVmNCJ9._1ZfH_1FmU3qjGZRMaFYQRNz8T7jrtOPb5ZLLvPJeWE rr
+[2026-03-03T04:13:47.234Z] {"token":"13e21315c012208afe2481473cacaf861cf3e26c2688ae9daa7592d895563620","id":"7063407a-9317-49c2-8ce8-0f280f1c15f4"} v now it is access "d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5"
+[2026-03-03T04:13:47.240Z] vtok {"token":"13e21315c012208afe2481473cacaf861cf3e26c2688ae9daa7592d895563620","id":"7063407a-9317-49c2-8ce8-0f280f1c15f4"} "d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5"
+[2026-03-03T04:13:47.368Z] supa data {"id":"7063407a-9317-49c2-8ce8-0f280f1c15f4","username":"mary.cramer@hotmail.ppp","created_at":"2026-01-25T02:47:25.465058+00:00","friends":[],"state_of_qs_answered":{},"modules_completed":null,"access_id":"d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5","session_id":"13e21315c012208afe2481473cacaf861cf3e26c2688ae9daa7592d895563620","email":"mary.cramer@hotmail.ppp","team_name":null,"online_quiz_data":[{"a":"{\"userConfig\":{\"username\":\"a\",\"roomId\":\"52ec204450.0afa\",\"xp\":0,\"status\":\"connected\",\"seatNum\":1,\"points\":0,\"teamId\":\"a91ukpb9u.prf\",\"teamName\":\"\"}}","xp":0,"points":0,"status":"finished","seatNum":1,"teamScore":0}],"xp":null,"league":null,"badges":null,"avatar":null,"role":null,"access_level":null,"profile_settings":null,"streak":null} refresh d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5
+[2026-03-03T04:13:47.370Z] refreash/refresh 13e21315c012208afe2481473cacaf861cf3e26c2688ae9daa7592d895563620 verus fromcok eyJhbGciOiJIUzI1NiJ9.ImQzZjBhZmU3N2EwNTQyY2M3ZjNlNTM1Yzk2MTNhNTYyNDBjMzE5ZjVjYWZkYmZkNjEzMDZhMmEyNmJmNmZjYTUi.g7h-4loTDHk0hEE91nz1w0IDsts21H2-7-pLKSiO-0Q false "d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5" vs d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5
+[2026-03-03T04:13:47.376Z] user a 
+[2026-03-03T04:13:47.379Z] success for dev 7063407a-9317-49c2-8ce8-0f280f1c15f4
+[2026-03-03T04:13:47.385Z] 
+---------------
+----
+
+ {"payload":{"update":"profile","data":{"id":"","username":"mary.cramer@hotmail.ppp","created_at":"2026-01-25T02:47:25.465058+00:00","friends":[],"state_of_qs_answered":{},"modules_completed":null,"access_id":"d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5","session_id":"","email":"mary.cramer@hotmail.ppp","team_name":null,"online_quiz_data":[{"a":"{\"userConfig\":{\"username\":\"a\",\"roomId\":\"52ec204450.0afa\",\"xp\":0,\"status\":\"connected\",\"seatNum\":1,\"points\":0,\"teamId\":\"a91ukpb9u.prf\",\"teamName\":\"\"}}","xp":0,"points":0,"status":"finished","seatNum":1,"teamScore":0}],"xp":null,"league":null,"badges":null,"avatar":null,"role":null,"access_level":null,"profile_settings":null,"streak":null,"refresh_id":""}}} data being sent touser  a 
+
+-------
+[2026-03-03T04:13:47.446Z] sub to  user:a:req_id:* {}
+[2026-03-03T04:13:47.476Z] sub to  user:a:friend_reqs {}
+[2026-03-03T04:13:47.574Z] Client connected from: ::1
+[2026-03-03T04:14:20.324Z] Executing: answerInvitefrom clent username is a [true,"d7cee04357.68ca"]
+[2026-03-03T04:14:20.407Z] [] accpet
+[2026-03-03T04:14:20.407Z] view quiz logic or late join goes here 
+[2026-03-03T04:15:02.327Z] --session apemt-- {"refreshToken":"eyJhbGciOiJIUzI1NiJ9.eyJ0b2tlbiI6IjEzZTIxMzE1YzAxMjIwOGFmZTI0ODE0NzNjYWNhZjg2MWNmM2UyNmMyNjg4YWU5ZGFhNzU5MmQ4OTU1NjM2MjAiLCJpZCI6IjcwNjM0MDdhLTkzMTctNDljMi04Y2U4LTBmMjgwZjFjMTVmNCJ9._1ZfH_1FmU3qjGZRMaFYQRNz8T7jrtOPb5ZLLvPJeWE","accessToken":"eyJhbGciOiJIUzI1NiJ9.ImQzZjBhZmU3N2EwNTQyY2M3ZjNlNTM1Yzk2MTNhNTYyNDBjMzE5ZjVjYWZkYmZkNjEzMDZhMmEyNmJmNmZjYTUi.g7h-4loTDHk0hEE91nz1w0IDsts21H2-7-pLKSiO-0Q"} sogned {} eyJhbGciOiJIUzI1NiJ9.ImQzZjBhZmU3N2EwNTQyY2M3ZjNlNTM1Yzk2MTNhNTYyNDBjMzE5ZjVjYWZkYmZkNjEzMDZhMmEyNmJmNmZjYTUi.g7h-4loTDHk0hEE91nz1w0IDsts21H2-7-pLKSiO-0Q
+[2026-03-03T04:15:02.776Z] ---string vefity--
+
+[2026-03-03T04:15:03.581Z] {"access_id":"d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5","session_id":"13e21315c012208afe2481473cacaf861cf3e26c2688ae9daa7592d895563620"} upd saup virg data 13e21315c012208afe2481473cacaf861cf3e26c2688ae9daa7592d895563620 "d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5"
+[2026-03-03T04:15:03.581Z] compare refrsh 13e21315c012208afe2481473cacaf861cf3e26c2688ae9daa7592d895563620 vs 13e21315c012208afe2481473cacaf861cf3e26c2688ae9daa7592d895563620
+[2026-03-03T04:15:03.582Z] d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5 access vs "d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5"
+[2026-03-03T04:15:03.665Z] success with session v: undefined "d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5" 7063407a-9317-49c2-8ce8-0f280f1c15f4
+[2026-03-03T04:15:03.758Z] coks {"refreshToken":"eyJhbGciOiJIUzI1NiJ9.eyJ0b2tlbiI6IjEzZTIxMzE1YzAxMjIwOGFmZTI0ODE0NzNjYWNhZjg2MWNmM2UyNmMyNjg4YWU5ZGFhNzU5MmQ4OTU1NjM2MjAiLCJpZCI6IjcwNjM0MDdhLTkzMTctNDljMi04Y2U4LTBmMjgwZjFjMTVmNCJ9._1ZfH_1FmU3qjGZRMaFYQRNz8T7jrtOPb5ZLLvPJeWE","accessToken":"eyJhbGciOiJIUzI1NiJ9.ImQzZjBhZmU3N2EwNTQyY2M3ZjNlNTM1Yzk2MTNhNTYyNDBjMzE5ZjVjYWZkYmZkNjEzMDZhMmEyNmJmNmZjYTUi.g7h-4loTDHk0hEE91nz1w0IDsts21H2-7-pLKSiO-0Q"}
+[2026-03-03T04:15:03.758Z] coks {"refreshToken":"eyJhbGciOiJIUzI1NiJ9.eyJ0b2tlbiI6IjEzZTIxMzE1YzAxMjIwOGFmZTI0ODE0NzNjYWNhZjg2MWNmM2UyNmMyNjg4YWU5ZGFhNzU5MmQ4OTU1NjM2MjAiLCJpZCI6IjcwNjM0MDdhLTkzMTctNDljMi04Y2U4LTBmMjgwZjFjMTVmNCJ9._1ZfH_1FmU3qjGZRMaFYQRNz8T7jrtOPb5ZLLvPJeWE","accessToken":"eyJhbGciOiJIUzI1NiJ9.ImQzZjBhZmU3N2EwNTQyY2M3ZjNlNTM1Yzk2MTNhNTYyNDBjMzE5ZjVjYWZkYmZkNjEzMDZhMmEyNmJmNmZjYTUi.g7h-4loTDHk0hEE91nz1w0IDsts21H2-7-pLKSiO-0Q"} eyJhbGciOiJIUzI1NiJ9.eyJ0b2tlbiI6IjEzZTIxMzE1YzAxMjIwOGFmZTI0ODE0NzNjYWNhZjg2MWNmM2UyNmMyNjg4YWU5ZGFhNzU5MmQ4OTU1NjM2MjAiLCJpZCI6IjcwNjM0MDdhLTkzMTctNDljMi04Y2U4LTBmMjgwZjFjMTVmNCJ9._1ZfH_1FmU3qjGZRMaFYQRNz8T7jrtOPb5ZLLvPJeWE rr
+[2026-03-03T04:15:03.772Z] {"token":"13e21315c012208afe2481473cacaf861cf3e26c2688ae9daa7592d895563620","id":"7063407a-9317-49c2-8ce8-0f280f1c15f4"} v now it is access "d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5"
+[2026-03-03T04:15:03.786Z] vtok {"token":"13e21315c012208afe2481473cacaf861cf3e26c2688ae9daa7592d895563620","id":"7063407a-9317-49c2-8ce8-0f280f1c15f4"} "d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5"
+[2026-03-03T04:15:03.932Z] supa data {"id":"7063407a-9317-49c2-8ce8-0f280f1c15f4","username":"mary.cramer@hotmail.ppp","created_at":"2026-01-25T02:47:25.465058+00:00","friends":[],"state_of_qs_answered":{},"modules_completed":null,"access_id":"d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5","session_id":"13e21315c012208afe2481473cacaf861cf3e26c2688ae9daa7592d895563620","email":"mary.cramer@hotmail.ppp","team_name":null,"online_quiz_data":[{"a":"{\"userConfig\":{\"username\":\"a\",\"roomId\":\"52ec204450.0afa\",\"xp\":0,\"status\":\"connected\",\"seatNum\":1,\"points\":0,\"teamId\":\"a91ukpb9u.prf\",\"teamName\":\"\"}}","xp":0,"points":0,"status":"finished","seatNum":1,"teamScore":0}],"xp":null,"league":null,"badges":null,"avatar":null,"role":null,"access_level":null,"profile_settings":null,"streak":null} refresh d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5
+[2026-03-03T04:15:03.945Z] refreash/refresh 13e21315c012208afe2481473cacaf861cf3e26c2688ae9daa7592d895563620 verus fromcok eyJhbGciOiJIUzI1NiJ9.ImQzZjBhZmU3N2EwNTQyY2M3ZjNlNTM1Yzk2MTNhNTYyNDBjMzE5ZjVjYWZkYmZkNjEzMDZhMmEyNmJmNmZjYTUi.g7h-4loTDHk0hEE91nz1w0IDsts21H2-7-pLKSiO-0Q false "d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5" vs d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5
+[2026-03-03T04:15:03.961Z] user b 
+[2026-03-03T04:15:03.961Z] success for dev 7063407a-9317-49c2-8ce8-0f280f1c15f4
+[2026-03-03T04:15:03.981Z] 
+---------------
+----
+
+ {"payload":{"update":"profile","data":{"id":"","username":"mary.cramer@hotmail.ppp","created_at":"2026-01-25T02:47:25.465058+00:00","friends":[],"state_of_qs_answered":{},"modules_completed":null,"access_id":"d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5","session_id":"","email":"mary.cramer@hotmail.ppp","team_name":null,"online_quiz_data":[{"a":"{\"userConfig\":{\"username\":\"a\",\"roomId\":\"52ec204450.0afa\",\"xp\":0,\"status\":\"connected\",\"seatNum\":1,\"points\":0,\"teamId\":\"a91ukpb9u.prf\",\"teamName\":\"\"}}","xp":0,"points":0,"status":"finished","seatNum":1,"teamScore":0}],"xp":null,"league":null,"badges":null,"avatar":null,"role":null,"access_level":null,"profile_settings":null,"streak":null,"refresh_id":""}}} data being sent touser  b 
+
+-------
+[2026-03-03T04:15:04.117Z] sub to  user:b:req_id:* {}
+[2026-03-03T04:15:04.137Z] sub to  user:b:friend_reqs {}
+[2026-03-03T04:15:04.334Z] Client connected from: ::1
+[2026-03-03T04:15:15.598Z] --session apemt-- {"refreshToken":"eyJhbGciOiJIUzI1NiJ9.eyJ0b2tlbiI6IjEzZTIxMzE1YzAxMjIwOGFmZTI0ODE0NzNjYWNhZjg2MWNmM2UyNmMyNjg4YWU5ZGFhNzU5MmQ4OTU1NjM2MjAiLCJpZCI6IjcwNjM0MDdhLTkzMTctNDljMi04Y2U4LTBmMjgwZjFjMTVmNCJ9._1ZfH_1FmU3qjGZRMaFYQRNz8T7jrtOPb5ZLLvPJeWE","accessToken":"eyJhbGciOiJIUzI1NiJ9.ImQzZjBhZmU3N2EwNTQyY2M3ZjNlNTM1Yzk2MTNhNTYyNDBjMzE5ZjVjYWZkYmZkNjEzMDZhMmEyNmJmNmZjYTUi.g7h-4loTDHk0hEE91nz1w0IDsts21H2-7-pLKSiO-0Q"} sogned {} eyJhbGciOiJIUzI1NiJ9.ImQzZjBhZmU3N2EwNTQyY2M3ZjNlNTM1Yzk2MTNhNTYyNDBjMzE5ZjVjYWZkYmZkNjEzMDZhMmEyNmJmNmZjYTUi.g7h-4loTDHk0hEE91nz1w0IDsts21H2-7-pLKSiO-0Q
+[2026-03-03T04:15:15.825Z] ---string vefity--
+
+[2026-03-03T04:15:16.163Z] {"access_id":"d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5","session_id":"13e21315c012208afe2481473cacaf861cf3e26c2688ae9daa7592d895563620"} upd saup virg data 13e21315c012208afe2481473cacaf861cf3e26c2688ae9daa7592d895563620 "d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5"
+[2026-03-03T04:15:16.210Z] compare refrsh 13e21315c012208afe2481473cacaf861cf3e26c2688ae9daa7592d895563620 vs 13e21315c012208afe2481473cacaf861cf3e26c2688ae9daa7592d895563620
+[2026-03-03T04:15:16.211Z] d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5 access vs "d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5"
+[2026-03-03T04:15:16.232Z] success with session v: undefined "d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5" 7063407a-9317-49c2-8ce8-0f280f1c15f4
+[2026-03-03T04:15:16.276Z] coks {"refreshToken":"eyJhbGciOiJIUzI1NiJ9.eyJ0b2tlbiI6IjEzZTIxMzE1YzAxMjIwOGFmZTI0ODE0NzNjYWNhZjg2MWNmM2UyNmMyNjg4YWU5ZGFhNzU5MmQ4OTU1NjM2MjAiLCJpZCI6IjcwNjM0MDdhLTkzMTctNDljMi04Y2U4LTBmMjgwZjFjMTVmNCJ9._1ZfH_1FmU3qjGZRMaFYQRNz8T7jrtOPb5ZLLvPJeWE","accessToken":"eyJhbGciOiJIUzI1NiJ9.ImQzZjBhZmU3N2EwNTQyY2M3ZjNlNTM1Yzk2MTNhNTYyNDBjMzE5ZjVjYWZkYmZkNjEzMDZhMmEyNmJmNmZjYTUi.g7h-4loTDHk0hEE91nz1w0IDsts21H2-7-pLKSiO-0Q"}
+[2026-03-03T04:15:16.276Z] coks {"refreshToken":"eyJhbGciOiJIUzI1NiJ9.eyJ0b2tlbiI6IjEzZTIxMzE1YzAxMjIwOGFmZTI0ODE0NzNjYWNhZjg2MWNmM2UyNmMyNjg4YWU5ZGFhNzU5MmQ4OTU1NjM2MjAiLCJpZCI6IjcwNjM0MDdhLTkzMTctNDljMi04Y2U4LTBmMjgwZjFjMTVmNCJ9._1ZfH_1FmU3qjGZRMaFYQRNz8T7jrtOPb5ZLLvPJeWE","accessToken":"eyJhbGciOiJIUzI1NiJ9.ImQzZjBhZmU3N2EwNTQyY2M3ZjNlNTM1Yzk2MTNhNTYyNDBjMzE5ZjVjYWZkYmZkNjEzMDZhMmEyNmJmNmZjYTUi.g7h-4loTDHk0hEE91nz1w0IDsts21H2-7-pLKSiO-0Q"} eyJhbGciOiJIUzI1NiJ9.eyJ0b2tlbiI6IjEzZTIxMzE1YzAxMjIwOGFmZTI0ODE0NzNjYWNhZjg2MWNmM2UyNmMyNjg4YWU5ZGFhNzU5MmQ4OTU1NjM2MjAiLCJpZCI6IjcwNjM0MDdhLTkzMTctNDljMi04Y2U4LTBmMjgwZjFjMTVmNCJ9._1ZfH_1FmU3qjGZRMaFYQRNz8T7jrtOPb5ZLLvPJeWE rr
+[2026-03-03T04:15:16.291Z] {"token":"13e21315c012208afe2481473cacaf861cf3e26c2688ae9daa7592d895563620","id":"7063407a-9317-49c2-8ce8-0f280f1c15f4"} v now it is access "d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5"
+[2026-03-03T04:15:16.293Z] vtok {"token":"13e21315c012208afe2481473cacaf861cf3e26c2688ae9daa7592d895563620","id":"7063407a-9317-49c2-8ce8-0f280f1c15f4"} "d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5"
+[2026-03-03T04:15:16.398Z] supa data {"id":"7063407a-9317-49c2-8ce8-0f280f1c15f4","username":"mary.cramer@hotmail.ppp","created_at":"2026-01-25T02:47:25.465058+00:00","friends":[],"state_of_qs_answered":{},"modules_completed":null,"access_id":"d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5","session_id":"13e21315c012208afe2481473cacaf861cf3e26c2688ae9daa7592d895563620","email":"mary.cramer@hotmail.ppp","team_name":null,"online_quiz_data":[{"a":"{\"userConfig\":{\"username\":\"a\",\"roomId\":\"52ec204450.0afa\",\"xp\":0,\"status\":\"connected\",\"seatNum\":1,\"points\":0,\"teamId\":\"a91ukpb9u.prf\",\"teamName\":\"\"}}","xp":0,"points":0,"status":"finished","seatNum":1,"teamScore":0}],"xp":null,"league":null,"badges":null,"avatar":null,"role":null,"access_level":null,"profile_settings":null,"streak":null} refresh d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5
+[2026-03-03T04:15:16.398Z] refreash/refresh 13e21315c012208afe2481473cacaf861cf3e26c2688ae9daa7592d895563620 verus fromcok eyJhbGciOiJIUzI1NiJ9.ImQzZjBhZmU3N2EwNTQyY2M3ZjNlNTM1Yzk2MTNhNTYyNDBjMzE5ZjVjYWZkYmZkNjEzMDZhMmEyNmJmNmZjYTUi.g7h-4loTDHk0hEE91nz1w0IDsts21H2-7-pLKSiO-0Q false "d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5" vs d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5
+[2026-03-03T04:15:16.398Z] user b 
+[2026-03-03T04:15:16.398Z] success for dev 7063407a-9317-49c2-8ce8-0f280f1c15f4
+[2026-03-03T04:15:16.399Z] 
+---------------
+----
+
+ {"payload":{"update":"profile","data":{"id":"","username":"mary.cramer@hotmail.ppp","created_at":"2026-01-25T02:47:25.465058+00:00","friends":[],"state_of_qs_answered":{},"modules_completed":null,"access_id":"d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5","session_id":"","email":"mary.cramer@hotmail.ppp","team_name":null,"online_quiz_data":[{"a":"{\"userConfig\":{\"username\":\"a\",\"roomId\":\"52ec204450.0afa\",\"xp\":0,\"status\":\"connected\",\"seatNum\":1,\"points\":0,\"teamId\":\"a91ukpb9u.prf\",\"teamName\":\"\"}}","xp":0,"points":0,"status":"finished","seatNum":1,"teamScore":0}],"xp":null,"league":null,"badges":null,"avatar":null,"role":null,"access_level":null,"profile_settings":null,"streak":null,"refresh_id":""}}} data being sent touser  b 
+
+-------
+[2026-03-03T04:15:16.460Z] sub to  user:b:req_id:* {}
+[2026-03-03T04:15:16.466Z] sub to  user:b:friend_reqs {}
+[2026-03-03T04:15:16.534Z] Client connected from: ::1
+[2026-03-03T04:15:31.653Z] --session apemt-- {"refreshToken":"eyJhbGciOiJIUzI1NiJ9.eyJ0b2tlbiI6IjEzZTIxMzE1YzAxMjIwOGFmZTI0ODE0NzNjYWNhZjg2MWNmM2UyNmMyNjg4YWU5ZGFhNzU5MmQ4OTU1NjM2MjAiLCJpZCI6IjcwNjM0MDdhLTkzMTctNDljMi04Y2U4LTBmMjgwZjFjMTVmNCJ9._1ZfH_1FmU3qjGZRMaFYQRNz8T7jrtOPb5ZLLvPJeWE","accessToken":"eyJhbGciOiJIUzI1NiJ9.ImQzZjBhZmU3N2EwNTQyY2M3ZjNlNTM1Yzk2MTNhNTYyNDBjMzE5ZjVjYWZkYmZkNjEzMDZhMmEyNmJmNmZjYTUi.g7h-4loTDHk0hEE91nz1w0IDsts21H2-7-pLKSiO-0Q"} sogned {} eyJhbGciOiJIUzI1NiJ9.ImQzZjBhZmU3N2EwNTQyY2M3ZjNlNTM1Yzk2MTNhNTYyNDBjMzE5ZjVjYWZkYmZkNjEzMDZhMmEyNmJmNmZjYTUi.g7h-4loTDHk0hEE91nz1w0IDsts21H2-7-pLKSiO-0Q
+[2026-03-03T04:15:31.921Z] ---string vefity--
+
+[2026-03-03T04:15:32.164Z] {"access_id":"d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5","session_id":"13e21315c012208afe2481473cacaf861cf3e26c2688ae9daa7592d895563620"} upd saup virg data 13e21315c012208afe2481473cacaf861cf3e26c2688ae9daa7592d895563620 "d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5"
+[2026-03-03T04:15:32.165Z] compare refrsh 13e21315c012208afe2481473cacaf861cf3e26c2688ae9daa7592d895563620 vs 13e21315c012208afe2481473cacaf861cf3e26c2688ae9daa7592d895563620
+[2026-03-03T04:15:32.165Z] d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5 access vs "d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5"
+[2026-03-03T04:15:32.179Z] success with session v: undefined "d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5" 7063407a-9317-49c2-8ce8-0f280f1c15f4
+[2026-03-03T04:15:32.231Z] coks {"refreshToken":"eyJhbGciOiJIUzI1NiJ9.eyJ0b2tlbiI6IjEzZTIxMzE1YzAxMjIwOGFmZTI0ODE0NzNjYWNhZjg2MWNmM2UyNmMyNjg4YWU5ZGFhNzU5MmQ4OTU1NjM2MjAiLCJpZCI6IjcwNjM0MDdhLTkzMTctNDljMi04Y2U4LTBmMjgwZjFjMTVmNCJ9._1ZfH_1FmU3qjGZRMaFYQRNz8T7jrtOPb5ZLLvPJeWE","accessToken":"eyJhbGciOiJIUzI1NiJ9.ImQzZjBhZmU3N2EwNTQyY2M3ZjNlNTM1Yzk2MTNhNTYyNDBjMzE5ZjVjYWZkYmZkNjEzMDZhMmEyNmJmNmZjYTUi.g7h-4loTDHk0hEE91nz1w0IDsts21H2-7-pLKSiO-0Q"}
+[2026-03-03T04:15:32.234Z] coks {"refreshToken":"eyJhbGciOiJIUzI1NiJ9.eyJ0b2tlbiI6IjEzZTIxMzE1YzAxMjIwOGFmZTI0ODE0NzNjYWNhZjg2MWNmM2UyNmMyNjg4YWU5ZGFhNzU5MmQ4OTU1NjM2MjAiLCJpZCI6IjcwNjM0MDdhLTkzMTctNDljMi04Y2U4LTBmMjgwZjFjMTVmNCJ9._1ZfH_1FmU3qjGZRMaFYQRNz8T7jrtOPb5ZLLvPJeWE","accessToken":"eyJhbGciOiJIUzI1NiJ9.ImQzZjBhZmU3N2EwNTQyY2M3ZjNlNTM1Yzk2MTNhNTYyNDBjMzE5ZjVjYWZkYmZkNjEzMDZhMmEyNmJmNmZjYTUi.g7h-4loTDHk0hEE91nz1w0IDsts21H2-7-pLKSiO-0Q"} eyJhbGciOiJIUzI1NiJ9.eyJ0b2tlbiI6IjEzZTIxMzE1YzAxMjIwOGFmZTI0ODE0NzNjYWNhZjg2MWNmM2UyNmMyNjg4YWU5ZGFhNzU5MmQ4OTU1NjM2MjAiLCJpZCI6IjcwNjM0MDdhLTkzMTctNDljMi04Y2U4LTBmMjgwZjFjMTVmNCJ9._1ZfH_1FmU3qjGZRMaFYQRNz8T7jrtOPb5ZLLvPJeWE rr
+[2026-03-03T04:15:32.245Z] {"token":"13e21315c012208afe2481473cacaf861cf3e26c2688ae9daa7592d895563620","id":"7063407a-9317-49c2-8ce8-0f280f1c15f4"} v now it is access "d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5"
+[2026-03-03T04:15:32.248Z] vtok {"token":"13e21315c012208afe2481473cacaf861cf3e26c2688ae9daa7592d895563620","id":"7063407a-9317-49c2-8ce8-0f280f1c15f4"} "d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5"
+[2026-03-03T04:15:32.357Z] supa data {"id":"7063407a-9317-49c2-8ce8-0f280f1c15f4","username":"mary.cramer@hotmail.ppp","created_at":"2026-01-25T02:47:25.465058+00:00","friends":[],"state_of_qs_answered":{},"modules_completed":null,"access_id":"d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5","session_id":"13e21315c012208afe2481473cacaf861cf3e26c2688ae9daa7592d895563620","email":"mary.cramer@hotmail.ppp","team_name":null,"online_quiz_data":[{"a":"{\"userConfig\":{\"username\":\"a\",\"roomId\":\"52ec204450.0afa\",\"xp\":0,\"status\":\"connected\",\"seatNum\":1,\"points\":0,\"teamId\":\"a91ukpb9u.prf\",\"teamName\":\"\"}}","xp":0,"points":0,"status":"finished","seatNum":1,"teamScore":0}],"xp":null,"league":null,"badges":null,"avatar":null,"role":null,"access_level":null,"profile_settings":null,"streak":null} refresh d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5
+[2026-03-03T04:15:32.363Z] refreash/refresh 13e21315c012208afe2481473cacaf861cf3e26c2688ae9daa7592d895563620 verus fromcok eyJhbGciOiJIUzI1NiJ9.ImQzZjBhZmU3N2EwNTQyY2M3ZjNlNTM1Yzk2MTNhNTYyNDBjMzE5ZjVjYWZkYmZkNjEzMDZhMmEyNmJmNmZjYTUi.g7h-4loTDHk0hEE91nz1w0IDsts21H2-7-pLKSiO-0Q false "d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5" vs d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5
+[2026-03-03T04:15:32.364Z] user b 
+[2026-03-03T04:15:32.364Z] success for dev 7063407a-9317-49c2-8ce8-0f280f1c15f4
+[2026-03-03T04:15:32.372Z] 
+---------------
+----
+
+ {"payload":{"update":"profile","data":{"id":"","username":"mary.cramer@hotmail.ppp","created_at":"2026-01-25T02:47:25.465058+00:00","friends":[],"state_of_qs_answered":{},"modules_completed":null,"access_id":"d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5","session_id":"","email":"mary.cramer@hotmail.ppp","team_name":null,"online_quiz_data":[{"a":"{\"userConfig\":{\"username\":\"a\",\"roomId\":\"52ec204450.0afa\",\"xp\":0,\"status\":\"connected\",\"seatNum\":1,\"points\":0,\"teamId\":\"a91ukpb9u.prf\",\"teamName\":\"\"}}","xp":0,"points":0,"status":"finished","seatNum":1,"teamScore":0}],"xp":null,"league":null,"badges":null,"avatar":null,"role":null,"access_level":null,"profile_settings":null,"streak":null,"refresh_id":""}}} data being sent touser  b 
+
+-------
+[2026-03-03T04:15:32.434Z] sub to  user:b:req_id:* {}
+[2026-03-03T04:15:32.439Z] sub to  user:b:friend_reqs {}
+[2026-03-03T04:15:32.504Z] Client connected from: ::1
+[2026-03-03T04:15:34.290Z] Connection closed. Code: 1001, Reason: 
+[2026-03-03T04:15:34.444Z] unscribing  room:undefined
+[2026-03-03T04:15:34.508Z] Unsubscribed from pattern: room:undefined
+[2026-03-03T04:15:34.509Z] unscribing  user:b:req_id:*
+[2026-03-03T04:15:34.570Z] Unsubscribed from pattern: user:b:req_id:*
+[2026-03-03T04:15:34.570Z] unscribing  user:b:friend_reqs
+[2026-03-03T04:15:34.632Z] Unsubscribed from pattern: user:b:friend_reqs
+[2026-03-03T04:15:35.962Z] Connection closed. Code: 1001, Reason: 
+[2026-03-03T04:15:36.088Z] unscribing  room:undefined
+[2026-03-03T04:15:36.150Z] Unsubscribed from pattern: room:undefined
+[2026-03-03T04:15:36.150Z] unscribing  user:b:req_id:*
+[2026-03-03T04:15:36.214Z] Unsubscribed from pattern: user:b:req_id:*
+[2026-03-03T04:15:36.215Z] unscribing  user:b:friend_reqs
+[2026-03-03T04:15:36.276Z] Unsubscribed from pattern: user:b:friend_reqs
+[2026-03-03T04:15:37.856Z] Connection closed. Code: 1001, Reason: 
+[2026-03-03T04:15:38.000Z] unscribing  room:undefined
+[2026-03-03T04:15:38.062Z] Unsubscribed from pattern: room:undefined
+[2026-03-03T04:15:38.063Z] unscribing  user:b:req_id:*
+[2026-03-03T04:15:38.125Z] Unsubscribed from pattern: user:b:req_id:*
+[2026-03-03T04:15:38.128Z] unscribing  user:b:friend_reqs
+[2026-03-03T04:15:38.190Z] Unsubscribed from pattern: user:b:friend_reqs
+[2026-03-03T04:56:03.282Z] Connection closed. Code: 1006, Reason: 
+[2026-03-03T04:56:04.649Z] coks {"refreshToken":"eyJhbGciOiJIUzI1NiJ9.eyJ0b2tlbiI6IjEzZTIxMzE1YzAxMjIwOGFmZTI0ODE0NzNjYWNhZjg2MWNmM2UyNmMyNjg4YWU5ZGFhNzU5MmQ4OTU1NjM2MjAiLCJpZCI6IjcwNjM0MDdhLTkzMTctNDljMi04Y2U4LTBmMjgwZjFjMTVmNCJ9._1ZfH_1FmU3qjGZRMaFYQRNz8T7jrtOPb5ZLLvPJeWE","accessToken":"eyJhbGciOiJIUzI1NiJ9.ImQzZjBhZmU3N2EwNTQyY2M3ZjNlNTM1Yzk2MTNhNTYyNDBjMzE5ZjVjYWZkYmZkNjEzMDZhMmEyNmJmNmZjYTUi.g7h-4loTDHk0hEE91nz1w0IDsts21H2-7-pLKSiO-0Q"}
+[2026-03-03T04:56:04.662Z] coks {"refreshToken":"eyJhbGciOiJIUzI1NiJ9.eyJ0b2tlbiI6IjEzZTIxMzE1YzAxMjIwOGFmZTI0ODE0NzNjYWNhZjg2MWNmM2UyNmMyNjg4YWU5ZGFhNzU5MmQ4OTU1NjM2MjAiLCJpZCI6IjcwNjM0MDdhLTkzMTctNDljMi04Y2U4LTBmMjgwZjFjMTVmNCJ9._1ZfH_1FmU3qjGZRMaFYQRNz8T7jrtOPb5ZLLvPJeWE","accessToken":"eyJhbGciOiJIUzI1NiJ9.ImQzZjBhZmU3N2EwNTQyY2M3ZjNlNTM1Yzk2MTNhNTYyNDBjMzE5ZjVjYWZkYmZkNjEzMDZhMmEyNmJmNmZjYTUi.g7h-4loTDHk0hEE91nz1w0IDsts21H2-7-pLKSiO-0Q"} eyJhbGciOiJIUzI1NiJ9.eyJ0b2tlbiI6IjEzZTIxMzE1YzAxMjIwOGFmZTI0ODE0NzNjYWNhZjg2MWNmM2UyNmMyNjg4YWU5ZGFhNzU5MmQ4OTU1NjM2MjAiLCJpZCI6IjcwNjM0MDdhLTkzMTctNDljMi04Y2U4LTBmMjgwZjFjMTVmNCJ9._1ZfH_1FmU3qjGZRMaFYQRNz8T7jrtOPb5ZLLvPJeWE rr
+[2026-03-03T04:56:04.789Z] {"token":"13e21315c012208afe2481473cacaf861cf3e26c2688ae9daa7592d895563620","id":"7063407a-9317-49c2-8ce8-0f280f1c15f4"} v now it is access "d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5"
+[2026-03-03T04:56:04.799Z] vtok {"token":"13e21315c012208afe2481473cacaf861cf3e26c2688ae9daa7592d895563620","id":"7063407a-9317-49c2-8ce8-0f280f1c15f4"} "d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5"
+[2026-03-03T04:56:06.774Z] Connection closed. Code: 1001, Reason: 
+[2026-03-03T04:56:10.777Z] unscribing  room:undefined
+[2026-03-03T04:56:11.758Z] supa data {"id":"7063407a-9317-49c2-8ce8-0f280f1c15f4","username":"mary.cramer@hotmail.ppp","created_at":"2026-01-25T02:47:25.465058+00:00","friends":[],"state_of_qs_answered":{},"modules_completed":null,"access_id":"d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5","session_id":"13e21315c012208afe2481473cacaf861cf3e26c2688ae9daa7592d895563620","email":"mary.cramer@hotmail.ppp","team_name":null,"online_quiz_data":[{"a":"{\"userConfig\":{\"username\":\"a\",\"roomId\":\"52ec204450.0afa\",\"xp\":0,\"status\":\"connected\",\"seatNum\":1,\"points\":0,\"teamId\":\"a91ukpb9u.prf\",\"teamName\":\"\"}}","xp":0,"points":0,"status":"finished","seatNum":1,"teamScore":0}],"xp":null,"league":null,"badges":null,"avatar":null,"role":null,"access_level":null,"profile_settings":null,"streak":null} refresh d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5
+[2026-03-03T04:56:11.761Z] refreash/refresh 13e21315c012208afe2481473cacaf861cf3e26c2688ae9daa7592d895563620 verus fromcok eyJhbGciOiJIUzI1NiJ9.ImQzZjBhZmU3N2EwNTQyY2M3ZjNlNTM1Yzk2MTNhNTYyNDBjMzE5ZjVjYWZkYmZkNjEzMDZhMmEyNmJmNmZjYTUi.g7h-4loTDHk0hEE91nz1w0IDsts21H2-7-pLKSiO-0Q false "d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5" vs d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5
+[2026-03-03T04:56:11.762Z] user a 
+[2026-03-03T04:56:11.762Z] success for dev 7063407a-9317-49c2-8ce8-0f280f1c15f4
+[2026-03-03T04:56:11.773Z] 
+---------------
+----
+
+ {"payload":{"update":"profile","data":{"id":"","username":"mary.cramer@hotmail.ppp","created_at":"2026-01-25T02:47:25.465058+00:00","friends":[],"state_of_qs_answered":{},"modules_completed":null,"access_id":"d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5","session_id":"","email":"mary.cramer@hotmail.ppp","team_name":null,"online_quiz_data":[{"a":"{\"userConfig\":{\"username\":\"a\",\"roomId\":\"52ec204450.0afa\",\"xp\":0,\"status\":\"connected\",\"seatNum\":1,\"points\":0,\"teamId\":\"a91ukpb9u.prf\",\"teamName\":\"\"}}","xp":0,"points":0,"status":"finished","seatNum":1,"teamScore":0}],"xp":null,"league":null,"badges":null,"avatar":null,"role":null,"access_level":null,"profile_settings":null,"streak":null,"refresh_id":""}}} data being sent touser  a 
+
+-------
+[2026-03-03T04:56:11.816Z] Unsubscribed from pattern: room:undefined
+[2026-03-03T04:56:11.821Z] unscribing  user:a:req_id:*
+[2026-03-03T04:56:11.845Z] sub to  user:a:req_id:* {}
+[2026-03-03T04:56:11.870Z] sub to  user:a:friend_reqs {}
+[2026-03-03T04:56:11.928Z] Unsubscribed from pattern: user:a:req_id:*
+[2026-03-03T04:56:11.929Z] unscribing  user:a:friend_reqs
+[2026-03-03T04:56:12.004Z] Unsubscribed from pattern: user:a:friend_reqs
+[2026-03-03T04:56:12.010Z] Client connected from: ::1
+[2026-03-03T04:56:16.289Z] --session apemt-- {"refreshToken":"eyJhbGciOiJIUzI1NiJ9.eyJ0b2tlbiI6IjEzZTIxMzE1YzAxMjIwOGFmZTI0ODE0NzNjYWNhZjg2MWNmM2UyNmMyNjg4YWU5ZGFhNzU5MmQ4OTU1NjM2MjAiLCJpZCI6IjcwNjM0MDdhLTkzMTctNDljMi04Y2U4LTBmMjgwZjFjMTVmNCJ9._1ZfH_1FmU3qjGZRMaFYQRNz8T7jrtOPb5ZLLvPJeWE","accessToken":"eyJhbGciOiJIUzI1NiJ9.ImQzZjBhZmU3N2EwNTQyY2M3ZjNlNTM1Yzk2MTNhNTYyNDBjMzE5ZjVjYWZkYmZkNjEzMDZhMmEyNmJmNmZjYTUi.g7h-4loTDHk0hEE91nz1w0IDsts21H2-7-pLKSiO-0Q"} sogned {} eyJhbGciOiJIUzI1NiJ9.ImQzZjBhZmU3N2EwNTQyY2M3ZjNlNTM1Yzk2MTNhNTYyNDBjMzE5ZjVjYWZkYmZkNjEzMDZhMmEyNmJmNmZjYTUi.g7h-4loTDHk0hEE91nz1w0IDsts21H2-7-pLKSiO-0Q
+[2026-03-03T04:56:16.534Z] ---string vefity--
+
+[2026-03-03T04:56:16.973Z] {"access_id":"d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5","session_id":"13e21315c012208afe2481473cacaf861cf3e26c2688ae9daa7592d895563620"} upd saup virg data 13e21315c012208afe2481473cacaf861cf3e26c2688ae9daa7592d895563620 "d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5"
+[2026-03-03T04:56:16.973Z] compare refrsh 13e21315c012208afe2481473cacaf861cf3e26c2688ae9daa7592d895563620 vs 13e21315c012208afe2481473cacaf861cf3e26c2688ae9daa7592d895563620
+[2026-03-03T04:56:16.973Z] d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5 access vs "d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5"
+[2026-03-03T04:56:17.004Z] success with session v: undefined "d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5" 7063407a-9317-49c2-8ce8-0f280f1c15f4
+[2026-03-03T04:56:17.278Z] coks {"refreshToken":"eyJhbGciOiJIUzI1NiJ9.eyJ0b2tlbiI6IjEzZTIxMzE1YzAxMjIwOGFmZTI0ODE0NzNjYWNhZjg2MWNmM2UyNmMyNjg4YWU5ZGFhNzU5MmQ4OTU1NjM2MjAiLCJpZCI6IjcwNjM0MDdhLTkzMTctNDljMi04Y2U4LTBmMjgwZjFjMTVmNCJ9._1ZfH_1FmU3qjGZRMaFYQRNz8T7jrtOPb5ZLLvPJeWE","accessToken":"eyJhbGciOiJIUzI1NiJ9.ImQzZjBhZmU3N2EwNTQyY2M3ZjNlNTM1Yzk2MTNhNTYyNDBjMzE5ZjVjYWZkYmZkNjEzMDZhMmEyNmJmNmZjYTUi.g7h-4loTDHk0hEE91nz1w0IDsts21H2-7-pLKSiO-0Q"}
+[2026-03-03T04:56:17.279Z] coks {"refreshToken":"eyJhbGciOiJIUzI1NiJ9.eyJ0b2tlbiI6IjEzZTIxMzE1YzAxMjIwOGFmZTI0ODE0NzNjYWNhZjg2MWNmM2UyNmMyNjg4YWU5ZGFhNzU5MmQ4OTU1NjM2MjAiLCJpZCI6IjcwNjM0MDdhLTkzMTctNDljMi04Y2U4LTBmMjgwZjFjMTVmNCJ9._1ZfH_1FmU3qjGZRMaFYQRNz8T7jrtOPb5ZLLvPJeWE","accessToken":"eyJhbGciOiJIUzI1NiJ9.ImQzZjBhZmU3N2EwNTQyY2M3ZjNlNTM1Yzk2MTNhNTYyNDBjMzE5ZjVjYWZkYmZkNjEzMDZhMmEyNmJmNmZjYTUi.g7h-4loTDHk0hEE91nz1w0IDsts21H2-7-pLKSiO-0Q"} eyJhbGciOiJIUzI1NiJ9.eyJ0b2tlbiI6IjEzZTIxMzE1YzAxMjIwOGFmZTI0ODE0NzNjYWNhZjg2MWNmM2UyNmMyNjg4YWU5ZGFhNzU5MmQ4OTU1NjM2MjAiLCJpZCI6IjcwNjM0MDdhLTkzMTctNDljMi04Y2U4LTBmMjgwZjFjMTVmNCJ9._1ZfH_1FmU3qjGZRMaFYQRNz8T7jrtOPb5ZLLvPJeWE rr
+[2026-03-03T04:56:17.327Z] {"token":"13e21315c012208afe2481473cacaf861cf3e26c2688ae9daa7592d895563620","id":"7063407a-9317-49c2-8ce8-0f280f1c15f4"} v now it is access "d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5"
+[2026-03-03T04:56:17.337Z] vtok {"token":"13e21315c012208afe2481473cacaf861cf3e26c2688ae9daa7592d895563620","id":"7063407a-9317-49c2-8ce8-0f280f1c15f4"} "d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5"
+[2026-03-03T04:56:17.666Z] supa data {"id":"7063407a-9317-49c2-8ce8-0f280f1c15f4","username":"mary.cramer@hotmail.ppp","created_at":"2026-01-25T02:47:25.465058+00:00","friends":[],"state_of_qs_answered":{},"modules_completed":null,"access_id":"d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5","session_id":"13e21315c012208afe2481473cacaf861cf3e26c2688ae9daa7592d895563620","email":"mary.cramer@hotmail.ppp","team_name":null,"online_quiz_data":[{"a":"{\"userConfig\":{\"username\":\"a\",\"roomId\":\"52ec204450.0afa\",\"xp\":0,\"status\":\"connected\",\"seatNum\":1,\"points\":0,\"teamId\":\"a91ukpb9u.prf\",\"teamName\":\"\"}}","xp":0,"points":0,"status":"finished","seatNum":1,"teamScore":0}],"xp":null,"league":null,"badges":null,"avatar":null,"role":null,"access_level":null,"profile_settings":null,"streak":null} refresh d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5
+[2026-03-03T04:56:17.668Z] refreash/refresh 13e21315c012208afe2481473cacaf861cf3e26c2688ae9daa7592d895563620 verus fromcok eyJhbGciOiJIUzI1NiJ9.ImQzZjBhZmU3N2EwNTQyY2M3ZjNlNTM1Yzk2MTNhNTYyNDBjMzE5ZjVjYWZkYmZkNjEzMDZhMmEyNmJmNmZjYTUi.g7h-4loTDHk0hEE91nz1w0IDsts21H2-7-pLKSiO-0Q false "d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5" vs d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5
+[2026-03-03T04:56:17.706Z] user b 
+[2026-03-03T04:56:17.706Z] success for dev 7063407a-9317-49c2-8ce8-0f280f1c15f4
+[2026-03-03T04:56:17.748Z] 
+---------------
+----
+
+ {"payload":{"update":"profile","data":{"id":"","username":"mary.cramer@hotmail.ppp","created_at":"2026-01-25T02:47:25.465058+00:00","friends":[],"state_of_qs_answered":{},"modules_completed":null,"access_id":"d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5","session_id":"","email":"mary.cramer@hotmail.ppp","team_name":null,"online_quiz_data":[{"a":"{\"userConfig\":{\"username\":\"a\",\"roomId\":\"52ec204450.0afa\",\"xp\":0,\"status\":\"connected\",\"seatNum\":1,\"points\":0,\"teamId\":\"a91ukpb9u.prf\",\"teamName\":\"\"}}","xp":0,"points":0,"status":"finished","seatNum":1,"teamScore":0}],"xp":null,"league":null,"badges":null,"avatar":null,"role":null,"access_level":null,"profile_settings":null,"streak":null,"refresh_id":""}}} data being sent touser  b 
+
+-------
+[2026-03-03T04:56:17.830Z] sub to  user:b:req_id:* {}
+[2026-03-03T04:56:17.883Z] sub to  user:b:friend_reqs {}
+[2026-03-03T04:56:18.043Z] Client connected from: ::1
+[2026-03-03T04:57:11.912Z] conn closed because inactive too long (id:a
+[2026-03-03T05:09:29.520Z] Connection closed. Code: 1001, Reason: 
+[2026-03-03T05:09:31.009Z] unscribing  room:undefined
+[2026-03-03T05:09:31.239Z] Unsubscribed from pattern: room:undefined
+[2026-03-03T05:09:31.280Z] unscribing  user:b:req_id:*
+[2026-03-03T05:09:31.397Z] Unsubscribed from pattern: user:b:req_id:*
+[2026-03-03T05:09:31.397Z] unscribing  user:b:friend_reqs
+[2026-03-03T05:09:31.600Z] Unsubscribed from pattern: user:b:friend_reqs
+[2026-03-03T05:09:46.286Z] --session apemt-- {"refreshToken":"eyJhbGciOiJIUzI1NiJ9.eyJ0b2tlbiI6IjEzZTIxMzE1YzAxMjIwOGFmZTI0ODE0NzNjYWNhZjg2MWNmM2UyNmMyNjg4YWU5ZGFhNzU5MmQ4OTU1NjM2MjAiLCJpZCI6IjcwNjM0MDdhLTkzMTctNDljMi04Y2U4LTBmMjgwZjFjMTVmNCJ9._1ZfH_1FmU3qjGZRMaFYQRNz8T7jrtOPb5ZLLvPJeWE","accessToken":"eyJhbGciOiJIUzI1NiJ9.ImQzZjBhZmU3N2EwNTQyY2M3ZjNlNTM1Yzk2MTNhNTYyNDBjMzE5ZjVjYWZkYmZkNjEzMDZhMmEyNmJmNmZjYTUi.g7h-4loTDHk0hEE91nz1w0IDsts21H2-7-pLKSiO-0Q"} sogned {} eyJhbGciOiJIUzI1NiJ9.ImQzZjBhZmU3N2EwNTQyY2M3ZjNlNTM1Yzk2MTNhNTYyNDBjMzE5ZjVjYWZkYmZkNjEzMDZhMmEyNmJmNmZjYTUi.g7h-4loTDHk0hEE91nz1w0IDsts21H2-7-pLKSiO-0Q
+[2026-03-03T05:09:46.689Z] ---string vefity--
+
+[2026-03-03T05:09:47.709Z] {"access_id":"d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5","session_id":"13e21315c012208afe2481473cacaf861cf3e26c2688ae9daa7592d895563620"} upd saup virg data 13e21315c012208afe2481473cacaf861cf3e26c2688ae9daa7592d895563620 "d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5"
+[2026-03-03T05:09:47.720Z] compare refrsh 13e21315c012208afe2481473cacaf861cf3e26c2688ae9daa7592d895563620 vs 13e21315c012208afe2481473cacaf861cf3e26c2688ae9daa7592d895563620
+[2026-03-03T05:09:47.736Z] d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5 access vs "d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5"
+[2026-03-03T05:09:47.749Z] success with session v: undefined "d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5" 7063407a-9317-49c2-8ce8-0f280f1c15f4
+[2026-03-03T05:09:48.180Z] coks {"refreshToken":"eyJhbGciOiJIUzI1NiJ9.eyJ0b2tlbiI6IjEzZTIxMzE1YzAxMjIwOGFmZTI0ODE0NzNjYWNhZjg2MWNmM2UyNmMyNjg4YWU5ZGFhNzU5MmQ4OTU1NjM2MjAiLCJpZCI6IjcwNjM0MDdhLTkzMTctNDljMi04Y2U4LTBmMjgwZjFjMTVmNCJ9._1ZfH_1FmU3qjGZRMaFYQRNz8T7jrtOPb5ZLLvPJeWE","accessToken":"eyJhbGciOiJIUzI1NiJ9.ImQzZjBhZmU3N2EwNTQyY2M3ZjNlNTM1Yzk2MTNhNTYyNDBjMzE5ZjVjYWZkYmZkNjEzMDZhMmEyNmJmNmZjYTUi.g7h-4loTDHk0hEE91nz1w0IDsts21H2-7-pLKSiO-0Q"}
+[2026-03-03T05:09:48.190Z] coks {"refreshToken":"eyJhbGciOiJIUzI1NiJ9.eyJ0b2tlbiI6IjEzZTIxMzE1YzAxMjIwOGFmZTI0ODE0NzNjYWNhZjg2MWNmM2UyNmMyNjg4YWU5ZGFhNzU5MmQ4OTU1NjM2MjAiLCJpZCI6IjcwNjM0MDdhLTkzMTctNDljMi04Y2U4LTBmMjgwZjFjMTVmNCJ9._1ZfH_1FmU3qjGZRMaFYQRNz8T7jrtOPb5ZLLvPJeWE","accessToken":"eyJhbGciOiJIUzI1NiJ9.ImQzZjBhZmU3N2EwNTQyY2M3ZjNlNTM1Yzk2MTNhNTYyNDBjMzE5ZjVjYWZkYmZkNjEzMDZhMmEyNmJmNmZjYTUi.g7h-4loTDHk0hEE91nz1w0IDsts21H2-7-pLKSiO-0Q"} eyJhbGciOiJIUzI1NiJ9.eyJ0b2tlbiI6IjEzZTIxMzE1YzAxMjIwOGFmZTI0ODE0NzNjYWNhZjg2MWNmM2UyNmMyNjg4YWU5ZGFhNzU5MmQ4OTU1NjM2MjAiLCJpZCI6IjcwNjM0MDdhLTkzMTctNDljMi04Y2U4LTBmMjgwZjFjMTVmNCJ9._1ZfH_1FmU3qjGZRMaFYQRNz8T7jrtOPb5ZLLvPJeWE rr
+[2026-03-03T05:09:48.256Z] {"token":"13e21315c012208afe2481473cacaf861cf3e26c2688ae9daa7592d895563620","id":"7063407a-9317-49c2-8ce8-0f280f1c15f4"} v now it is access "d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5"
+[2026-03-03T05:09:48.264Z] vtok {"token":"13e21315c012208afe2481473cacaf861cf3e26c2688ae9daa7592d895563620","id":"7063407a-9317-49c2-8ce8-0f280f1c15f4"} "d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5"
+[2026-03-03T05:09:48.341Z] supa data {"id":"7063407a-9317-49c2-8ce8-0f280f1c15f4","username":"mary.cramer@hotmail.ppp","created_at":"2026-01-25T02:47:25.465058+00:00","friends":[],"state_of_qs_answered":{},"modules_completed":null,"access_id":"d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5","session_id":"13e21315c012208afe2481473cacaf861cf3e26c2688ae9daa7592d895563620","email":"mary.cramer@hotmail.ppp","team_name":null,"online_quiz_data":[{"a":"{\"userConfig\":{\"username\":\"a\",\"roomId\":\"52ec204450.0afa\",\"xp\":0,\"status\":\"connected\",\"seatNum\":1,\"points\":0,\"teamId\":\"a91ukpb9u.prf\",\"teamName\":\"\"}}","xp":0,"points":0,"status":"finished","seatNum":1,"teamScore":0}],"xp":null,"league":null,"badges":null,"avatar":null,"role":null,"access_level":null,"profile_settings":null,"streak":null} refresh d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5
+[2026-03-03T05:09:48.342Z] refreash/refresh 13e21315c012208afe2481473cacaf861cf3e26c2688ae9daa7592d895563620 verus fromcok eyJhbGciOiJIUzI1NiJ9.ImQzZjBhZmU3N2EwNTQyY2M3ZjNlNTM1Yzk2MTNhNTYyNDBjMzE5ZjVjYWZkYmZkNjEzMDZhMmEyNmJmNmZjYTUi.g7h-4loTDHk0hEE91nz1w0IDsts21H2-7-pLKSiO-0Q false "d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5" vs d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5
+[2026-03-03T05:09:48.342Z] user b 
+[2026-03-03T05:09:48.342Z] success for dev 7063407a-9317-49c2-8ce8-0f280f1c15f4
+[2026-03-03T05:09:48.353Z] 
+---------------
+----
+
+ {"payload":{"update":"profile","data":{"id":"","username":"mary.cramer@hotmail.ppp","created_at":"2026-01-25T02:47:25.465058+00:00","friends":[],"state_of_qs_answered":{},"modules_completed":null,"access_id":"d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5","session_id":"","email":"mary.cramer@hotmail.ppp","team_name":null,"online_quiz_data":[{"a":"{\"userConfig\":{\"username\":\"a\",\"roomId\":\"52ec204450.0afa\",\"xp\":0,\"status\":\"connected\",\"seatNum\":1,\"points\":0,\"teamId\":\"a91ukpb9u.prf\",\"teamName\":\"\"}}","xp":0,"points":0,"status":"finished","seatNum":1,"teamScore":0}],"xp":null,"league":null,"badges":null,"avatar":null,"role":null,"access_level":null,"profile_settings":null,"streak":null,"refresh_id":""}}} data being sent touser  b 
+
+-------
+[2026-03-03T05:09:48.424Z] sub to  user:b:req_id:* {}
+[2026-03-03T05:09:48.483Z] sub to  user:b:friend_reqs {}
+[2026-03-03T05:09:48.577Z] Client connected from: ::1
+[2026-03-03T05:10:12.041Z] Connection closed. Code: 1001, Reason: 
+[2026-03-03T05:10:12.314Z] unscribing  room:undefined
+[2026-03-03T05:10:12.400Z] Unsubscribed from pattern: room:undefined
+[2026-03-03T05:10:12.469Z] unscribing  user:b:req_id:*
+[2026-03-03T05:10:12.565Z] Unsubscribed from pattern: user:b:req_id:*
+[2026-03-03T05:10:12.565Z] unscribing  user:b:friend_reqs
+[2026-03-03T05:10:12.630Z] Unsubscribed from pattern: user:b:friend_reqs
+[2026-03-03T05:10:20.431Z] --session apemt-- {"refreshToken":"eyJhbGciOiJIUzI1NiJ9.eyJ0b2tlbiI6IjEzZTIxMzE1YzAxMjIwOGFmZTI0ODE0NzNjYWNhZjg2MWNmM2UyNmMyNjg4YWU5ZGFhNzU5MmQ4OTU1NjM2MjAiLCJpZCI6IjcwNjM0MDdhLTkzMTctNDljMi04Y2U4LTBmMjgwZjFjMTVmNCJ9._1ZfH_1FmU3qjGZRMaFYQRNz8T7jrtOPb5ZLLvPJeWE","accessToken":"eyJhbGciOiJIUzI1NiJ9.ImQzZjBhZmU3N2EwNTQyY2M3ZjNlNTM1Yzk2MTNhNTYyNDBjMzE5ZjVjYWZkYmZkNjEzMDZhMmEyNmJmNmZjYTUi.g7h-4loTDHk0hEE91nz1w0IDsts21H2-7-pLKSiO-0Q"} sogned {} eyJhbGciOiJIUzI1NiJ9.ImQzZjBhZmU3N2EwNTQyY2M3ZjNlNTM1Yzk2MTNhNTYyNDBjMzE5ZjVjYWZkYmZkNjEzMDZhMmEyNmJmNmZjYTUi.g7h-4loTDHk0hEE91nz1w0IDsts21H2-7-pLKSiO-0Q
+[2026-03-03T05:10:20.605Z] ---string vefity--
+
+[2026-03-03T05:10:20.890Z] {"access_id":"d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5","session_id":"13e21315c012208afe2481473cacaf861cf3e26c2688ae9daa7592d895563620"} upd saup virg data 13e21315c012208afe2481473cacaf861cf3e26c2688ae9daa7592d895563620 "d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5"
+[2026-03-03T05:10:20.890Z] compare refrsh 13e21315c012208afe2481473cacaf861cf3e26c2688ae9daa7592d895563620 vs 13e21315c012208afe2481473cacaf861cf3e26c2688ae9daa7592d895563620
+[2026-03-03T05:10:20.892Z] d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5 access vs "d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5"
+[2026-03-03T05:10:20.895Z] success with session v: undefined "d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5" 7063407a-9317-49c2-8ce8-0f280f1c15f4
+[2026-03-03T05:10:21.829Z] coks {"refreshToken":"eyJhbGciOiJIUzI1NiJ9.eyJ0b2tlbiI6IjEzZTIxMzE1YzAxMjIwOGFmZTI0ODE0NzNjYWNhZjg2MWNmM2UyNmMyNjg4YWU5ZGFhNzU5MmQ4OTU1NjM2MjAiLCJpZCI6IjcwNjM0MDdhLTkzMTctNDljMi04Y2U4LTBmMjgwZjFjMTVmNCJ9._1ZfH_1FmU3qjGZRMaFYQRNz8T7jrtOPb5ZLLvPJeWE","accessToken":"eyJhbGciOiJIUzI1NiJ9.ImQzZjBhZmU3N2EwNTQyY2M3ZjNlNTM1Yzk2MTNhNTYyNDBjMzE5ZjVjYWZkYmZkNjEzMDZhMmEyNmJmNmZjYTUi.g7h-4loTDHk0hEE91nz1w0IDsts21H2-7-pLKSiO-0Q"}
+[2026-03-03T05:10:21.830Z] coks {"refreshToken":"eyJhbGciOiJIUzI1NiJ9.eyJ0b2tlbiI6IjEzZTIxMzE1YzAxMjIwOGFmZTI0ODE0NzNjYWNhZjg2MWNmM2UyNmMyNjg4YWU5ZGFhNzU5MmQ4OTU1NjM2MjAiLCJpZCI6IjcwNjM0MDdhLTkzMTctNDljMi04Y2U4LTBmMjgwZjFjMTVmNCJ9._1ZfH_1FmU3qjGZRMaFYQRNz8T7jrtOPb5ZLLvPJeWE","accessToken":"eyJhbGciOiJIUzI1NiJ9.ImQzZjBhZmU3N2EwNTQyY2M3ZjNlNTM1Yzk2MTNhNTYyNDBjMzE5ZjVjYWZkYmZkNjEzMDZhMmEyNmJmNmZjYTUi.g7h-4loTDHk0hEE91nz1w0IDsts21H2-7-pLKSiO-0Q"} eyJhbGciOiJIUzI1NiJ9.eyJ0b2tlbiI6IjEzZTIxMzE1YzAxMjIwOGFmZTI0ODE0NzNjYWNhZjg2MWNmM2UyNmMyNjg4YWU5ZGFhNzU5MmQ4OTU1NjM2MjAiLCJpZCI6IjcwNjM0MDdhLTkzMTctNDljMi04Y2U4LTBmMjgwZjFjMTVmNCJ9._1ZfH_1FmU3qjGZRMaFYQRNz8T7jrtOPb5ZLLvPJeWE rr
+[2026-03-03T05:10:21.845Z] {"token":"13e21315c012208afe2481473cacaf861cf3e26c2688ae9daa7592d895563620","id":"7063407a-9317-49c2-8ce8-0f280f1c15f4"} v now it is access "d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5"
+[2026-03-03T05:10:21.856Z] vtok {"token":"13e21315c012208afe2481473cacaf861cf3e26c2688ae9daa7592d895563620","id":"7063407a-9317-49c2-8ce8-0f280f1c15f4"} "d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5"
+[2026-03-03T05:10:22.031Z] supa data {"id":"7063407a-9317-49c2-8ce8-0f280f1c15f4","username":"mary.cramer@hotmail.ppp","created_at":"2026-01-25T02:47:25.465058+00:00","friends":[],"state_of_qs_answered":{},"modules_completed":null,"access_id":"d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5","session_id":"13e21315c012208afe2481473cacaf861cf3e26c2688ae9daa7592d895563620","email":"mary.cramer@hotmail.ppp","team_name":null,"online_quiz_data":[{"a":"{\"userConfig\":{\"username\":\"a\",\"roomId\":\"52ec204450.0afa\",\"xp\":0,\"status\":\"connected\",\"seatNum\":1,\"points\":0,\"teamId\":\"a91ukpb9u.prf\",\"teamName\":\"\"}}","xp":0,"points":0,"status":"finished","seatNum":1,"teamScore":0}],"xp":null,"league":null,"badges":null,"avatar":null,"role":null,"access_level":null,"profile_settings":null,"streak":null} refresh d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5
+[2026-03-03T05:10:22.032Z] refreash/refresh 13e21315c012208afe2481473cacaf861cf3e26c2688ae9daa7592d895563620 verus fromcok eyJhbGciOiJIUzI1NiJ9.ImQzZjBhZmU3N2EwNTQyY2M3ZjNlNTM1Yzk2MTNhNTYyNDBjMzE5ZjVjYWZkYmZkNjEzMDZhMmEyNmJmNmZjYTUi.g7h-4loTDHk0hEE91nz1w0IDsts21H2-7-pLKSiO-0Q false "d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5" vs d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5
+[2026-03-03T05:10:22.032Z] user b 
+[2026-03-03T05:10:22.032Z] success for dev 7063407a-9317-49c2-8ce8-0f280f1c15f4
+[2026-03-03T05:10:22.067Z] 
+---------------
+----
+
+ {"payload":{"update":"profile","data":{"id":"","username":"mary.cramer@hotmail.ppp","created_at":"2026-01-25T02:47:25.465058+00:00","friends":[],"state_of_qs_answered":{},"modules_completed":null,"access_id":"d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5","session_id":"","email":"mary.cramer@hotmail.ppp","team_name":null,"online_quiz_data":[{"a":"{\"userConfig\":{\"username\":\"a\",\"roomId\":\"52ec204450.0afa\",\"xp\":0,\"status\":\"connected\",\"seatNum\":1,\"points\":0,\"teamId\":\"a91ukpb9u.prf\",\"teamName\":\"\"}}","xp":0,"points":0,"status":"finished","seatNum":1,"teamScore":0}],"xp":null,"league":null,"badges":null,"avatar":null,"role":null,"access_level":null,"profile_settings":null,"streak":null,"refresh_id":""}}} data being sent touser  b 
+
+-------
+[2026-03-03T05:10:22.107Z] sub to  user:b:req_id:* {}
+[2026-03-03T05:10:22.152Z] sub to  user:b:friend_reqs {}
+[2026-03-03T05:10:22.227Z] Client connected from: ::1
+[2026-03-03T13:17:54.120Z] Connection closed. Code: 1006, Reason: 
+[2026-03-03T13:18:00.156Z] coks {"refreshToken":"eyJhbGciOiJIUzI1NiJ9.eyJ0b2tlbiI6IjEzZTIxMzE1YzAxMjIwOGFmZTI0ODE0NzNjYWNhZjg2MWNmM2UyNmMyNjg4YWU5ZGFhNzU5MmQ4OTU1NjM2MjAiLCJpZCI6IjcwNjM0MDdhLTkzMTctNDljMi04Y2U4LTBmMjgwZjFjMTVmNCJ9._1ZfH_1FmU3qjGZRMaFYQRNz8T7jrtOPb5ZLLvPJeWE","accessToken":"eyJhbGciOiJIUzI1NiJ9.ImQzZjBhZmU3N2EwNTQyY2M3ZjNlNTM1Yzk2MTNhNTYyNDBjMzE5ZjVjYWZkYmZkNjEzMDZhMmEyNmJmNmZjYTUi.g7h-4loTDHk0hEE91nz1w0IDsts21H2-7-pLKSiO-0Q"}
+[2026-03-03T13:18:00.157Z] coks {"refreshToken":"eyJhbGciOiJIUzI1NiJ9.eyJ0b2tlbiI6IjEzZTIxMzE1YzAxMjIwOGFmZTI0ODE0NzNjYWNhZjg2MWNmM2UyNmMyNjg4YWU5ZGFhNzU5MmQ4OTU1NjM2MjAiLCJpZCI6IjcwNjM0MDdhLTkzMTctNDljMi04Y2U4LTBmMjgwZjFjMTVmNCJ9._1ZfH_1FmU3qjGZRMaFYQRNz8T7jrtOPb5ZLLvPJeWE","accessToken":"eyJhbGciOiJIUzI1NiJ9.ImQzZjBhZmU3N2EwNTQyY2M3ZjNlNTM1Yzk2MTNhNTYyNDBjMzE5ZjVjYWZkYmZkNjEzMDZhMmEyNmJmNmZjYTUi.g7h-4loTDHk0hEE91nz1w0IDsts21H2-7-pLKSiO-0Q"} eyJhbGciOiJIUzI1NiJ9.eyJ0b2tlbiI6IjEzZTIxMzE1YzAxMjIwOGFmZTI0ODE0NzNjYWNhZjg2MWNmM2UyNmMyNjg4YWU5ZGFhNzU5MmQ4OTU1NjM2MjAiLCJpZCI6IjcwNjM0MDdhLTkzMTctNDljMi04Y2U4LTBmMjgwZjFjMTVmNCJ9._1ZfH_1FmU3qjGZRMaFYQRNz8T7jrtOPb5ZLLvPJeWE rr
+[2026-03-03T13:18:00.328Z] {"token":"13e21315c012208afe2481473cacaf861cf3e26c2688ae9daa7592d895563620","id":"7063407a-9317-49c2-8ce8-0f280f1c15f4"} v now it is access "d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5"
+[2026-03-03T13:18:00.328Z] vtok {"token":"13e21315c012208afe2481473cacaf861cf3e26c2688ae9daa7592d895563620","id":"7063407a-9317-49c2-8ce8-0f280f1c15f4"} "d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5"
+[2026-03-03T13:18:01.750Z] unscribing  room:undefined
+[2026-03-03T13:18:03.678Z] supa data {"id":"7063407a-9317-49c2-8ce8-0f280f1c15f4","username":"mary.cramer@hotmail.ppp","created_at":"2026-01-25T02:47:25.465058+00:00","friends":[],"state_of_qs_answered":{},"modules_completed":null,"access_id":"d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5","session_id":"13e21315c012208afe2481473cacaf861cf3e26c2688ae9daa7592d895563620","email":"mary.cramer@hotmail.ppp","team_name":null,"online_quiz_data":[{"a":"{\"userConfig\":{\"username\":\"a\",\"roomId\":\"52ec204450.0afa\",\"xp\":0,\"status\":\"connected\",\"seatNum\":1,\"points\":0,\"teamId\":\"a91ukpb9u.prf\",\"teamName\":\"\"}}","xp":0,"points":0,"status":"finished","seatNum":1,"teamScore":0}],"xp":null,"league":null,"badges":null,"avatar":null,"role":null,"access_level":null,"profile_settings":null,"streak":null} refresh d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5
+[2026-03-03T13:18:03.678Z] refreash/refresh 13e21315c012208afe2481473cacaf861cf3e26c2688ae9daa7592d895563620 verus fromcok eyJhbGciOiJIUzI1NiJ9.ImQzZjBhZmU3N2EwNTQyY2M3ZjNlNTM1Yzk2MTNhNTYyNDBjMzE5ZjVjYWZkYmZkNjEzMDZhMmEyNmJmNmZjYTUi.g7h-4loTDHk0hEE91nz1w0IDsts21H2-7-pLKSiO-0Q false "d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5" vs d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5
+[2026-03-03T13:18:03.689Z] user b 
+[2026-03-03T13:18:03.689Z] success for dev 7063407a-9317-49c2-8ce8-0f280f1c15f4
+[2026-03-03T13:18:03.920Z] 
+---------------
+----
+
+ {"payload":{"update":"profile","data":{"id":"","username":"mary.cramer@hotmail.ppp","created_at":"2026-01-25T02:47:25.465058+00:00","friends":[],"state_of_qs_answered":{},"modules_completed":null,"access_id":"d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5","session_id":"","email":"mary.cramer@hotmail.ppp","team_name":null,"online_quiz_data":[{"a":"{\"userConfig\":{\"username\":\"a\",\"roomId\":\"52ec204450.0afa\",\"xp\":0,\"status\":\"connected\",\"seatNum\":1,\"points\":0,\"teamId\":\"a91ukpb9u.prf\",\"teamName\":\"\"}}","xp":0,"points":0,"status":"finished","seatNum":1,"teamScore":0}],"xp":null,"league":null,"badges":null,"avatar":null,"role":null,"access_level":null,"profile_settings":null,"streak":null,"refresh_id":""}}} data being sent touser  b 
+
+-------
+[2026-03-03T13:18:04.106Z] sub to  user:b:req_id:* {}
+[2026-03-03T13:18:04.171Z] sub to  user:b:friend_reqs {}
+[2026-03-03T13:18:04.508Z] Client connected from: ::1
+[2026-03-03T13:18:05.349Z] Unsubscribed from pattern: room:undefined
+[2026-03-03T13:18:05.350Z] unscribing  user:b:req_id:*
+[2026-03-03T13:18:05.417Z] Unsubscribed from pattern: user:b:req_id:*
+[2026-03-03T13:18:05.418Z] unscribing  user:b:friend_reqs
+[2026-03-03T13:18:05.493Z] Unsubscribed from pattern: user:b:friend_reqs
+[2026-03-03T13:18:07.360Z] Connection closed. Code: 1001, Reason: 
+[2026-03-03T13:18:07.725Z] unscribing  room:undefined
+[2026-03-03T13:18:07.803Z] Unsubscribed from pattern: room:undefined
+[2026-03-03T13:18:07.816Z] unscribing  user:b:req_id:*
+[2026-03-03T13:18:07.961Z] Unsubscribed from pattern: user:b:req_id:*
+[2026-03-03T13:18:07.963Z] unscribing  user:b:friend_reqs
+[2026-03-03T13:18:08.105Z] Unsubscribed from pattern: user:b:friend_reqs
+[2026-03-03T13:18:27.501Z] --session apemt-- {"refreshToken":"eyJhbGciOiJIUzI1NiJ9.eyJ0b2tlbiI6IjEzZTIxMzE1YzAxMjIwOGFmZTI0ODE0NzNjYWNhZjg2MWNmM2UyNmMyNjg4YWU5ZGFhNzU5MmQ4OTU1NjM2MjAiLCJpZCI6IjcwNjM0MDdhLTkzMTctNDljMi04Y2U4LTBmMjgwZjFjMTVmNCJ9._1ZfH_1FmU3qjGZRMaFYQRNz8T7jrtOPb5ZLLvPJeWE","accessToken":"eyJhbGciOiJIUzI1NiJ9.ImQzZjBhZmU3N2EwNTQyY2M3ZjNlNTM1Yzk2MTNhNTYyNDBjMzE5ZjVjYWZkYmZkNjEzMDZhMmEyNmJmNmZjYTUi.g7h-4loTDHk0hEE91nz1w0IDsts21H2-7-pLKSiO-0Q"} sogned {} eyJhbGciOiJIUzI1NiJ9.ImQzZjBhZmU3N2EwNTQyY2M3ZjNlNTM1Yzk2MTNhNTYyNDBjMzE5ZjVjYWZkYmZkNjEzMDZhMmEyNmJmNmZjYTUi.g7h-4loTDHk0hEE91nz1w0IDsts21H2-7-pLKSiO-0Q
+[2026-03-03T13:18:27.701Z] ---string vefity--
+
+[2026-03-03T13:18:28.276Z] {"access_id":"d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5","session_id":"13e21315c012208afe2481473cacaf861cf3e26c2688ae9daa7592d895563620"} upd saup virg data 13e21315c012208afe2481473cacaf861cf3e26c2688ae9daa7592d895563620 "d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5"
+[2026-03-03T13:18:28.312Z] compare refrsh 13e21315c012208afe2481473cacaf861cf3e26c2688ae9daa7592d895563620 vs 13e21315c012208afe2481473cacaf861cf3e26c2688ae9daa7592d895563620
+[2026-03-03T13:18:28.312Z] d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5 access vs "d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5"
+[2026-03-03T13:18:28.431Z] success with session v: undefined "d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5" 7063407a-9317-49c2-8ce8-0f280f1c15f4
+[2026-03-03T13:18:30.022Z] coks {"refreshToken":"eyJhbGciOiJIUzI1NiJ9.eyJ0b2tlbiI6IjEzZTIxMzE1YzAxMjIwOGFmZTI0ODE0NzNjYWNhZjg2MWNmM2UyNmMyNjg4YWU5ZGFhNzU5MmQ4OTU1NjM2MjAiLCJpZCI6IjcwNjM0MDdhLTkzMTctNDljMi04Y2U4LTBmMjgwZjFjMTVmNCJ9._1ZfH_1FmU3qjGZRMaFYQRNz8T7jrtOPb5ZLLvPJeWE","accessToken":"eyJhbGciOiJIUzI1NiJ9.ImQzZjBhZmU3N2EwNTQyY2M3ZjNlNTM1Yzk2MTNhNTYyNDBjMzE5ZjVjYWZkYmZkNjEzMDZhMmEyNmJmNmZjYTUi.g7h-4loTDHk0hEE91nz1w0IDsts21H2-7-pLKSiO-0Q"}
+[2026-03-03T13:18:30.030Z] coks {"refreshToken":"eyJhbGciOiJIUzI1NiJ9.eyJ0b2tlbiI6IjEzZTIxMzE1YzAxMjIwOGFmZTI0ODE0NzNjYWNhZjg2MWNmM2UyNmMyNjg4YWU5ZGFhNzU5MmQ4OTU1NjM2MjAiLCJpZCI6IjcwNjM0MDdhLTkzMTctNDljMi04Y2U4LTBmMjgwZjFjMTVmNCJ9._1ZfH_1FmU3qjGZRMaFYQRNz8T7jrtOPb5ZLLvPJeWE","accessToken":"eyJhbGciOiJIUzI1NiJ9.ImQzZjBhZmU3N2EwNTQyY2M3ZjNlNTM1Yzk2MTNhNTYyNDBjMzE5ZjVjYWZkYmZkNjEzMDZhMmEyNmJmNmZjYTUi.g7h-4loTDHk0hEE91nz1w0IDsts21H2-7-pLKSiO-0Q"} eyJhbGciOiJIUzI1NiJ9.eyJ0b2tlbiI6IjEzZTIxMzE1YzAxMjIwOGFmZTI0ODE0NzNjYWNhZjg2MWNmM2UyNmMyNjg4YWU5ZGFhNzU5MmQ4OTU1NjM2MjAiLCJpZCI6IjcwNjM0MDdhLTkzMTctNDljMi04Y2U4LTBmMjgwZjFjMTVmNCJ9._1ZfH_1FmU3qjGZRMaFYQRNz8T7jrtOPb5ZLLvPJeWE rr
+[2026-03-03T13:18:30.211Z] {"token":"13e21315c012208afe2481473cacaf861cf3e26c2688ae9daa7592d895563620","id":"7063407a-9317-49c2-8ce8-0f280f1c15f4"} v now it is access "d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5"
+[2026-03-03T13:18:30.251Z] vtok {"token":"13e21315c012208afe2481473cacaf861cf3e26c2688ae9daa7592d895563620","id":"7063407a-9317-49c2-8ce8-0f280f1c15f4"} "d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5"
+[2026-03-03T13:18:30.653Z] supa data {"id":"7063407a-9317-49c2-8ce8-0f280f1c15f4","username":"mary.cramer@hotmail.ppp","created_at":"2026-01-25T02:47:25.465058+00:00","friends":[],"state_of_qs_answered":{},"modules_completed":null,"access_id":"d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5","session_id":"13e21315c012208afe2481473cacaf861cf3e26c2688ae9daa7592d895563620","email":"mary.cramer@hotmail.ppp","team_name":null,"online_quiz_data":[{"a":"{\"userConfig\":{\"username\":\"a\",\"roomId\":\"52ec204450.0afa\",\"xp\":0,\"status\":\"connected\",\"seatNum\":1,\"points\":0,\"teamId\":\"a91ukpb9u.prf\",\"teamName\":\"\"}}","xp":0,"points":0,"status":"finished","seatNum":1,"teamScore":0}],"xp":null,"league":null,"badges":null,"avatar":null,"role":null,"access_level":null,"profile_settings":null,"streak":null} refresh d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5
+[2026-03-03T13:18:30.662Z] refreash/refresh 13e21315c012208afe2481473cacaf861cf3e26c2688ae9daa7592d895563620 verus fromcok eyJhbGciOiJIUzI1NiJ9.ImQzZjBhZmU3N2EwNTQyY2M3ZjNlNTM1Yzk2MTNhNTYyNDBjMzE5ZjVjYWZkYmZkNjEzMDZhMmEyNmJmNmZjYTUi.g7h-4loTDHk0hEE91nz1w0IDsts21H2-7-pLKSiO-0Q false "d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5" vs d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5
+[2026-03-03T13:18:30.663Z] user b 
+[2026-03-03T13:18:30.664Z] success for dev 7063407a-9317-49c2-8ce8-0f280f1c15f4
+[2026-03-03T13:18:30.705Z] 
+---------------
+----
+
+ {"payload":{"update":"profile","data":{"id":"","username":"mary.cramer@hotmail.ppp","created_at":"2026-01-25T02:47:25.465058+00:00","friends":[],"state_of_qs_answered":{},"modules_completed":null,"access_id":"d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5","session_id":"","email":"mary.cramer@hotmail.ppp","team_name":null,"online_quiz_data":[{"a":"{\"userConfig\":{\"username\":\"a\",\"roomId\":\"52ec204450.0afa\",\"xp\":0,\"status\":\"connected\",\"seatNum\":1,\"points\":0,\"teamId\":\"a91ukpb9u.prf\",\"teamName\":\"\"}}","xp":0,"points":0,"status":"finished","seatNum":1,"teamScore":0}],"xp":null,"league":null,"badges":null,"avatar":null,"role":null,"access_level":null,"profile_settings":null,"streak":null,"refresh_id":""}}} data being sent touser  b 
+
+-------
+[2026-03-03T13:18:30.781Z] sub to  user:b:req_id:* {}
+[2026-03-03T13:18:30.782Z] sub to  user:b:friend_reqs {}
+[2026-03-03T13:18:30.877Z] Client connected from: ::1

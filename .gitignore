@@ -1,0 +1,6 @@
+node_modules/
+Quiz-server.code-workspace
+.env
+.DS_Store
+dist/
+build/

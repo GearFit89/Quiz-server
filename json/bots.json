@@ -1,0 +1,232 @@
+{
+    "modes": {
+        "novice": {
+            "name": "Timothy",
+            "difficulty": 1,
+            "minReactionTimeMs": 1500,
+            "maxReactionTimeMs": 4000,
+            "minAns": 1000,
+            "maxAns": 3000,
+            "knowledgeBaseDepth": 0.40,
+            "verseConfusionRate": 0.30,
+            "specializedBooks": [
+                {"book": "Matthew", "chapters": [1, 2, 3]}
+            ],
+            "isAggressiveStrategy": false
+        },
+        "easy": {
+            "name": "James",
+            "difficulty": 2,
+            "minReactionTimeMs": 1200,
+            "maxReactionTimeMs": 3500,
+            "minAns": 800,
+            "maxAns": 2500,
+            "knowledgeBaseDepth": 0.50,
+            "verseConfusionRate": 0.25,
+            "specializedBooks": [
+                {"book": "Matthew", "chapters": [1, 2, 3]}
+            ],
+            "isAggressiveStrategy": false
+        },
+        "medium": {
+            "name": "Rachel",
+            "difficulty": 3,
+            "minReactionTimeMs": 1000,
+            "maxReactionTimeMs": 3000,
+            "minAns": 600,
+            "maxAns": 2000,
+            "knowledgeBaseDepth": 0.65,
+            "verseConfusionRate": 0.15,
+            "specializedBooks": [
+                {"book": "Matthew", "chapters": [1, 2, 3, 5]},
+                {"book": "John", "chapters": [1, 3]}
+            ],
+            "isAggressiveStrategy": false
+        },
+        "normal": {
+            "name": "Michael",
+            "difficulty": 4,
+            "minReactionTimeMs": 800,
+            "maxReactionTimeMs": 2500,
+            "minAns": 500,
+            "maxAns": 2000,
+            "knowledgeBaseDepth": 0.75,
+            "verseConfusionRate": 0.12,
+            "specializedBooks": [
+                {"book": "Matthew", "chapters": [5, 6, 7]},
+                {"book": "John", "chapters": [1, 3, 11]}
+            ],
+            "isAggressiveStrategy": false
+        },
+        "hard": {
+            "name": "Christopher",
+            "difficulty": 6,
+            "minReactionTimeMs": 600,
+            "maxReactionTimeMs": 2000,
+            "minAns": 350,
+            "maxAns": 1500,
+            "knowledgeBaseDepth": 0.85,
+            "verseConfusionRate": 0.08,
+            "specializedBooks": [
+                {"book": "Matthew", "chapters": [5, 6, 7, 23, 28]},
+                {"book": "John", "chapters": [1, 3, 11, 14]}
+            ],
+            "isAggressiveStrategy": false
+        },
+        "superhard": {
+            "name": "Nathan",
+            "difficulty": 8,
+            "minReactionTimeMs": 300,
+            "maxReactionTimeMs": 1200,
+            "minAns": 200,
+            "maxAns": 1000,
+            "knowledgeBaseDepth": 0.92,
+            "verseConfusionRate": 0.04,
+            "specializedBooks": [
+                {"book": "Matthew", "chapters": [5, 6, 7, 23, 24, 25, 28]},
+                {"book": "Mark", "chapters": [1, 12, 13, 14, 15]},
+                {"book": "John", "chapters": [1, 3, 11, 13, 14]}
+            ],
+            "isAggressiveStrategy": true
+        },
+        "impossible": {
+            "name": "Gabriel",
+            "difficulty": 10,
+            "minReactionTimeMs": 50,
+            "maxReactionTimeMs": 500,
+            "minAns": 25,
+            "maxAns": 600,
+            "knowledgeBaseDepth": 0.99,
+            "verseConfusionRate": 0.01,
+            "specializedBooks": [
+                {"book": "Matthew", "chapters": [5, 6, 7, 23, 24, 25, 28]},
+                {"book": "Mark", "chapters": [1, 12, 13, 14, 15, 16]},
+                {"book": "Luke", "chapters": [1, 2, 15, 23, 24]},
+                {"book": "John", "chapters": [1, 3, 11, 13, 14, 17]}
+            ],
+            "isAggressiveStrategy": true
+        },
+        "trickster": {
+            "name": "Rebecca",
+            "difficulty": 7,
+            "minReactionTimeMs": 300,
+            "maxReactionTimeMs": 1200,
+            "minAns": 200,
+            "maxAns": 1000,
+            "knowledgeBaseDepth": 0.60,
+            "verseConfusionRate": 0.35,
+            "specializedBooks": [
+                {"book": "Mark", "chapters": [1, 7, 11, 14]},
+                {"book": "Luke", "chapters": [1, 4, 9, 15]}
+            ],
+            "isAggressiveStrategy": true
+        },
+        "Marcus": {
+            "botId": "aggressive",
+            "difficulty": 8,
+            "minReactionTimeMs": 150,
+            "maxReactionTimeMs": 1500,
+            "minAns": 78,
+            "maxAns": 1200,
+            "knowledgeBaseDepth": 0.95,
+            "verseConfusionRate": 0.02,
+            "specializedBooks": [
+                {"book": "Matthew", "chapters": [5, 6, 7]},
+                {"book": "Mark", "chapters": [1, 2, 3]},
+                {"book": "Luke", "chapters": [1, 2]},
+                {"book": "John", "chapters": [1, 3, 14]}
+            ],
+            "isAggressiveStrategy": true
+        },
+        "David": {
+            "botId": "conservative",
+            "difficulty": 4,
+            "minReactionTimeMs": 800,
+            "maxReactionTimeMs": 2500,
+            "minAns": 500,
+            "maxAns": 2000,
+            "knowledgeBaseDepth": 0.85,
+            "verseConfusionRate": 0.05,
+            "specializedBooks": [],
+            "isAggressiveStrategy": false
+        },
+        "Sarah": {
+            "botId": "balanced",
+            "difficulty": 5,
+            "minReactionTimeMs": 400,
+            "maxReactionTimeMs": 1800,
+            "minAns": 300,
+            "maxAns": 1500,
+            "knowledgeBaseDepth": 0.80,
+            "verseConfusionRate": 0.08,
+            "specializedBooks": [
+                {"book": "Matthew", "chapters": [5, 6, 7, 28]},
+                {"book": "John", "chapters": [1, 3, 11]}
+            ],
+            "isAggressiveStrategy": false
+        },
+        "Alex": {
+            "botId": "speedrunner",
+            "difficulty": 9,
+            "minReactionTimeMs": 50,
+            "maxReactionTimeMs": 600,
+            "minAns": 30,
+            "maxAns": 800,
+            "knowledgeBaseDepth": 0.70,
+            "verseConfusionRate": 0.15,
+            "specializedBooks": [
+                {"book": "Matthew", "chapters": [1, 2, 3, 4, 5]}
+            ],
+            "isAggressiveStrategy": true
+        },
+        "Elizabeth": {
+            "botId": "expert",
+            "difficulty": 10,
+            "minReactionTimeMs": 500,
+            "maxReactionTimeMs": 2000,
+            "minAns": 400,
+            "maxAns": 1800,
+            "knowledgeBaseDepth": 0.99,
+            "verseConfusionRate": 0.01,
+            "specializedBooks": [
+                {"book": "Matthew", "chapters": [5, 6, 7, 23, 24, 25, 28]},
+                {"book": "Mark", "chapters": [1, 12, 13, 14, 15, 16]},
+                {"book": "Luke", "chapters": [1, 2, 15, 23, 24]},
+                {"book": "John", "chapters": [1, 3, 11, 13, 14, 17]}
+            ],
+            "isAggressiveStrategy": false
+        },
+        "Jonathan": {
+            "botId": "methodical",
+            "difficulty": 6,
+            "minReactionTimeMs": 900,
+            "maxReactionTimeMs": 2800,
+            "minAns": 700,
+            "maxAns": 2200,
+            "knowledgeBaseDepth": 0.88,
+            "verseConfusionRate": 0.04,
+            "specializedBooks": [
+                {"book": "John", "chapters": [1, 3, 11, 13, 14, 17, 20]},
+                {"book": "Matthew", "chapters": [5, 6, 7, 28]}
+            ],
+            "isAggressiveStrategy": false
+        },
+        "Victoria": {
+            "botId": "wildcard",
+            "difficulty": 6,
+            "minReactionTimeMs": 200,
+            "maxReactionTimeMs": 3000,
+            "minAns": 100,
+            "maxAns": 2500,
+            "knowledgeBaseDepth": 0.75,
+            "verseConfusionRate": 0.20,
+            "specializedBooks": [
+                {"book": "Matthew", "chapters": [5, 6, 7]},
+                {"book": "Mark", "chapters": [1, 4, 11]},
+                {"book": "Luke", "chapters": [1, 10, 15]},
+                {"book": "John", "chapters": [1, 3, 11]}
+            ],
+            "isAggressiveStrategy": true
+        }
+    }
+}
