@@ -21,6 +21,7 @@
     "crypto": "^1.0.1",
     "debug": "^4.4.3",
     "depd": "^2.0.0",
+    "dotenv": "^17.3.1",
     "dunder-proto": "^1.0.1",
     "ee-first": "^1.1.1",
     "encodeurl": "^2.0.0",
@@ -92,7 +93,7 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-      "tsc": "tsc",
+    "tsc": "tsc",
     "start": "NODE_ENV=production  npx tsx app.ts",
     "dev": "NODE_ENV=development npx tsx --watch app.ts ",
     "expApp": "NODE_ENV=development node mainApp.js"

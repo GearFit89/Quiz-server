@@ -4,7 +4,7 @@ import  fs  from 'fs/promises';
 import { DATA } from "./app.js"
 import { supabase, JWT_ACCESS_KEY, IS_DEV_MODE } from './mainApp.js';
 import { Redis } from 'ioredis';
-import jwt from 'jsonwebtoken';
+
 import RAW_QUIZZES from "./json/quizzes.json" with { type: "json" };
 export const QUIZZES:Record<string, any> = RAW_QUIZZES;
 import { WssFuncs } from './wss_functions.js'

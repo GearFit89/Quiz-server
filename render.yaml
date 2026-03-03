@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: online-bible-quizzing
+    env: node
+    plan: starter
+    region: oregon
+    buildCommand: npm install
+    startCommand: npm start
+    # Define the secret file here
+    secretFiles:
+      - key: my_app_secrets
+        mountPath: /opt/render/project/src/.env
+    envVars:
+      - key: NODE_ENV
+        value: production

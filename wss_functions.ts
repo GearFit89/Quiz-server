@@ -9,7 +9,7 @@ import https  from 'https';
 import { Agent } from './AI_quizzier.js';
 import { ServerLogic } from './logic_scripts.js';
 import { Redis } from 'ioredis';
-import jwt from 'jsonwebtoken';
+
 import {redis, sub, RedisSet, RedisMananger, Updates , IRooms, REDIS_KEY, USER_STATES, Quiz, RoomType, RoomData, QUIZZES} from './logic.js'
 
 type int = number;
