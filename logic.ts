@@ -84,7 +84,14 @@ export const redis = new Redis(REDIS_URL as string, {
   ///rejectUnauthorized:true,
   
 }});
-export  const sub = redis.duplicate()
+
+export  const sub = redis.duplicate();
+setInterval(() => {
+  if (sub.status === 'ready') {
+    // PING is explicitly allowed in pub/sub mode and prevents idle timeouts
+    sub.ping().catch((err) => console.error("Sub Ping failed:", err));
+  }
+}, 25000);
 async function testRedisFeatures() {
   // Create a standard client for regular commands and publishing
   
@@ -366,8 +373,10 @@ public heartBeat (time:int =30 * 1000){
   },time );  
 
 }
-public async destroy(roomId:string, roomNS:string){
+public async destroy(roomId:string, roomNS?:string){
   this.isActive = false;
+  function awaitDisater(){
+    return new Promise((resolve, reject)=>{
   const stream = redis.scanStream({count:4
     ,match:`*${roomId}*`
   })
@@ -377,12 +386,16 @@ public async destroy(roomId:string, roomNS:string){
      
     }
   });
+  stream.on('error', (err:any)=>{reject(err)});
   stream.on('end', ()=>{
+    resolve(null)
     console.log('finished deleting data from', roomId)
-  })
-
-    await this.punsubscribe(roomNS),
-    await this.updateUsers(roomNS, {status:"DESTROYED"})
+  });;
+});
+};
+  await awaitDisater();
+    await this.punsubscribe(REDIS_KEY.ROOM(roomId)),
+      await this.updateUsers(REDIS_KEY.ROOM(roomId), {status:"DESTROYED"})
   
 
   }
@@ -409,7 +422,7 @@ public async isRateLimited (id:string, secs:int, limit:int, tag:string=''):Promi
 
 }
 // this shuts happens on close and deletes data not used
-public async  cleanUser (inroomId:string) {
+public async cleanUser (inroomId:string) {
 
   try {
   
@@ -417,11 +430,11 @@ public async  cleanUser (inroomId:string) {
     clearInterval(this.heartId);
     this.heartId = 'empty'
   }
-  //await this.unsubscribeAll();
-await this.punsubscribe(REDIS_KEY.ROOM(this.ws.roomId as string))
+  await this.unsubscribeAll();
+//await this.punsubscribe(REDIS_KEY.ROOM(this.ws.roomId as string))
   const roomId = this.ws.roomId || inroomId;
   if( !roomId || !this.user_id) return { error: {message:'ids are missing'}}
-  if(this.isHost) await this.destroy(inroomId as string, REDIS_KEY.ROOM(inroomId as string))
+ // if(this.isHost) await this.destroy(inroomId as string, REDIS_KEY.ROOM(inroomId as string))
  await  this.store.del(REDIS_KEY.USER_ROOM_DATA(roomId, this.user_id))
  
  console.log(`Cleaned up Redis and Heartbeat for: ${this.user_id}`);
@@ -491,11 +504,31 @@ public isStop:boolean;
    this.maxQuestions = 20;
      this.lastQuest = false
   };
+  shuffleArray(arr: any[]) {
+    // Fisher-Yates shuffle algorithm
+    for (let i = arr.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [arr[i], arr[j]] = [arr[j], arr[i]];
+    }
+    return arr;
+  }
+  alphabeticalSort(arr: any[], key: string) {
+    return arr.sort((a, b) => {
+      if(a[key] < b[key]) return -1;
+      if(a[key] > b[key]) return 1;
+      return 0;
+    });
+  }
   async loadQuiz(configSettings: QuizSettings) {
     try {
-      const settings = { ...defaultQuizSettings, ...configSettings };
+      const settings = { ...defaultQuizSettings, ...configSettings }
       const limit = settings.numQuestions || 20;
+  this.timerSettings = {
+    ...this.timerSettings,
+    questionInterval: settings.speed_tOf_text || 86,
+    questionAnswer:settings.lenOfTimer || 30* 1000,
 
+  }
       // Filter questions based on settings or fallback to all DATA
       let pool = ServerLogic.multiFilter(DATA, settings);
       if (!pool || pool.length === 0) pool = DATA;
@@ -503,10 +536,15 @@ public isStop:boolean;
       // Determine if we need to generate a quiz or just slice the pool
       if (settings.verseSelection === 'quiz') {
         this.questions = await ServerLogic.generateQuiz(3, 2, limit, pool);
-      } else {
+      } else if(settings.verseSelection === 'random') {
+        const shuffledPool = this.shuffleArray(pool);
+        this.questions =shuffledPool.slice(0, limit);
+      }else if (settings.verseSelection === 'alphabetical') { 
+        const alphabeticallySortedPool = this.alphabeticalSort(pool, 'answer'); // Assuming 'answer' is the key to sort by
+        this.questions = alphabeticallySortedPool.slice(0, limit);
+      }else{
         this.questions = pool.slice(0, limit);
       }
-
       // Safety check: if generation failed, slice the pool
       if (this.questions.length === 0) {
         this.questions = pool.slice(0, limit);
@@ -515,6 +553,7 @@ public isStop:boolean;
       console.log(`Quiz loaded with ${this.questions.length} questions for room ${this.roomId}`);
       this.isReady = true;
       this.emit('load');
+      console.log(this.questions)
     } catch (err) {
       console.error('loadQuiz error:', err, 'Room:', this.roomId);
     }
@@ -545,18 +584,25 @@ public isStop:boolean;
     // START THE QUIZ
     console.log('startkjhhhhhhhhhhhhhhhfs');
     //this.store.hset(REDIS_KEY.ROOM_PLAYERS_STATES(this.roomId), {[this.ws.username as string]:USER_STATES.WAITINGNEXT})
-    (REDIS_KEY.ROOM(this.roomId), {start:true}, true, {n:true});
+   this.updateUsers (REDIS_KEY.ROOM(this.roomId), {start:true, settings:{...this.settings, ...this.timerSettings}}, true, {n:true});
     await this.startQuiz();
     await this.switchStatus('*', USER_STATES.WAITINGNEXT)
     await redis.hset(REDIS_KEY.ROOM(this.roomId), { status: ROOM_STATES.ACTIVEQUIZ })
 }   
    async createRoom(config: RoomData ) {
-     this.isHost = true;
+    
      const oldroomID = await redis.get(REDIS_KEY.ACTIVE_USER_ROOM(this.ws.username))
     if(oldroomID){
       console.warn('user already in room, cleaning up old room first\nioioioioioioioioioioioioioioioioioioioioioioioioioioi\n')
-      await this.cleanUser(oldroomID);
-    }
+      await this.destroy(oldroomID);
+    };
+     const roomId = ((Date.now() * Math.random()).toString(16) + this.ws.userId) as string; // Multiply time by random, convert to hex, then append userId
+     this.channel = REDIS_KEY.ROOM(roomId);
+     this.roomNS = REDIS_KEY.ROOM(roomId);
+     this.roomId = roomId; // generate a unique room ID using timestamp and random number, convert to hex, and append userId for extra uniqueness
+     await redis.set(REDIS_KEY.ACTIVE_USER_ROOM(this.ws.username), this.roomId);
+     //the active room is helpful for knowing if a user is already in a room and for cleanup if they try to make another one
+     this.isHost = true;
     this.isActive = true;
 const type = config.type in RoomTypes ? config.type:'quiz'
     const requiredUsers = (config.requiredUsers as string[] ?? []);
@@ -577,7 +623,7 @@ const type = config.type in RoomTypes ? config.type:'quiz'
 }
 console.log('month;', this.month);
     this.loadQuiz(config.settings as QuizSettings);
-   await  redis.set(REDIS_KEY.ACTIVE_USER_ROOM(this.ws.username), this.roomId, "EX", 60 * 60 * 3);
+   
     let teamIndex = 0;
     
       const teamsObj = requiredUsers.reduce((acc: Record<string, string>, val: string, index: int) => {
@@ -591,10 +637,7 @@ console.log('month;', this.month);
 }, {});
 this.teamObject = teamsObj;
 console.log ('\n',teamsObj, '\n')
-    const roomId = ((Date.now() * Math.random()).toString(16) + this.ws.userId) as string; // Multiply time by random, convert to hex, then append userId
-    this.channel = REDIS_KEY.ROOM(roomId);
-    this.roomNS =REDIS_KEY.ROOM(roomId);
-    this.roomId = roomId;
+   
     this.requiredUsers = requiredUsers;
     const roomConfig= {
       createdAt:Date.now(),
@@ -719,7 +762,7 @@ await this.psubscribe(REDIS_KEY.ROOM(roomId), async (chan: string, msg: Record<s
         // const users = await redis.hgetall(REDIS_KEY.CURRENT_ROOM_USERS(this.roomId))
         if(msg.payload.status === 'DESTROYED'){
           console.warn('room destroyed, cleaning up client side')
-          await this.cleanUser(roomId);
+          await this.destroy(roomId);
           return;
         };
         if(!msg.payload.start && !msg.payload.answer && !msg.payload.jumpTime){
@@ -810,7 +853,8 @@ return false;
             this.isStop = true
              clearTimeout(this.skipQId)
             this. timer = setTimeout(async () => {
-              this.isTimeout =true;
+              if(this.timerSettings.questionAnswer === 0) return;//no timer mode
+              this.isTimeout =true; 
               console.log('useraneme at incorrect for before ques', username)
              await  this.middleQuiz('incorrect', false, username );
              console.warn(this.questNum, 'q num')
@@ -884,9 +928,9 @@ console.log('room id ', roomId)
    } const oldroomID = await redis.get(REDIS_KEY.ACTIVE_USER_ROOM(this.ws.username))
    if (oldroomID) {
      console.warn('user already in room, cleaning up old room first\nioioioioioioioioioioioioioioioioioioioioioioioioioioi\n')
-     await this.cleanUser(oldroomID);
+     await this.destroy(oldroomID)
    }
-   await redis.set(REDIS_KEY.ACTIVE_USER_ROOM(this.ws.username), roomId, "EX", 60 * 60 * 3);
+   //await redis.set(REDI;S_KEY.ACTIVE_USER_ROOM(this.ws.username), roomId, "EX", 60 * 60 * 3);
 this.isActive = true;
  await this.psubscribe(REDIS_KEY.ROOM(roomId)+':quiz', this.handleQuizMsgs)
  await this.psubscribe(REDIS_KEY.ROOM(roomId), this.handleUserMsgs);
@@ -1131,7 +1175,7 @@ async incorrect(isBonus:boolean, user:string, inStatus?:string, inincorrectQs?:i
 const questObj  = this.questions[questNum];
       if(!questObj){
         console.log(questNum, this.questions, 'quest is bad bad')
-        console.error('no question object found for quest num ', questNum, 'questions array', this.questions)
+        console.error('no question object found for quest num ', questNum, 'questions array')
         await this.updateUsers(REDIS_KEY.ROOM(this.roomId), { end: true }, true)
         await this.finish()
         return;
@@ -1198,17 +1242,20 @@ if(type === QUESTION_TYPES.ACCORDING){
       this.questEnd = true;
      }
         const quest = question.split('');
+        if (!quest) console.error('char,', quest, 'of quest', questObj, question)
        let char:string;
        let i:int = 0;
        this.questEnd = false 
        this.isStop= false;
+       let testQuestHolder = ''
         this.tWordTimestamp = Infinity; 
     const awaitQuest = ():Promise<void>=>{   return new Promise( resolve=>{
        this.questInterId= setInterval(async ()=>{
-        if(i === quest.length || this.isStop){clearInterval(this.questInterId); resolve(); return;}
+        if(i >= quest.length || this.isStop){clearInterval(this.questInterId); resolve(); return;}
         char = quest[i];  
+        testQuestHolder += char;
       
-        if(!char)console.error('char,', char, 'of quest', questObj, question)
+        
         
          await redis.publish(REDIS_KEY.ROOM(this.roomId), JSON.stringify({ payload:  [clientQuestId, char, i+1] }) )//this is for the ai to know when to react
         i++;
@@ -1218,6 +1265,8 @@ if(type === QUESTION_TYPES.ACCORDING){
     });
   };
          await awaitQuest();
+         console.warn('ettttts quest hohdl', testQuestHolder)
+         console.log(testQuestHolder, 'testquesthodderr&&&&&')
         this.questEnd = true;
         console.warn('end quest', questNum);
         this.questNum++;
@@ -1276,7 +1325,7 @@ if(!data || error || !success){
     this.updateFontend('error', {error:{message:'data saved to save'}, why:e} )
   }
   finally{
-    this.cleanUser(this.roomId)
+    //his.cleanUser(this.roomId)
   }
 }
       

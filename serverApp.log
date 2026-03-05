@@ -1,325 +1,1092 @@
-[2026-03-03T04:13:29.687Z] hi app is running
-[2026-03-03T04:13:30.115Z] Successfully loaded 1227 questions.
-[2026-03-03T04:13:30.142Z] Server running on port: 3000
-[2026-03-03T04:13:35.669Z] coks {"refreshToken":"eyJhbGciOiJIUzI1NiJ9.eyJ0b2tlbiI6IjEzZTIxMzE1YzAxMjIwOGFmZTI0ODE0NzNjYWNhZjg2MWNmM2UyNmMyNjg4YWU5ZGFhNzU5MmQ4OTU1NjM2MjAiLCJpZCI6IjcwNjM0MDdhLTkzMTctNDljMi04Y2U4LTBmMjgwZjFjMTVmNCJ9._1ZfH_1FmU3qjGZRMaFYQRNz8T7jrtOPb5ZLLvPJeWE","accessToken":"eyJhbGciOiJIUzI1NiJ9.ImQzZjBhZmU3N2EwNTQyY2M3ZjNlNTM1Yzk2MTNhNTYyNDBjMzE5ZjVjYWZkYmZkNjEzMDZhMmEyNmJmNmZjYTUi.g7h-4loTDHk0hEE91nz1w0IDsts21H2-7-pLKSiO-0Q"}
-[2026-03-03T04:13:35.698Z] coks {"refreshToken":"eyJhbGciOiJIUzI1NiJ9.eyJ0b2tlbiI6IjEzZTIxMzE1YzAxMjIwOGFmZTI0ODE0NzNjYWNhZjg2MWNmM2UyNmMyNjg4YWU5ZGFhNzU5MmQ4OTU1NjM2MjAiLCJpZCI6IjcwNjM0MDdhLTkzMTctNDljMi04Y2U4LTBmMjgwZjFjMTVmNCJ9._1ZfH_1FmU3qjGZRMaFYQRNz8T7jrtOPb5ZLLvPJeWE","accessToken":"eyJhbGciOiJIUzI1NiJ9.ImQzZjBhZmU3N2EwNTQyY2M3ZjNlNTM1Yzk2MTNhNTYyNDBjMzE5ZjVjYWZkYmZkNjEzMDZhMmEyNmJmNmZjYTUi.g7h-4loTDHk0hEE91nz1w0IDsts21H2-7-pLKSiO-0Q"} eyJhbGciOiJIUzI1NiJ9.eyJ0b2tlbiI6IjEzZTIxMzE1YzAxMjIwOGFmZTI0ODE0NzNjYWNhZjg2MWNmM2UyNmMyNjg4YWU5ZGFhNzU5MmQ4OTU1NjM2MjAiLCJpZCI6IjcwNjM0MDdhLTkzMTctNDljMi04Y2U4LTBmMjgwZjFjMTVmNCJ9._1ZfH_1FmU3qjGZRMaFYQRNz8T7jrtOPb5ZLLvPJeWE rr
-[2026-03-03T04:13:35.713Z] {"token":"13e21315c012208afe2481473cacaf861cf3e26c2688ae9daa7592d895563620","id":"7063407a-9317-49c2-8ce8-0f280f1c15f4"} v now it is access "d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5"
-[2026-03-03T04:13:35.716Z] vtok {"token":"13e21315c012208afe2481473cacaf861cf3e26c2688ae9daa7592d895563620","id":"7063407a-9317-49c2-8ce8-0f280f1c15f4"} "d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5"
-[2026-03-03T04:13:37.147Z] supa data {"id":"7063407a-9317-49c2-8ce8-0f280f1c15f4","username":"mary.cramer@hotmail.ppp","created_at":"2026-01-25T02:47:25.465058+00:00","friends":[],"state_of_qs_answered":{},"modules_completed":null,"access_id":"d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5","session_id":"13e21315c012208afe2481473cacaf861cf3e26c2688ae9daa7592d895563620","email":"mary.cramer@hotmail.ppp","team_name":null,"online_quiz_data":[{"a":"{\"userConfig\":{\"username\":\"a\",\"roomId\":\"52ec204450.0afa\",\"xp\":0,\"status\":\"connected\",\"seatNum\":1,\"points\":0,\"teamId\":\"a91ukpb9u.prf\",\"teamName\":\"\"}}","xp":0,"points":0,"status":"finished","seatNum":1,"teamScore":0}],"xp":null,"league":null,"badges":null,"avatar":null,"role":null,"access_level":null,"profile_settings":null,"streak":null} refresh d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5
-[2026-03-03T04:13:37.147Z] refreash/refresh 13e21315c012208afe2481473cacaf861cf3e26c2688ae9daa7592d895563620 verus fromcok eyJhbGciOiJIUzI1NiJ9.ImQzZjBhZmU3N2EwNTQyY2M3ZjNlNTM1Yzk2MTNhNTYyNDBjMzE5ZjVjYWZkYmZkNjEzMDZhMmEyNmJmNmZjYTUi.g7h-4loTDHk0hEE91nz1w0IDsts21H2-7-pLKSiO-0Q false "d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5" vs d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5
-[2026-03-03T04:13:37.147Z] user a 
-[2026-03-03T04:13:37.147Z] success for dev 7063407a-9317-49c2-8ce8-0f280f1c15f4
-[2026-03-03T04:13:37.152Z] 
+[2026-03-05T21:44:14.083Z] hi app is running
+[2026-03-05T21:44:14.227Z] [dotenv@17.3.1] injecting env (0) from .env [2m-- tip: ⚡️ secrets for agents: https://dotenvx.com/as2[0m
+[2026-03-05T21:44:14.356Z] Successfully loaded 1227 questions.
+[2026-03-05T21:44:14.365Z] Server running on port: 3000
+[2026-03-05T21:45:45.694Z] --session apemt-- {"refreshToken":"eyJhbGciOiJIUzI1NiJ9.eyJ0b2tlbiI6IjEyZGEwZjg5N2Y2NDFhYWUzOGJiYjgyODljODI0ZWMxNTYzYjVkZGQ2NTI4MDZkNGQ1NTQ0ZjAyOGQxOGRhZmQiLCJpZCI6IjcwNjM0MDdhLTkzMTctNDljMi04Y2U4LTBmMjgwZjFjMTVmNCJ9.cBo1DtLGoB3TSjCVZENNRAh9OIlgTvG4aGG1OAsDfzU"} sogned {} undefined
+[2026-03-05T21:45:45.915Z] ---string vefity--
+
+[2026-03-05T21:45:47.898Z] {"access_id":"350e29c0487e912343ee9644f660a97da0a657d0346940f50aae72e6df02aae2","session_id":"12da0f897f641aae38bbb8289c824ec1563b5ddd652806d4d5544f028d18dafd"} upd saup virg data 12da0f897f641aae38bbb8289c824ec1563b5ddd652806d4d5544f028d18dafd false
+[2026-03-05T21:45:47.898Z] compare refrsh 12da0f897f641aae38bbb8289c824ec1563b5ddd652806d4d5544f028d18dafd vs 12da0f897f641aae38bbb8289c824ec1563b5ddd652806d4d5544f028d18dafd
+[2026-03-05T21:45:47.898Z] 350e29c0487e912343ee9644f660a97da0a657d0346940f50aae72e6df02aae2 access vs false
+[2026-03-05T21:45:47.909Z] update data 7063407a-9317-49c2-8ce8-0f280f1c15f4
+[2026-03-05T21:45:47.926Z] {"0":77,"1":79,"2":197,"3":120,"4":177,"5":177,"6":54,"7":163,"8":92,"9":222,"10":1,"11":109,"12":229,"13":187,"14":122,"15":125,"16":132,"17":157,"18":225,"19":10,"20":106,"21":109,"22":213,"23":17,"24":192,"25":200,"26":89,"27":15,"28":222,"29":225,"30":74,"31":46}
+[2026-03-05T21:45:47.927Z] {"0":156,"1":161,"2":229,"3":155,"4":191,"5":136,"6":76,"7":24,"8":153,"9":152,"10":47,"11":211,"12":95,"13":176,"14":89,"15":209,"16":129,"17":213,"18":108,"19":231,"20":160,"21":176,"22":241,"23":33,"24":245,"25":233,"26":172,"27":12,"28":157,"29":64,"30":235,"31":253}
+[2026-03-05T21:45:47.935Z] sigining data {"name":"refreshToken","payload":{"token":"4d4fc578b1b136a35cde016de5bb7a7d849de10a6a6dd511c0c8590fdee14a2e","id":"7063407a-9317-49c2-8ce8-0f280f1c15f4"},"age":7776000000,"user_id":"7063407a-9317-49c2-8ce8-0f280f1c15f4"} token  eyJhbGciOiJIUzI1NiJ9.eyJ0b2tlbiI6IjRkNGZjNTc4YjFiMTM2YTM1Y2RlMDE2ZGU1YmI3YTdkODQ5ZGUxMGE2YTZkZDUxMWMwYzg1OTBmZGVlMTRhMmUiLCJpZCI6IjcwNjM0MDdhLTkzMTctNDljMi04Y2U4LTBmMjgwZjFjMTVmNCJ9.K5jFv4O4ZUcQR-eh4G5g07chRCo5cXW6XZKODrSK6fs
+[2026-03-05T21:45:47.940Z] sigining data {"name":"accessToken","payload":"9ca1e59bbf884c1899982fd35fb059d181d56ce7a0b0f121f5e9ac0c9d40ebfd","age":86400000,"user_id":"7063407a-9317-49c2-8ce8-0f280f1c15f4"} token  eyJhbGciOiJIUzI1NiJ9.IjljYTFlNTliYmY4ODRjMTg5OTk4MmZkMzVmYjA1OWQxODFkNTZjZTdhMGIwZjEyMWY1ZTlhYzBjOWQ0MGViZmQi.CsJG63sOi6oDg8LeJOl1TIa4DSc3c51vfYBQif8wKwE
+[2026-03-05T21:45:47.941Z] updates {"name":"refreshToken","payload":{"token":"4d4fc578b1b136a35cde016de5bb7a7d849de10a6a6dd511c0c8590fdee14a2e","id":"7063407a-9317-49c2-8ce8-0f280f1c15f4"},"age":7776000000,"user_id":"7063407a-9317-49c2-8ce8-0f280f1c15f4"} {"token":"4d4fc578b1b136a35cde016de5bb7a7d849de10a6a6dd511c0c8590fdee14a2e","id":"7063407a-9317-49c2-8ce8-0f280f1c15f4"} a time {"name":"accessToken","payload":"9ca1e59bbf884c1899982fd35fb059d181d56ce7a0b0f121f5e9ac0c9d40ebfd","age":86400000,"user_id":"7063407a-9317-49c2-8ce8-0f280f1c15f4"} 9ca1e59bbf884c1899982fd35fb059d181d56ce7a0b0f121f5e9ac0c9d40ebfd
+[2026-03-05T21:45:48.242Z] coks {"refreshToken":"eyJhbGciOiJIUzI1NiJ9.eyJ0b2tlbiI6IjRkNGZjNTc4YjFiMTM2YTM1Y2RlMDE2ZGU1YmI3YTdkODQ5ZGUxMGE2YTZkZDUxMWMwYzg1OTBmZGVlMTRhMmUiLCJpZCI6IjcwNjM0MDdhLTkzMTctNDljMi04Y2U4LTBmMjgwZjFjMTVmNCJ9.K5jFv4O4ZUcQR-eh4G5g07chRCo5cXW6XZKODrSK6fs","accessToken":"eyJhbGciOiJIUzI1NiJ9.IjljYTFlNTliYmY4ODRjMTg5OTk4MmZkMzVmYjA1OWQxODFkNTZjZTdhMGIwZjEyMWY1ZTlhYzBjOWQ0MGViZmQi.CsJG63sOi6oDg8LeJOl1TIa4DSc3c51vfYBQif8wKwE"}
+[2026-03-05T21:45:48.243Z] coks {"refreshToken":"eyJhbGciOiJIUzI1NiJ9.eyJ0b2tlbiI6IjRkNGZjNTc4YjFiMTM2YTM1Y2RlMDE2ZGU1YmI3YTdkODQ5ZGUxMGE2YTZkZDUxMWMwYzg1OTBmZGVlMTRhMmUiLCJpZCI6IjcwNjM0MDdhLTkzMTctNDljMi04Y2U4LTBmMjgwZjFjMTVmNCJ9.K5jFv4O4ZUcQR-eh4G5g07chRCo5cXW6XZKODrSK6fs","accessToken":"eyJhbGciOiJIUzI1NiJ9.IjljYTFlNTliYmY4ODRjMTg5OTk4MmZkMzVmYjA1OWQxODFkNTZjZTdhMGIwZjEyMWY1ZTlhYzBjOWQ0MGViZmQi.CsJG63sOi6oDg8LeJOl1TIa4DSc3c51vfYBQif8wKwE"} eyJhbGciOiJIUzI1NiJ9.eyJ0b2tlbiI6IjRkNGZjNTc4YjFiMTM2YTM1Y2RlMDE2ZGU1YmI3YTdkODQ5ZGUxMGE2YTZkZDUxMWMwYzg1OTBmZGVlMTRhMmUiLCJpZCI6IjcwNjM0MDdhLTkzMTctNDljMi04Y2U4LTBmMjgwZjFjMTVmNCJ9.K5jFv4O4ZUcQR-eh4G5g07chRCo5cXW6XZKODrSK6fs rr
+[2026-03-05T21:45:48.247Z] {"token":"4d4fc578b1b136a35cde016de5bb7a7d849de10a6a6dd511c0c8590fdee14a2e","id":"7063407a-9317-49c2-8ce8-0f280f1c15f4"} v now it is access "9ca1e59bbf884c1899982fd35fb059d181d56ce7a0b0f121f5e9ac0c9d40ebfd"
+[2026-03-05T21:45:48.248Z] vtok {"token":"4d4fc578b1b136a35cde016de5bb7a7d849de10a6a6dd511c0c8590fdee14a2e","id":"7063407a-9317-49c2-8ce8-0f280f1c15f4"} "9ca1e59bbf884c1899982fd35fb059d181d56ce7a0b0f121f5e9ac0c9d40ebfd"
+[2026-03-05T21:45:48.395Z] supa data {"id":"7063407a-9317-49c2-8ce8-0f280f1c15f4","username":"mary.cramer@hotmail.ppp","created_at":"2026-01-25T02:47:25.465058+00:00","friends":[],"state_of_qs_answered":{},"modules_completed":null,"access_id":"9ca1e59bbf884c1899982fd35fb059d181d56ce7a0b0f121f5e9ac0c9d40ebfd","session_id":"4d4fc578b1b136a35cde016de5bb7a7d849de10a6a6dd511c0c8590fdee14a2e","email":"mary.cramer@hotmail.ppp","team_name":null,"online_quiz_data":[{"a":"{\"userConfig\":{\"username\":\"a\",\"roomId\":\"52ec204450.0afa\",\"xp\":0,\"status\":\"connected\",\"seatNum\":1,\"points\":0,\"teamId\":\"a91ukpb9u.prf\",\"teamName\":\"\"}}","xp":0,"points":0,"status":"finished","seatNum":1,"teamScore":0}],"xp":null,"league":null,"badges":null,"avatar":null,"role":null,"access_level":null,"profile_settings":null,"streak":null} refresh 9ca1e59bbf884c1899982fd35fb059d181d56ce7a0b0f121f5e9ac0c9d40ebfd
+[2026-03-05T21:45:48.396Z] refreash/refresh 4d4fc578b1b136a35cde016de5bb7a7d849de10a6a6dd511c0c8590fdee14a2e verus fromcok eyJhbGciOiJIUzI1NiJ9.IjljYTFlNTliYmY4ODRjMTg5OTk4MmZkMzVmYjA1OWQxODFkNTZjZTdhMGIwZjEyMWY1ZTlhYzBjOWQ0MGViZmQi.CsJG63sOi6oDg8LeJOl1TIa4DSc3c51vfYBQif8wKwE false "9ca1e59bbf884c1899982fd35fb059d181d56ce7a0b0f121f5e9ac0c9d40ebfd" vs 9ca1e59bbf884c1899982fd35fb059d181d56ce7a0b0f121f5e9ac0c9d40ebfd
+[2026-03-05T21:45:48.396Z] user a 
+[2026-03-05T21:45:48.396Z] success for dev 7063407a-9317-49c2-8ce8-0f280f1c15f4
+[2026-03-05T21:45:48.403Z] 
 ---------------
 ----
 
- {"payload":{"update":"profile","data":{"id":"","username":"mary.cramer@hotmail.ppp","created_at":"2026-01-25T02:47:25.465058+00:00","friends":[],"state_of_qs_answered":{},"modules_completed":null,"access_id":"d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5","session_id":"","email":"mary.cramer@hotmail.ppp","team_name":null,"online_quiz_data":[{"a":"{\"userConfig\":{\"username\":\"a\",\"roomId\":\"52ec204450.0afa\",\"xp\":0,\"status\":\"connected\",\"seatNum\":1,\"points\":0,\"teamId\":\"a91ukpb9u.prf\",\"teamName\":\"\"}}","xp":0,"points":0,"status":"finished","seatNum":1,"teamScore":0}],"xp":null,"league":null,"badges":null,"avatar":null,"role":null,"access_level":null,"profile_settings":null,"streak":null,"refresh_id":""}}} data being sent touser  a 
+ {"payload":{"update":"profile","data":{"id":"","username":"mary.cramer@hotmail.ppp","created_at":"2026-01-25T02:47:25.465058+00:00","friends":[],"state_of_qs_answered":{},"modules_completed":null,"access_id":"9ca1e59bbf884c1899982fd35fb059d181d56ce7a0b0f121f5e9ac0c9d40ebfd","session_id":"","email":"mary.cramer@hotmail.ppp","team_name":null,"online_quiz_data":[{"a":"{\"userConfig\":{\"username\":\"a\",\"roomId\":\"52ec204450.0afa\",\"xp\":0,\"status\":\"connected\",\"seatNum\":1,\"points\":0,\"teamId\":\"a91ukpb9u.prf\",\"teamName\":\"\"}}","xp":0,"points":0,"status":"finished","seatNum":1,"teamScore":0}],"xp":null,"league":null,"badges":null,"avatar":null,"role":null,"access_level":null,"profile_settings":null,"streak":null,"refresh_id":""}}} data being sent touser  a 
 
 -------
-[2026-03-03T04:13:37.234Z] sub to  user:a:req_id:* {}
-[2026-03-03T04:13:37.252Z] sub to  user:a:friend_reqs {}
-[2026-03-03T04:13:37.414Z] Client connected from: ::1
-[2026-03-03T04:13:38.406Z] Connection closed. Code: 1001, Reason: 
-[2026-03-03T04:13:38.589Z] unscribing  room:undefined
-[2026-03-03T04:13:38.651Z] Unsubscribed from pattern: room:undefined
-[2026-03-03T04:13:38.652Z] unscribing  user:a:req_id:*
-[2026-03-03T04:13:38.714Z] Unsubscribed from pattern: user:a:req_id:*
-[2026-03-03T04:13:38.715Z] unscribing  user:a:friend_reqs
-[2026-03-03T04:13:38.786Z] Unsubscribed from pattern: user:a:friend_reqs
-[2026-03-03T04:13:42.587Z] --session apemt-- {"refreshToken":"eyJhbGciOiJIUzI1NiJ9.eyJ0b2tlbiI6IjEzZTIxMzE1YzAxMjIwOGFmZTI0ODE0NzNjYWNhZjg2MWNmM2UyNmMyNjg4YWU5ZGFhNzU5MmQ4OTU1NjM2MjAiLCJpZCI6IjcwNjM0MDdhLTkzMTctNDljMi04Y2U4LTBmMjgwZjFjMTVmNCJ9._1ZfH_1FmU3qjGZRMaFYQRNz8T7jrtOPb5ZLLvPJeWE","accessToken":"eyJhbGciOiJIUzI1NiJ9.ImQzZjBhZmU3N2EwNTQyY2M3ZjNlNTM1Yzk2MTNhNTYyNDBjMzE5ZjVjYWZkYmZkNjEzMDZhMmEyNmJmNmZjYTUi.g7h-4loTDHk0hEE91nz1w0IDsts21H2-7-pLKSiO-0Q"} sogned {} eyJhbGciOiJIUzI1NiJ9.ImQzZjBhZmU3N2EwNTQyY2M3ZjNlNTM1Yzk2MTNhNTYyNDBjMzE5ZjVjYWZkYmZkNjEzMDZhMmEyNmJmNmZjYTUi.g7h-4loTDHk0hEE91nz1w0IDsts21H2-7-pLKSiO-0Q
-[2026-03-03T04:13:42.861Z] ---string vefity--
+[2026-03-05T21:45:48.481Z] sub to  user:a:req_id:* {}
+[2026-03-05T21:45:48.482Z] sub to  user:a:friend_reqs {}
+[2026-03-05T21:45:48.647Z] Client connected from: ::1
+[2026-03-05T21:49:46.123Z] Executing: soloQuizfrom clent username is a [{"requiredUsers":[],"title":"Quick Solo Practice","type":"solo","mode":"single","quizId":"s1"},4]
+[2026-03-05T21:49:46.457Z] config for quiz {"quizId":"s1","requiredUsers":["a"],"settings":{}} 1
+[2026-03-05T21:49:46.458Z] month; march
+[2026-03-05T21:49:46.582Z] 
+ {"a":"aclbgq12j.1kg"} 
 
-[2026-03-03T04:13:43.553Z] {"access_id":"d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5","session_id":"13e21315c012208afe2481473cacaf861cf3e26c2688ae9daa7592d895563620"} upd saup virg data 13e21315c012208afe2481473cacaf861cf3e26c2688ae9daa7592d895563620 "d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5"
-[2026-03-03T04:13:43.566Z] compare refrsh 13e21315c012208afe2481473cacaf861cf3e26c2688ae9daa7592d895563620 vs 13e21315c012208afe2481473cacaf861cf3e26c2688ae9daa7592d895563620
-[2026-03-03T04:13:43.566Z] d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5 access vs "d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5"
-[2026-03-03T04:13:43.963Z] success with session v: undefined "d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5" 7063407a-9317-49c2-8ce8-0f280f1c15f4
-[2026-03-03T04:13:47.209Z] coks {"refreshToken":"eyJhbGciOiJIUzI1NiJ9.eyJ0b2tlbiI6IjEzZTIxMzE1YzAxMjIwOGFmZTI0ODE0NzNjYWNhZjg2MWNmM2UyNmMyNjg4YWU5ZGFhNzU5MmQ4OTU1NjM2MjAiLCJpZCI6IjcwNjM0MDdhLTkzMTctNDljMi04Y2U4LTBmMjgwZjFjMTVmNCJ9._1ZfH_1FmU3qjGZRMaFYQRNz8T7jrtOPb5ZLLvPJeWE","accessToken":"eyJhbGciOiJIUzI1NiJ9.ImQzZjBhZmU3N2EwNTQyY2M3ZjNlNTM1Yzk2MTNhNTYyNDBjMzE5ZjVjYWZkYmZkNjEzMDZhMmEyNmJmNmZjYTUi.g7h-4loTDHk0hEE91nz1w0IDsts21H2-7-pLKSiO-0Q"}
-[2026-03-03T04:13:47.210Z] coks {"refreshToken":"eyJhbGciOiJIUzI1NiJ9.eyJ0b2tlbiI6IjEzZTIxMzE1YzAxMjIwOGFmZTI0ODE0NzNjYWNhZjg2MWNmM2UyNmMyNjg4YWU5ZGFhNzU5MmQ4OTU1NjM2MjAiLCJpZCI6IjcwNjM0MDdhLTkzMTctNDljMi04Y2U4LTBmMjgwZjFjMTVmNCJ9._1ZfH_1FmU3qjGZRMaFYQRNz8T7jrtOPb5ZLLvPJeWE","accessToken":"eyJhbGciOiJIUzI1NiJ9.ImQzZjBhZmU3N2EwNTQyY2M3ZjNlNTM1Yzk2MTNhNTYyNDBjMzE5ZjVjYWZkYmZkNjEzMDZhMmEyNmJmNmZjYTUi.g7h-4loTDHk0hEE91nz1w0IDsts21H2-7-pLKSiO-0Q"} eyJhbGciOiJIUzI1NiJ9.eyJ0b2tlbiI6IjEzZTIxMzE1YzAxMjIwOGFmZTI0ODE0NzNjYWNhZjg2MWNmM2UyNmMyNjg4YWU5ZGFhNzU5MmQ4OTU1NjM2MjAiLCJpZCI6IjcwNjM0MDdhLTkzMTctNDljMi04Y2U4LTBmMjgwZjFjMTVmNCJ9._1ZfH_1FmU3qjGZRMaFYQRNz8T7jrtOPb5ZLLvPJeWE rr
-[2026-03-03T04:13:47.234Z] {"token":"13e21315c012208afe2481473cacaf861cf3e26c2688ae9daa7592d895563620","id":"7063407a-9317-49c2-8ce8-0f280f1c15f4"} v now it is access "d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5"
-[2026-03-03T04:13:47.240Z] vtok {"token":"13e21315c012208afe2481473cacaf861cf3e26c2688ae9daa7592d895563620","id":"7063407a-9317-49c2-8ce8-0f280f1c15f4"} "d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5"
-[2026-03-03T04:13:47.368Z] supa data {"id":"7063407a-9317-49c2-8ce8-0f280f1c15f4","username":"mary.cramer@hotmail.ppp","created_at":"2026-01-25T02:47:25.465058+00:00","friends":[],"state_of_qs_answered":{},"modules_completed":null,"access_id":"d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5","session_id":"13e21315c012208afe2481473cacaf861cf3e26c2688ae9daa7592d895563620","email":"mary.cramer@hotmail.ppp","team_name":null,"online_quiz_data":[{"a":"{\"userConfig\":{\"username\":\"a\",\"roomId\":\"52ec204450.0afa\",\"xp\":0,\"status\":\"connected\",\"seatNum\":1,\"points\":0,\"teamId\":\"a91ukpb9u.prf\",\"teamName\":\"\"}}","xp":0,"points":0,"status":"finished","seatNum":1,"teamScore":0}],"xp":null,"league":null,"badges":null,"avatar":null,"role":null,"access_level":null,"profile_settings":null,"streak":null} refresh d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5
-[2026-03-03T04:13:47.370Z] refreash/refresh 13e21315c012208afe2481473cacaf861cf3e26c2688ae9daa7592d895563620 verus fromcok eyJhbGciOiJIUzI1NiJ9.ImQzZjBhZmU3N2EwNTQyY2M3ZjNlNTM1Yzk2MTNhNTYyNDBjMzE5ZjVjYWZkYmZkNjEzMDZhMmEyNmJmNmZjYTUi.g7h-4loTDHk0hEE91nz1w0IDsts21H2-7-pLKSiO-0Q false "d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5" vs d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5
-[2026-03-03T04:13:47.376Z] user a 
-[2026-03-03T04:13:47.379Z] success for dev 7063407a-9317-49c2-8ce8-0f280f1c15f4
-[2026-03-03T04:13:47.385Z] 
+[2026-03-05T21:49:46.589Z] Quiz loaded with 20 questions for room 36044efa43.ffa2a
+[2026-03-05T21:49:46.590Z] [{"flight":"C","verse":"Who said it and to whom was it said, \"Far be it from you, Lord! This shall never happen to you\"? Peter said it to Jesus","ref":"Matthew 16:22","month":"february","type":"SQ:","chapter":"16","id":947,"book":"Matthew","trigs":{"february":[9,39],"march":[9,39]},"answer":" Peter said it to Jesus","question":"Who said it and to whom was it said, \"Far be it from you, Lord! This shall never happen to you\""},{"flight":"B","verse":"Then they understood that he did not tell them to beware of the leaven of bread, but of the teaching of the Pharisees and Sadducees.","ref":"Matthew 16:12","month":"february","type":"quote","numVerses":1,"chapter":"16","id":1198,"book":"Matthew","trigs":{"february":[1,5,null],"march":[1,8,null]},"answer":"Then they understood that he did not tell them to beware of the leaven of bread, but of the teaching of the Pharisees and Sadducees.","question":"ftv/quote"},{"flight":"B","verse":"Who healed every disease and every affliction? Jesus","ref":"Matthew 9:35","month":"november","type":"question","chapter":"9","id":456,"book":"Matthew","trigs":{"november":[-1,-1],"december":[-1,-1],"january":[-1,-1],"february":[-1,-1],"march":[-1,-1]},"answer":" Jesus","question":"Who healed every disease and every affliction"},{"flight":"C","verse":"Without what have these twelve received? Paying","ref":"Matthew 10:08","month":"december","type":"question","chapter":"10","id":477,"book":"Matthew","trigs":{"december":[0,4],"january":[2,13],"february":[2,13],"march":[2,13]},"answer":" Paying","question":"Without what have these twelve received"},{"flight":"T","verse":"When did the herdsmen flee? When the whole herd rushed down the steep bank into the sea","ref":"Matthew 8:32-33","month":"november","type":"question","chapter":"8","id":389,"book":"Matthew","trigs":{"november":[3,14],"december":[3,14],"january":[3,14],"february":[3,14],"march":[3,14]},"answer":" When the whole herd rushed down the steep bank into the sea","question":"When did the herdsmen flee"},{"flight":"A","verse":"An evil and adulterous generation seeks for a sign, but no sign will be given to it except the sign of Jonah.\" So he left them and departed.","ref":"Matthew 16:04","month":"february","type":"ftv","numVerses":1,"chapter":"16","id":1196,"book":"Matthew","trigs":{"february":[0,2,null],"march":[0,2,null]},"answer":"An evil and adulterous generation seeks for a sign, but no sign will be given to it except the sign of Jonah.\" So he left them and departed.","question":"ftv/quote"},{"flight":"C","verse":"Who need a physician? Those who are sick","ref":"Matthew 9:12","month":"november","type":"question","chapter":"9","id":411,"book":"Matthew","trigs":{"november":[1,4],"december":[1,4],"january":[1,4],"february":[1,4],"march":[1,4]},"answer":" Those who are sick","question":"Who need a physician"},{"flight":"C","verse":"Who is called Peter? Simon","ref":"Matthew 10:02","month":"december","type":"question","chapter":"10","id":465,"book":"Matthew","trigs":{"december":[3,14],"january":[3,14],"february":[3,14],"march":[3,14]},"answer":" Simon","question":"Who is called Peter"},{"flight":"T","verse":"What did children sitting in the marketplaces call to their playmates? \"We played the flute for you, and you did not dance; we sang a dirge, and you did not mourn.\"","ref":"Matthew 11:16-17","month":"december","type":"question","chapter":"11","id":570,"book":"Matthew","trigs":{"december":[2,9],"january":[2,9],"february":[2,9],"march":[2,9]},"answer":" \"We played the flute for you, and you did not dance; we sang a dirge, and you did not mourn.\"","question":"What did children sitting in the marketplaces call to their playmates"},{"flight":"C","verse":"But that you may know that the Son of Man has authority on earth to forgive sins\" - he then said to the paralytic - \"Rise, pick up your bed and go home.\"","ref":"Matthew 9:06","month":"november","type":"quote","numVerses":1,"chapter":"9","id":1144,"book":"Matthew","trigs":{"november":[1,4,null],"december":[1,4,null],"january":[1,4,null],"february":[1,4,null],"march":[1,4,null]},"answer":"But that you may know that the Son of Man has authority on earth to forgive sins\" - he then said to the paralytic - \"Rise, pick up your bed and go home.\"","question":"ftv/quote"},{"flight":"C","verse":"To whom was Mary betrothed? Joseph","ref":"Matthew 1:18","month":"october","type":"question","chapter":"1","id":5,"book":"Matthew","trigs":{"october":[2,8],"november":[3,12],"december":[3,12],"january":[3,12],"february":[3,12],"march":[3,12]},"answer":" Joseph","question":"To whom was Mary betrothed"},{"flight":"B","verse":"What if Satan casts out Satan? He is divided against himself","ref":"Matthew 12:26","month":"december","type":"question","chapter":"12","id":648,"book":"Matthew","trigs":{"december":[2,10],"january":[2,10],"february":[2,10],"march":[2,10]},"answer":" He is divided against himself","question":"What if Satan casts out Satan"},{"flight":"C","verse":"To whom did Jonah pray? The LORD","ref":"Jonah 2:01","month":"march","type":"question","chapter":"Jonah","id":1012,"book":"Jonah","trigs":{"march":[3,13]},"answer":" The LORD","question":"To whom did Jonah pray"},{"flight":"C","verse":"All these things Jesus said to the crowds in parables; indeed, he said nothing to them without a parable.","ref":"Matthew 13:34","month":"january","type":"ftv","numVerses":1,"chapter":"13","id":1175,"book":"Matthew","trigs":{"january":[0,1,null],"february":[0,1,null],"march":[0,1,null]},"answer":"All these things Jesus said to the crowds in parables; indeed, he said nothing to them without a parable.","question":"ftv/quote"},{"flight":"A","verse":"What did Jesus do when he heard of John's death? Withdrew from there in a boat to a desolate place by himself","ref":"Matthew 14:13","month":"january","type":"question","chapter":"14","id":790,"book":"Matthew","trigs":{"january":[6,26],"february":[6,26],"march":[6,26]},"answer":" Withdrew from there in a boat to a desolate place by himself","question":"What did Jesus do when he heard of John's death"},{"flight":"C","verse":"Who too is a man under authority? A centurion","ref":"Matthew 8:09","month":"november","type":"question","chapter":"8","id":346,"book":"Matthew","trigs":{"november":[1,7],"december":[1,7],"january":[1,7],"february":[1,7],"march":[1,7]},"answer":" A centurion","question":"Who too is a man under authority"},{"flight":"T","verse":"Matthew 15:18, what defiles a person? What comes out of the mouth","ref":"Matthew 15:18","month":"february","type":"According to","chapter":"15","id":864,"book":"Matthew","trigs":{"february":[1,12],"march":[1,12]},"answer":" What comes out of the mouth","question":"Matthew 15:18, what defiles a person"},{"flight":"A","verse":"And proclaim as you go, saying, 'The kingdom of heaven is at hand.' Heal the sick, raise the dead, cleanse lepers, cast out demons. You received without paying; give without pay.","ref":"Matthew 10:07-08","month":"december","type":"quote","numVerses":2,"chapter":"10","id":1149,"book":"Matthew","trigs":{"december":[1,4,null],"january":[1,4,null],"february":[1,4,null],"march":[1,4,null]},"answer":"And proclaim as you go, saying, 'The kingdom of heaven is at hand.' Heal the sick, raise the dead, cleanse lepers, cast out demons. You received without paying; give without pay.","question":"ftv/quote"},{"flight":"B","verse":"What is expelled? Whatever goes into the mouth","ref":"Matthew 15:17","month":"february","type":"question","chapter":"15","id":862,"book":"Matthew","trigs":{"february":[2,9],"march":[2,9]},"answer":" Whatever goes into the mouth","question":"What is expelled"},{"flight":"C","verse":"Who was faint? Jonah","ref":"Jonah 4:08","month":"march","type":"question","chapter":"Jonah","id":1097,"book":"Jonah","trigs":{"march":[2,8]},"answer":" Jonah","question":"Who was faint"}]
+[2026-03-05T21:49:46.738Z] key room:36044efa43.ffa2auser:a valuse {"userConfig":{"username":"a","roomId":"36044efa43.ffa2a","xp":0,"status":"connected","seatNum":1,"points":0,"teamId":"aclbgq12j.1kg","teamName":""}}
+[2026-03-05T21:49:46.865Z] 
+<<---------publish------->>
+
+Publsihing {"from":"a","to":"all_quizzes","date":1772747386803,"key":0,"payload":{"update":"quiz","userConfig":{"username":"a","roomId":"36044efa43.ffa2a","xp":0,"status":"connected","seatNum":1,"points":0,"teamId":"aclbgq12j.1kg","teamName":""},"username":"a"},"channel":"room:36044efa43.ffa2a"} on channel room:36044efa43.ffa2a
+
+[2026-03-05T21:49:46.865Z] room:36044efa43.ffa2a true vs  room:36044efa43.ffa2a
+[2026-03-05T21:49:46.928Z] sub to  room:36044efa43.ffa2a {}
+[2026-03-05T21:49:46.929Z] true true
+[2026-03-05T21:49:46.934Z] loading
+[2026-03-05T21:49:46.934Z] startkjhhhhhhhhhhhhhhhfs
+[2026-03-05T21:49:46.937Z] key room:36044efa43.ffa2a valuse {"start":true,"settings":{"numQuestions":10,"verseSelection":"random","mode":"quiz","questionInterval":86,"questionAnswer":30000}}
+[2026-03-05T21:49:47.003Z] 
+<<---------publish------->>
+
+Publsihing {"from":"a","to":"all_quizzes","date":1772747386937,"key":1,"payload":{"update":"quiz","start":true,"settings":{"numQuestions":10,"verseSelection":"random","mode":"quiz","questionInterval":86,"questionAnswer":30000},"username":"a"},"channel":"room:36044efa43.ffa2a"} on channel room:36044efa43.ffa2a
+
+[2026-03-05T21:49:47.018Z] 
 ---------------
 ----
 
- {"payload":{"update":"profile","data":{"id":"","username":"mary.cramer@hotmail.ppp","created_at":"2026-01-25T02:47:25.465058+00:00","friends":[],"state_of_qs_answered":{},"modules_completed":null,"access_id":"d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5","session_id":"","email":"mary.cramer@hotmail.ppp","team_name":null,"online_quiz_data":[{"a":"{\"userConfig\":{\"username\":\"a\",\"roomId\":\"52ec204450.0afa\",\"xp\":0,\"status\":\"connected\",\"seatNum\":1,\"points\":0,\"teamId\":\"a91ukpb9u.prf\",\"teamName\":\"\"}}","xp":0,"points":0,"status":"finished","seatNum":1,"teamScore":0}],"xp":null,"league":null,"badges":null,"avatar":null,"role":null,"access_level":null,"profile_settings":null,"streak":null,"refresh_id":""}}} data being sent touser  a 
+ {"payload":{"update":"quiz","data":{"update":"quiz","start":true,"settings":{"numQuestions":10,"verseSelection":"random","mode":"quiz","questionInterval":86,"questionAnswer":30000},"username":"a"}}} data being sent touser  a 
 
 -------
-[2026-03-03T04:13:47.446Z] sub to  user:a:req_id:* {}
-[2026-03-03T04:13:47.476Z] sub to  user:a:friend_reqs {}
-[2026-03-03T04:13:47.574Z] Client connected from: ::1
-[2026-03-03T04:14:20.324Z] Executing: answerInvitefrom clent username is a [true,"d7cee04357.68ca"]
-[2026-03-03T04:14:20.407Z] [] accpet
-[2026-03-03T04:14:20.407Z] view quiz logic or late join goes here 
-[2026-03-03T04:15:02.327Z] --session apemt-- {"refreshToken":"eyJhbGciOiJIUzI1NiJ9.eyJ0b2tlbiI6IjEzZTIxMzE1YzAxMjIwOGFmZTI0ODE0NzNjYWNhZjg2MWNmM2UyNmMyNjg4YWU5ZGFhNzU5MmQ4OTU1NjM2MjAiLCJpZCI6IjcwNjM0MDdhLTkzMTctNDljMi04Y2U4LTBmMjgwZjFjMTVmNCJ9._1ZfH_1FmU3qjGZRMaFYQRNz8T7jrtOPb5ZLLvPJeWE","accessToken":"eyJhbGciOiJIUzI1NiJ9.ImQzZjBhZmU3N2EwNTQyY2M3ZjNlNTM1Yzk2MTNhNTYyNDBjMzE5ZjVjYWZkYmZkNjEzMDZhMmEyNmJmNmZjYTUi.g7h-4loTDHk0hEE91nz1w0IDsts21H2-7-pLKSiO-0Q"} sogned {} eyJhbGciOiJIUzI1NiJ9.ImQzZjBhZmU3N2EwNTQyY2M3ZjNlNTM1Yzk2MTNhNTYyNDBjMzE5ZjVjYWZkYmZkNjEzMDZhMmEyNmJmNmZjYTUi.g7h-4loTDHk0hEE91nz1w0IDsts21H2-7-pLKSiO-0Q
-[2026-03-03T04:15:02.776Z] ---string vefity--
+[2026-03-05T21:49:47.018Z] reciedtuiyui
+[2026-03-05T21:49:47.027Z] ------
 
-[2026-03-03T04:15:03.581Z] {"access_id":"d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5","session_id":"13e21315c012208afe2481473cacaf861cf3e26c2688ae9daa7592d895563620"} upd saup virg data 13e21315c012208afe2481473cacaf861cf3e26c2688ae9daa7592d895563620 "d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5"
-[2026-03-03T04:15:03.581Z] compare refrsh 13e21315c012208afe2481473cacaf861cf3e26c2688ae9daa7592d895563620 vs 13e21315c012208afe2481473cacaf861cf3e26c2688ae9daa7592d895563620
-[2026-03-03T04:15:03.582Z] d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5 access vs "d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5"
-[2026-03-03T04:15:03.665Z] success with session v: undefined "d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5" 7063407a-9317-49c2-8ce8-0f280f1c15f4
-[2026-03-03T04:15:03.758Z] coks {"refreshToken":"eyJhbGciOiJIUzI1NiJ9.eyJ0b2tlbiI6IjEzZTIxMzE1YzAxMjIwOGFmZTI0ODE0NzNjYWNhZjg2MWNmM2UyNmMyNjg4YWU5ZGFhNzU5MmQ4OTU1NjM2MjAiLCJpZCI6IjcwNjM0MDdhLTkzMTctNDljMi04Y2U4LTBmMjgwZjFjMTVmNCJ9._1ZfH_1FmU3qjGZRMaFYQRNz8T7jrtOPb5ZLLvPJeWE","accessToken":"eyJhbGciOiJIUzI1NiJ9.ImQzZjBhZmU3N2EwNTQyY2M3ZjNlNTM1Yzk2MTNhNTYyNDBjMzE5ZjVjYWZkYmZkNjEzMDZhMmEyNmJmNmZjYTUi.g7h-4loTDHk0hEE91nz1w0IDsts21H2-7-pLKSiO-0Q"}
-[2026-03-03T04:15:03.758Z] coks {"refreshToken":"eyJhbGciOiJIUzI1NiJ9.eyJ0b2tlbiI6IjEzZTIxMzE1YzAxMjIwOGFmZTI0ODE0NzNjYWNhZjg2MWNmM2UyNmMyNjg4YWU5ZGFhNzU5MmQ4OTU1NjM2MjAiLCJpZCI6IjcwNjM0MDdhLTkzMTctNDljMi04Y2U4LTBmMjgwZjFjMTVmNCJ9._1ZfH_1FmU3qjGZRMaFYQRNz8T7jrtOPb5ZLLvPJeWE","accessToken":"eyJhbGciOiJIUzI1NiJ9.ImQzZjBhZmU3N2EwNTQyY2M3ZjNlNTM1Yzk2MTNhNTYyNDBjMzE5ZjVjYWZkYmZkNjEzMDZhMmEyNmJmNmZjYTUi.g7h-4loTDHk0hEE91nz1w0IDsts21H2-7-pLKSiO-0Q"} eyJhbGciOiJIUzI1NiJ9.eyJ0b2tlbiI6IjEzZTIxMzE1YzAxMjIwOGFmZTI0ODE0NzNjYWNhZjg2MWNmM2UyNmMyNjg4YWU5ZGFhNzU5MmQ4OTU1NjM2MjAiLCJpZCI6IjcwNjM0MDdhLTkzMTctNDljMi04Y2U4LTBmMjgwZjFjMTVmNCJ9._1ZfH_1FmU3qjGZRMaFYQRNz8T7jrtOPb5ZLLvPJeWE rr
-[2026-03-03T04:15:03.772Z] {"token":"13e21315c012208afe2481473cacaf861cf3e26c2688ae9daa7592d895563620","id":"7063407a-9317-49c2-8ce8-0f280f1c15f4"} v now it is access "d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5"
-[2026-03-03T04:15:03.786Z] vtok {"token":"13e21315c012208afe2481473cacaf861cf3e26c2688ae9daa7592d895563620","id":"7063407a-9317-49c2-8ce8-0f280f1c15f4"} "d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5"
-[2026-03-03T04:15:03.932Z] supa data {"id":"7063407a-9317-49c2-8ce8-0f280f1c15f4","username":"mary.cramer@hotmail.ppp","created_at":"2026-01-25T02:47:25.465058+00:00","friends":[],"state_of_qs_answered":{},"modules_completed":null,"access_id":"d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5","session_id":"13e21315c012208afe2481473cacaf861cf3e26c2688ae9daa7592d895563620","email":"mary.cramer@hotmail.ppp","team_name":null,"online_quiz_data":[{"a":"{\"userConfig\":{\"username\":\"a\",\"roomId\":\"52ec204450.0afa\",\"xp\":0,\"status\":\"connected\",\"seatNum\":1,\"points\":0,\"teamId\":\"a91ukpb9u.prf\",\"teamName\":\"\"}}","xp":0,"points":0,"status":"finished","seatNum":1,"teamScore":0}],"xp":null,"league":null,"badges":null,"avatar":null,"role":null,"access_level":null,"profile_settings":null,"streak":null} refresh d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5
-[2026-03-03T04:15:03.945Z] refreash/refresh 13e21315c012208afe2481473cacaf861cf3e26c2688ae9daa7592d895563620 verus fromcok eyJhbGciOiJIUzI1NiJ9.ImQzZjBhZmU3N2EwNTQyY2M3ZjNlNTM1Yzk2MTNhNTYyNDBjMzE5ZjVjYWZkYmZkNjEzMDZhMmEyNmJmNmZjYTUi.g7h-4loTDHk0hEE91nz1w0IDsts21H2-7-pLKSiO-0Q false "d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5" vs d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5
-[2026-03-03T04:15:03.961Z] user b 
-[2026-03-03T04:15:03.961Z] success for dev 7063407a-9317-49c2-8ce8-0f280f1c15f4
-[2026-03-03T04:15:03.981Z] 
+msg  {"from":"a","to":"all_quizzes","date":1772747386937,"key":1,"payload":{"update":"quiz","start":true,"settings":{"numQuestions":10,"verseSelection":"random","mode":"quiz","questionInterval":86,"questionAnswer":30000},"username":"a"},"channel":"room:36044efa43.ffa2a"} 
+
+
+
+-------
+
+
+
+[2026-03-05T21:49:47.028Z] -----
+
+
+key  start value true username a msg {"from":"a","to":"all_quizzes","date":1772747386937,"key":1,"payload":{"start":true,"settings":{"numQuestions":10,"verseSelection":"random","mode":"quiz","questionInterval":86,"questionAnswer":30000},"username":"a"},"channel":"room:36044efa43.ffa2a"} 
+
+
+
+-----
+[2026-03-05T21:49:47.031Z] key room:36044efa43.ffa2a:questions valuse {"question":{"wait":true}}
+[2026-03-05T21:49:47.155Z] 
+<<---------publish------->>
+
+Publsihing {"from":"a","to":"all_quizzes","date":1772747387093,"key":2,"payload":{"update":"quiz","question":{"wait":true},"username":"a"},"channel":"room:36044efa43.ffa2a"} on channel room:36044efa43.ffa2a
+
+[2026-03-05T21:49:47.157Z] 
 ---------------
 ----
 
- {"payload":{"update":"profile","data":{"id":"","username":"mary.cramer@hotmail.ppp","created_at":"2026-01-25T02:47:25.465058+00:00","friends":[],"state_of_qs_answered":{},"modules_completed":null,"access_id":"d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5","session_id":"","email":"mary.cramer@hotmail.ppp","team_name":null,"online_quiz_data":[{"a":"{\"userConfig\":{\"username\":\"a\",\"roomId\":\"52ec204450.0afa\",\"xp\":0,\"status\":\"connected\",\"seatNum\":1,\"points\":0,\"teamId\":\"a91ukpb9u.prf\",\"teamName\":\"\"}}","xp":0,"points":0,"status":"finished","seatNum":1,"teamScore":0}],"xp":null,"league":null,"badges":null,"avatar":null,"role":null,"access_level":null,"profile_settings":null,"streak":null,"refresh_id":""}}} data being sent touser  b 
+ {"payload":{"update":"quiz","data":{"update":"quiz","question":{"wait":true},"username":"a"}}} data being sent touser  a 
 
 -------
-[2026-03-03T04:15:04.117Z] sub to  user:b:req_id:* {}
-[2026-03-03T04:15:04.137Z] sub to  user:b:friend_reqs {}
-[2026-03-03T04:15:04.334Z] Client connected from: ::1
-[2026-03-03T04:15:15.598Z] --session apemt-- {"refreshToken":"eyJhbGciOiJIUzI1NiJ9.eyJ0b2tlbiI6IjEzZTIxMzE1YzAxMjIwOGFmZTI0ODE0NzNjYWNhZjg2MWNmM2UyNmMyNjg4YWU5ZGFhNzU5MmQ4OTU1NjM2MjAiLCJpZCI6IjcwNjM0MDdhLTkzMTctNDljMi04Y2U4LTBmMjgwZjFjMTVmNCJ9._1ZfH_1FmU3qjGZRMaFYQRNz8T7jrtOPb5ZLLvPJeWE","accessToken":"eyJhbGciOiJIUzI1NiJ9.ImQzZjBhZmU3N2EwNTQyY2M3ZjNlNTM1Yzk2MTNhNTYyNDBjMzE5ZjVjYWZkYmZkNjEzMDZhMmEyNmJmNmZjYTUi.g7h-4loTDHk0hEE91nz1w0IDsts21H2-7-pLKSiO-0Q"} sogned {} eyJhbGciOiJIUzI1NiJ9.ImQzZjBhZmU3N2EwNTQyY2M3ZjNlNTM1Yzk2MTNhNTYyNDBjMzE5ZjVjYWZkYmZkNjEzMDZhMmEyNmJmNmZjYTUi.g7h-4loTDHk0hEE91nz1w0IDsts21H2-7-pLKSiO-0Q
-[2026-03-03T04:15:15.825Z] ---string vefity--
+[2026-03-05T21:49:47.158Z] reciedtuiyui
+[2026-03-05T21:49:47.159Z] ------
 
-[2026-03-03T04:15:16.163Z] {"access_id":"d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5","session_id":"13e21315c012208afe2481473cacaf861cf3e26c2688ae9daa7592d895563620"} upd saup virg data 13e21315c012208afe2481473cacaf861cf3e26c2688ae9daa7592d895563620 "d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5"
-[2026-03-03T04:15:16.210Z] compare refrsh 13e21315c012208afe2481473cacaf861cf3e26c2688ae9daa7592d895563620 vs 13e21315c012208afe2481473cacaf861cf3e26c2688ae9daa7592d895563620
-[2026-03-03T04:15:16.211Z] d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5 access vs "d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5"
-[2026-03-03T04:15:16.232Z] success with session v: undefined "d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5" 7063407a-9317-49c2-8ce8-0f280f1c15f4
-[2026-03-03T04:15:16.276Z] coks {"refreshToken":"eyJhbGciOiJIUzI1NiJ9.eyJ0b2tlbiI6IjEzZTIxMzE1YzAxMjIwOGFmZTI0ODE0NzNjYWNhZjg2MWNmM2UyNmMyNjg4YWU5ZGFhNzU5MmQ4OTU1NjM2MjAiLCJpZCI6IjcwNjM0MDdhLTkzMTctNDljMi04Y2U4LTBmMjgwZjFjMTVmNCJ9._1ZfH_1FmU3qjGZRMaFYQRNz8T7jrtOPb5ZLLvPJeWE","accessToken":"eyJhbGciOiJIUzI1NiJ9.ImQzZjBhZmU3N2EwNTQyY2M3ZjNlNTM1Yzk2MTNhNTYyNDBjMzE5ZjVjYWZkYmZkNjEzMDZhMmEyNmJmNmZjYTUi.g7h-4loTDHk0hEE91nz1w0IDsts21H2-7-pLKSiO-0Q"}
-[2026-03-03T04:15:16.276Z] coks {"refreshToken":"eyJhbGciOiJIUzI1NiJ9.eyJ0b2tlbiI6IjEzZTIxMzE1YzAxMjIwOGFmZTI0ODE0NzNjYWNhZjg2MWNmM2UyNmMyNjg4YWU5ZGFhNzU5MmQ4OTU1NjM2MjAiLCJpZCI6IjcwNjM0MDdhLTkzMTctNDljMi04Y2U4LTBmMjgwZjFjMTVmNCJ9._1ZfH_1FmU3qjGZRMaFYQRNz8T7jrtOPb5ZLLvPJeWE","accessToken":"eyJhbGciOiJIUzI1NiJ9.ImQzZjBhZmU3N2EwNTQyY2M3ZjNlNTM1Yzk2MTNhNTYyNDBjMzE5ZjVjYWZkYmZkNjEzMDZhMmEyNmJmNmZjYTUi.g7h-4loTDHk0hEE91nz1w0IDsts21H2-7-pLKSiO-0Q"} eyJhbGciOiJIUzI1NiJ9.eyJ0b2tlbiI6IjEzZTIxMzE1YzAxMjIwOGFmZTI0ODE0NzNjYWNhZjg2MWNmM2UyNmMyNjg4YWU5ZGFhNzU5MmQ4OTU1NjM2MjAiLCJpZCI6IjcwNjM0MDdhLTkzMTctNDljMi04Y2U4LTBmMjgwZjFjMTVmNCJ9._1ZfH_1FmU3qjGZRMaFYQRNz8T7jrtOPb5ZLLvPJeWE rr
-[2026-03-03T04:15:16.291Z] {"token":"13e21315c012208afe2481473cacaf861cf3e26c2688ae9daa7592d895563620","id":"7063407a-9317-49c2-8ce8-0f280f1c15f4"} v now it is access "d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5"
-[2026-03-03T04:15:16.293Z] vtok {"token":"13e21315c012208afe2481473cacaf861cf3e26c2688ae9daa7592d895563620","id":"7063407a-9317-49c2-8ce8-0f280f1c15f4"} "d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5"
-[2026-03-03T04:15:16.398Z] supa data {"id":"7063407a-9317-49c2-8ce8-0f280f1c15f4","username":"mary.cramer@hotmail.ppp","created_at":"2026-01-25T02:47:25.465058+00:00","friends":[],"state_of_qs_answered":{},"modules_completed":null,"access_id":"d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5","session_id":"13e21315c012208afe2481473cacaf861cf3e26c2688ae9daa7592d895563620","email":"mary.cramer@hotmail.ppp","team_name":null,"online_quiz_data":[{"a":"{\"userConfig\":{\"username\":\"a\",\"roomId\":\"52ec204450.0afa\",\"xp\":0,\"status\":\"connected\",\"seatNum\":1,\"points\":0,\"teamId\":\"a91ukpb9u.prf\",\"teamName\":\"\"}}","xp":0,"points":0,"status":"finished","seatNum":1,"teamScore":0}],"xp":null,"league":null,"badges":null,"avatar":null,"role":null,"access_level":null,"profile_settings":null,"streak":null} refresh d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5
-[2026-03-03T04:15:16.398Z] refreash/refresh 13e21315c012208afe2481473cacaf861cf3e26c2688ae9daa7592d895563620 verus fromcok eyJhbGciOiJIUzI1NiJ9.ImQzZjBhZmU3N2EwNTQyY2M3ZjNlNTM1Yzk2MTNhNTYyNDBjMzE5ZjVjYWZkYmZkNjEzMDZhMmEyNmJmNmZjYTUi.g7h-4loTDHk0hEE91nz1w0IDsts21H2-7-pLKSiO-0Q false "d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5" vs d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5
-[2026-03-03T04:15:16.398Z] user b 
-[2026-03-03T04:15:16.398Z] success for dev 7063407a-9317-49c2-8ce8-0f280f1c15f4
-[2026-03-03T04:15:16.399Z] 
+msg  {"from":"a","to":"all_quizzes","date":1772747387093,"key":2,"payload":{"update":"quiz","question":{"wait":true},"username":"a"},"channel":"room:36044efa43.ffa2a"} 
+
+
+
+-------
+
+
+
+[2026-03-05T21:49:51.409Z] "Far 40 37 Who said it and to whom was it said, "Far be it from you, Lord! This shall never happen to you" {"flight":"C","verse":"Who said it and to whom was it said, \"Far be it from you, Lord! This shall never happen to you\"? Peter said it to Jesus","ref":"Matthew 16:22","month":"february","type":"SQ:","chapter":"16","id":947,"book":"Matthew","trigs":{"february":[9,39],"march":[9,39]},"answer":" Peter said it to Jesus","question":"Who said it and to whom was it said, \"Far be it from you, Lord! This shall never happen to you\""} 9
+[2026-03-05T21:49:51.546Z] key room:36044efa43.ffa2a:questions valuse {"question":{"wait":false}}
+[2026-03-05T21:49:51.670Z] 
 ---------------
 ----
 
- {"payload":{"update":"profile","data":{"id":"","username":"mary.cramer@hotmail.ppp","created_at":"2026-01-25T02:47:25.465058+00:00","friends":[],"state_of_qs_answered":{},"modules_completed":null,"access_id":"d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5","session_id":"","email":"mary.cramer@hotmail.ppp","team_name":null,"online_quiz_data":[{"a":"{\"userConfig\":{\"username\":\"a\",\"roomId\":\"52ec204450.0afa\",\"xp\":0,\"status\":\"connected\",\"seatNum\":1,\"points\":0,\"teamId\":\"a91ukpb9u.prf\",\"teamName\":\"\"}}","xp":0,"points":0,"status":"finished","seatNum":1,"teamScore":0}],"xp":null,"league":null,"badges":null,"avatar":null,"role":null,"access_level":null,"profile_settings":null,"streak":null,"refresh_id":""}}} data being sent touser  b 
+ {"payload":{"update":"quiz","data":{"update":"quiz","question":{"wait":false},"username":"a"}}} data being sent touser  a 
 
 -------
-[2026-03-03T04:15:16.460Z] sub to  user:b:req_id:* {}
-[2026-03-03T04:15:16.466Z] sub to  user:b:friend_reqs {}
-[2026-03-03T04:15:16.534Z] Client connected from: ::1
-[2026-03-03T04:15:31.653Z] --session apemt-- {"refreshToken":"eyJhbGciOiJIUzI1NiJ9.eyJ0b2tlbiI6IjEzZTIxMzE1YzAxMjIwOGFmZTI0ODE0NzNjYWNhZjg2MWNmM2UyNmMyNjg4YWU5ZGFhNzU5MmQ4OTU1NjM2MjAiLCJpZCI6IjcwNjM0MDdhLTkzMTctNDljMi04Y2U4LTBmMjgwZjFjMTVmNCJ9._1ZfH_1FmU3qjGZRMaFYQRNz8T7jrtOPb5ZLLvPJeWE","accessToken":"eyJhbGciOiJIUzI1NiJ9.ImQzZjBhZmU3N2EwNTQyY2M3ZjNlNTM1Yzk2MTNhNTYyNDBjMzE5ZjVjYWZkYmZkNjEzMDZhMmEyNmJmNmZjYTUi.g7h-4loTDHk0hEE91nz1w0IDsts21H2-7-pLKSiO-0Q"} sogned {} eyJhbGciOiJIUzI1NiJ9.ImQzZjBhZmU3N2EwNTQyY2M3ZjNlNTM1Yzk2MTNhNTYyNDBjMzE5ZjVjYWZkYmZkNjEzMDZhMmEyNmJmNmZjYTUi.g7h-4loTDHk0hEE91nz1w0IDsts21H2-7-pLKSiO-0Q
-[2026-03-03T04:15:31.921Z] ---string vefity--
+[2026-03-05T21:49:51.670Z] reciedtuiyui
+[2026-03-05T21:49:51.671Z] ------
 
-[2026-03-03T04:15:32.164Z] {"access_id":"d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5","session_id":"13e21315c012208afe2481473cacaf861cf3e26c2688ae9daa7592d895563620"} upd saup virg data 13e21315c012208afe2481473cacaf861cf3e26c2688ae9daa7592d895563620 "d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5"
-[2026-03-03T04:15:32.165Z] compare refrsh 13e21315c012208afe2481473cacaf861cf3e26c2688ae9daa7592d895563620 vs 13e21315c012208afe2481473cacaf861cf3e26c2688ae9daa7592d895563620
-[2026-03-03T04:15:32.165Z] d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5 access vs "d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5"
-[2026-03-03T04:15:32.179Z] success with session v: undefined "d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5" 7063407a-9317-49c2-8ce8-0f280f1c15f4
-[2026-03-03T04:15:32.231Z] coks {"refreshToken":"eyJhbGciOiJIUzI1NiJ9.eyJ0b2tlbiI6IjEzZTIxMzE1YzAxMjIwOGFmZTI0ODE0NzNjYWNhZjg2MWNmM2UyNmMyNjg4YWU5ZGFhNzU5MmQ4OTU1NjM2MjAiLCJpZCI6IjcwNjM0MDdhLTkzMTctNDljMi04Y2U4LTBmMjgwZjFjMTVmNCJ9._1ZfH_1FmU3qjGZRMaFYQRNz8T7jrtOPb5ZLLvPJeWE","accessToken":"eyJhbGciOiJIUzI1NiJ9.ImQzZjBhZmU3N2EwNTQyY2M3ZjNlNTM1Yzk2MTNhNTYyNDBjMzE5ZjVjYWZkYmZkNjEzMDZhMmEyNmJmNmZjYTUi.g7h-4loTDHk0hEE91nz1w0IDsts21H2-7-pLKSiO-0Q"}
-[2026-03-03T04:15:32.234Z] coks {"refreshToken":"eyJhbGciOiJIUzI1NiJ9.eyJ0b2tlbiI6IjEzZTIxMzE1YzAxMjIwOGFmZTI0ODE0NzNjYWNhZjg2MWNmM2UyNmMyNjg4YWU5ZGFhNzU5MmQ4OTU1NjM2MjAiLCJpZCI6IjcwNjM0MDdhLTkzMTctNDljMi04Y2U4LTBmMjgwZjFjMTVmNCJ9._1ZfH_1FmU3qjGZRMaFYQRNz8T7jrtOPb5ZLLvPJeWE","accessToken":"eyJhbGciOiJIUzI1NiJ9.ImQzZjBhZmU3N2EwNTQyY2M3ZjNlNTM1Yzk2MTNhNTYyNDBjMzE5ZjVjYWZkYmZkNjEzMDZhMmEyNmJmNmZjYTUi.g7h-4loTDHk0hEE91nz1w0IDsts21H2-7-pLKSiO-0Q"} eyJhbGciOiJIUzI1NiJ9.eyJ0b2tlbiI6IjEzZTIxMzE1YzAxMjIwOGFmZTI0ODE0NzNjYWNhZjg2MWNmM2UyNmMyNjg4YWU5ZGFhNzU5MmQ4OTU1NjM2MjAiLCJpZCI6IjcwNjM0MDdhLTkzMTctNDljMi04Y2U4LTBmMjgwZjFjMTVmNCJ9._1ZfH_1FmU3qjGZRMaFYQRNz8T7jrtOPb5ZLLvPJeWE rr
-[2026-03-03T04:15:32.245Z] {"token":"13e21315c012208afe2481473cacaf861cf3e26c2688ae9daa7592d895563620","id":"7063407a-9317-49c2-8ce8-0f280f1c15f4"} v now it is access "d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5"
-[2026-03-03T04:15:32.248Z] vtok {"token":"13e21315c012208afe2481473cacaf861cf3e26c2688ae9daa7592d895563620","id":"7063407a-9317-49c2-8ce8-0f280f1c15f4"} "d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5"
-[2026-03-03T04:15:32.357Z] supa data {"id":"7063407a-9317-49c2-8ce8-0f280f1c15f4","username":"mary.cramer@hotmail.ppp","created_at":"2026-01-25T02:47:25.465058+00:00","friends":[],"state_of_qs_answered":{},"modules_completed":null,"access_id":"d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5","session_id":"13e21315c012208afe2481473cacaf861cf3e26c2688ae9daa7592d895563620","email":"mary.cramer@hotmail.ppp","team_name":null,"online_quiz_data":[{"a":"{\"userConfig\":{\"username\":\"a\",\"roomId\":\"52ec204450.0afa\",\"xp\":0,\"status\":\"connected\",\"seatNum\":1,\"points\":0,\"teamId\":\"a91ukpb9u.prf\",\"teamName\":\"\"}}","xp":0,"points":0,"status":"finished","seatNum":1,"teamScore":0}],"xp":null,"league":null,"badges":null,"avatar":null,"role":null,"access_level":null,"profile_settings":null,"streak":null} refresh d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5
-[2026-03-03T04:15:32.363Z] refreash/refresh 13e21315c012208afe2481473cacaf861cf3e26c2688ae9daa7592d895563620 verus fromcok eyJhbGciOiJIUzI1NiJ9.ImQzZjBhZmU3N2EwNTQyY2M3ZjNlNTM1Yzk2MTNhNTYyNDBjMzE5ZjVjYWZkYmZkNjEzMDZhMmEyNmJmNmZjYTUi.g7h-4loTDHk0hEE91nz1w0IDsts21H2-7-pLKSiO-0Q false "d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5" vs d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5
-[2026-03-03T04:15:32.364Z] user b 
-[2026-03-03T04:15:32.364Z] success for dev 7063407a-9317-49c2-8ce8-0f280f1c15f4
-[2026-03-03T04:15:32.372Z] 
+msg  {"from":"a","to":"all_quizzes","date":1772747391609,"key":3,"payload":{"update":"quiz","question":{"wait":false},"username":"a"},"channel":"room:36044efa43.ffa2a"} 
+
+
+
+-------
+
+
+
+[2026-03-05T21:49:51.671Z] 
+<<---------publish------->>
+
+Publsihing {"from":"a","to":"all_quizzes","date":1772747391609,"key":3,"payload":{"update":"quiz","question":{"wait":false},"username":"a"},"channel":"room:36044efa43.ffa2a"} on channel room:36044efa43.ffa2a
+
+[2026-03-05T21:49:51.672Z] key room:36044efa43.ffa2a:questions valuse {"question":{"head":" Situation Question"}}
+[2026-03-05T21:49:51.798Z] 
+<<---------publish------->>
+
+Publsihing {"from":"a","to":"all_quizzes","date":1772747391736,"key":4,"payload":{"update":"quiz","question":{"head":" Situation Question"},"username":"a"},"channel":"room:36044efa43.ffa2a"} on channel room:36044efa43.ffa2a
+
+[2026-03-05T21:49:51.816Z] 
 ---------------
 ----
 
- {"payload":{"update":"profile","data":{"id":"","username":"mary.cramer@hotmail.ppp","created_at":"2026-01-25T02:47:25.465058+00:00","friends":[],"state_of_qs_answered":{},"modules_completed":null,"access_id":"d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5","session_id":"","email":"mary.cramer@hotmail.ppp","team_name":null,"online_quiz_data":[{"a":"{\"userConfig\":{\"username\":\"a\",\"roomId\":\"52ec204450.0afa\",\"xp\":0,\"status\":\"connected\",\"seatNum\":1,\"points\":0,\"teamId\":\"a91ukpb9u.prf\",\"teamName\":\"\"}}","xp":0,"points":0,"status":"finished","seatNum":1,"teamScore":0}],"xp":null,"league":null,"badges":null,"avatar":null,"role":null,"access_level":null,"profile_settings":null,"streak":null,"refresh_id":""}}} data being sent touser  b 
+ {"payload":{"update":"quiz","data":{"update":"quiz","question":{"head":" Situation Question"},"username":"a"}}} data being sent touser  a 
 
 -------
-[2026-03-03T04:15:32.434Z] sub to  user:b:req_id:* {}
-[2026-03-03T04:15:32.439Z] sub to  user:b:friend_reqs {}
-[2026-03-03T04:15:32.504Z] Client connected from: ::1
-[2026-03-03T04:15:34.290Z] Connection closed. Code: 1001, Reason: 
-[2026-03-03T04:15:34.444Z] unscribing  room:undefined
-[2026-03-03T04:15:34.508Z] Unsubscribed from pattern: room:undefined
-[2026-03-03T04:15:34.509Z] unscribing  user:b:req_id:*
-[2026-03-03T04:15:34.570Z] Unsubscribed from pattern: user:b:req_id:*
-[2026-03-03T04:15:34.570Z] unscribing  user:b:friend_reqs
-[2026-03-03T04:15:34.632Z] Unsubscribed from pattern: user:b:friend_reqs
-[2026-03-03T04:15:35.962Z] Connection closed. Code: 1001, Reason: 
-[2026-03-03T04:15:36.088Z] unscribing  room:undefined
-[2026-03-03T04:15:36.150Z] Unsubscribed from pattern: room:undefined
-[2026-03-03T04:15:36.150Z] unscribing  user:b:req_id:*
-[2026-03-03T04:15:36.214Z] Unsubscribed from pattern: user:b:req_id:*
-[2026-03-03T04:15:36.215Z] unscribing  user:b:friend_reqs
-[2026-03-03T04:15:36.276Z] Unsubscribed from pattern: user:b:friend_reqs
-[2026-03-03T04:15:37.856Z] Connection closed. Code: 1001, Reason: 
-[2026-03-03T04:15:38.000Z] unscribing  room:undefined
-[2026-03-03T04:15:38.062Z] Unsubscribed from pattern: room:undefined
-[2026-03-03T04:15:38.063Z] unscribing  user:b:req_id:*
-[2026-03-03T04:15:38.125Z] Unsubscribed from pattern: user:b:req_id:*
-[2026-03-03T04:15:38.128Z] unscribing  user:b:friend_reqs
-[2026-03-03T04:15:38.190Z] Unsubscribed from pattern: user:b:friend_reqs
-[2026-03-03T04:56:03.282Z] Connection closed. Code: 1006, Reason: 
-[2026-03-03T04:56:04.649Z] coks {"refreshToken":"eyJhbGciOiJIUzI1NiJ9.eyJ0b2tlbiI6IjEzZTIxMzE1YzAxMjIwOGFmZTI0ODE0NzNjYWNhZjg2MWNmM2UyNmMyNjg4YWU5ZGFhNzU5MmQ4OTU1NjM2MjAiLCJpZCI6IjcwNjM0MDdhLTkzMTctNDljMi04Y2U4LTBmMjgwZjFjMTVmNCJ9._1ZfH_1FmU3qjGZRMaFYQRNz8T7jrtOPb5ZLLvPJeWE","accessToken":"eyJhbGciOiJIUzI1NiJ9.ImQzZjBhZmU3N2EwNTQyY2M3ZjNlNTM1Yzk2MTNhNTYyNDBjMzE5ZjVjYWZkYmZkNjEzMDZhMmEyNmJmNmZjYTUi.g7h-4loTDHk0hEE91nz1w0IDsts21H2-7-pLKSiO-0Q"}
-[2026-03-03T04:56:04.662Z] coks {"refreshToken":"eyJhbGciOiJIUzI1NiJ9.eyJ0b2tlbiI6IjEzZTIxMzE1YzAxMjIwOGFmZTI0ODE0NzNjYWNhZjg2MWNmM2UyNmMyNjg4YWU5ZGFhNzU5MmQ4OTU1NjM2MjAiLCJpZCI6IjcwNjM0MDdhLTkzMTctNDljMi04Y2U4LTBmMjgwZjFjMTVmNCJ9._1ZfH_1FmU3qjGZRMaFYQRNz8T7jrtOPb5ZLLvPJeWE","accessToken":"eyJhbGciOiJIUzI1NiJ9.ImQzZjBhZmU3N2EwNTQyY2M3ZjNlNTM1Yzk2MTNhNTYyNDBjMzE5ZjVjYWZkYmZkNjEzMDZhMmEyNmJmNmZjYTUi.g7h-4loTDHk0hEE91nz1w0IDsts21H2-7-pLKSiO-0Q"} eyJhbGciOiJIUzI1NiJ9.eyJ0b2tlbiI6IjEzZTIxMzE1YzAxMjIwOGFmZTI0ODE0NzNjYWNhZjg2MWNmM2UyNmMyNjg4YWU5ZGFhNzU5MmQ4OTU1NjM2MjAiLCJpZCI6IjcwNjM0MDdhLTkzMTctNDljMi04Y2U4LTBmMjgwZjFjMTVmNCJ9._1ZfH_1FmU3qjGZRMaFYQRNz8T7jrtOPb5ZLLvPJeWE rr
-[2026-03-03T04:56:04.789Z] {"token":"13e21315c012208afe2481473cacaf861cf3e26c2688ae9daa7592d895563620","id":"7063407a-9317-49c2-8ce8-0f280f1c15f4"} v now it is access "d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5"
-[2026-03-03T04:56:04.799Z] vtok {"token":"13e21315c012208afe2481473cacaf861cf3e26c2688ae9daa7592d895563620","id":"7063407a-9317-49c2-8ce8-0f280f1c15f4"} "d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5"
-[2026-03-03T04:56:06.774Z] Connection closed. Code: 1001, Reason: 
-[2026-03-03T04:56:10.777Z] unscribing  room:undefined
-[2026-03-03T04:56:11.758Z] supa data {"id":"7063407a-9317-49c2-8ce8-0f280f1c15f4","username":"mary.cramer@hotmail.ppp","created_at":"2026-01-25T02:47:25.465058+00:00","friends":[],"state_of_qs_answered":{},"modules_completed":null,"access_id":"d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5","session_id":"13e21315c012208afe2481473cacaf861cf3e26c2688ae9daa7592d895563620","email":"mary.cramer@hotmail.ppp","team_name":null,"online_quiz_data":[{"a":"{\"userConfig\":{\"username\":\"a\",\"roomId\":\"52ec204450.0afa\",\"xp\":0,\"status\":\"connected\",\"seatNum\":1,\"points\":0,\"teamId\":\"a91ukpb9u.prf\",\"teamName\":\"\"}}","xp":0,"points":0,"status":"finished","seatNum":1,"teamScore":0}],"xp":null,"league":null,"badges":null,"avatar":null,"role":null,"access_level":null,"profile_settings":null,"streak":null} refresh d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5
-[2026-03-03T04:56:11.761Z] refreash/refresh 13e21315c012208afe2481473cacaf861cf3e26c2688ae9daa7592d895563620 verus fromcok eyJhbGciOiJIUzI1NiJ9.ImQzZjBhZmU3N2EwNTQyY2M3ZjNlNTM1Yzk2MTNhNTYyNDBjMzE5ZjVjYWZkYmZkNjEzMDZhMmEyNmJmNmZjYTUi.g7h-4loTDHk0hEE91nz1w0IDsts21H2-7-pLKSiO-0Q false "d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5" vs d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5
-[2026-03-03T04:56:11.762Z] user a 
-[2026-03-03T04:56:11.762Z] success for dev 7063407a-9317-49c2-8ce8-0f280f1c15f4
-[2026-03-03T04:56:11.773Z] 
+[2026-03-05T21:49:51.816Z] reciedtuiyui
+[2026-03-05T21:49:51.816Z] ------
+
+msg  {"from":"a","to":"all_quizzes","date":1772747391736,"key":4,"payload":{"update":"quiz","question":{"head":" Situation Question"},"username":"a"},"channel":"room:36044efa43.ffa2a"} 
+
+
+
+-------
+
+
+
+[2026-03-05T21:49:53.818Z] swiching status  * to waiting for jumps from the user tar none
+[2026-03-05T21:49:53.948Z] status  a connected data {"a":"connected"}
+[2026-03-05T21:49:54.236Z] key room:36044efa43.ffa2a valuse {"status":{"a":"waiting for jumps from the user","target":false,"oldStatus":"*"}}
+[2026-03-05T21:49:54.301Z] 
+<<---------publish------->>
+
+Publsihing {"from":"a","to":"all_quizzes","date":1772747394237,"key":5,"payload":{"update":"quiz","status":{"a":"waiting for jumps from the user","target":false,"oldStatus":"*"},"username":"a"},"channel":"room:36044efa43.ffa2a"} on channel room:36044efa43.ffa2a
+
+[2026-03-05T21:49:54.304Z] 
 ---------------
 ----
 
- {"payload":{"update":"profile","data":{"id":"","username":"mary.cramer@hotmail.ppp","created_at":"2026-01-25T02:47:25.465058+00:00","friends":[],"state_of_qs_answered":{},"modules_completed":null,"access_id":"d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5","session_id":"","email":"mary.cramer@hotmail.ppp","team_name":null,"online_quiz_data":[{"a":"{\"userConfig\":{\"username\":\"a\",\"roomId\":\"52ec204450.0afa\",\"xp\":0,\"status\":\"connected\",\"seatNum\":1,\"points\":0,\"teamId\":\"a91ukpb9u.prf\",\"teamName\":\"\"}}","xp":0,"points":0,"status":"finished","seatNum":1,"teamScore":0}],"xp":null,"league":null,"badges":null,"avatar":null,"role":null,"access_level":null,"profile_settings":null,"streak":null,"refresh_id":""}}} data being sent touser  a 
+ {"payload":{"update":"quiz","data":{"update":"quiz","status":{"a":"waiting for jumps from the user","target":false,"oldStatus":"*"},"username":"a"}}} data being sent touser  a 
 
 -------
-[2026-03-03T04:56:11.816Z] Unsubscribed from pattern: room:undefined
-[2026-03-03T04:56:11.821Z] unscribing  user:a:req_id:*
-[2026-03-03T04:56:11.845Z] sub to  user:a:req_id:* {}
-[2026-03-03T04:56:11.870Z] sub to  user:a:friend_reqs {}
-[2026-03-03T04:56:11.928Z] Unsubscribed from pattern: user:a:req_id:*
-[2026-03-03T04:56:11.929Z] unscribing  user:a:friend_reqs
-[2026-03-03T04:56:12.004Z] Unsubscribed from pattern: user:a:friend_reqs
-[2026-03-03T04:56:12.010Z] Client connected from: ::1
-[2026-03-03T04:56:16.289Z] --session apemt-- {"refreshToken":"eyJhbGciOiJIUzI1NiJ9.eyJ0b2tlbiI6IjEzZTIxMzE1YzAxMjIwOGFmZTI0ODE0NzNjYWNhZjg2MWNmM2UyNmMyNjg4YWU5ZGFhNzU5MmQ4OTU1NjM2MjAiLCJpZCI6IjcwNjM0MDdhLTkzMTctNDljMi04Y2U4LTBmMjgwZjFjMTVmNCJ9._1ZfH_1FmU3qjGZRMaFYQRNz8T7jrtOPb5ZLLvPJeWE","accessToken":"eyJhbGciOiJIUzI1NiJ9.ImQzZjBhZmU3N2EwNTQyY2M3ZjNlNTM1Yzk2MTNhNTYyNDBjMzE5ZjVjYWZkYmZkNjEzMDZhMmEyNmJmNmZjYTUi.g7h-4loTDHk0hEE91nz1w0IDsts21H2-7-pLKSiO-0Q"} sogned {} eyJhbGciOiJIUzI1NiJ9.ImQzZjBhZmU3N2EwNTQyY2M3ZjNlNTM1Yzk2MTNhNTYyNDBjMzE5ZjVjYWZkYmZkNjEzMDZhMmEyNmJmNmZjYTUi.g7h-4loTDHk0hEE91nz1w0IDsts21H2-7-pLKSiO-0Q
-[2026-03-03T04:56:16.534Z] ---string vefity--
+[2026-03-05T21:49:54.306Z] reciedtuiyui
+[2026-03-05T21:49:54.307Z] ------
 
-[2026-03-03T04:56:16.973Z] {"access_id":"d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5","session_id":"13e21315c012208afe2481473cacaf861cf3e26c2688ae9daa7592d895563620"} upd saup virg data 13e21315c012208afe2481473cacaf861cf3e26c2688ae9daa7592d895563620 "d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5"
-[2026-03-03T04:56:16.973Z] compare refrsh 13e21315c012208afe2481473cacaf861cf3e26c2688ae9daa7592d895563620 vs 13e21315c012208afe2481473cacaf861cf3e26c2688ae9daa7592d895563620
-[2026-03-03T04:56:16.973Z] d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5 access vs "d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5"
-[2026-03-03T04:56:17.004Z] success with session v: undefined "d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5" 7063407a-9317-49c2-8ce8-0f280f1c15f4
-[2026-03-03T04:56:17.278Z] coks {"refreshToken":"eyJhbGciOiJIUzI1NiJ9.eyJ0b2tlbiI6IjEzZTIxMzE1YzAxMjIwOGFmZTI0ODE0NzNjYWNhZjg2MWNmM2UyNmMyNjg4YWU5ZGFhNzU5MmQ4OTU1NjM2MjAiLCJpZCI6IjcwNjM0MDdhLTkzMTctNDljMi04Y2U4LTBmMjgwZjFjMTVmNCJ9._1ZfH_1FmU3qjGZRMaFYQRNz8T7jrtOPb5ZLLvPJeWE","accessToken":"eyJhbGciOiJIUzI1NiJ9.ImQzZjBhZmU3N2EwNTQyY2M3ZjNlNTM1Yzk2MTNhNTYyNDBjMzE5ZjVjYWZkYmZkNjEzMDZhMmEyNmJmNmZjYTUi.g7h-4loTDHk0hEE91nz1w0IDsts21H2-7-pLKSiO-0Q"}
-[2026-03-03T04:56:17.279Z] coks {"refreshToken":"eyJhbGciOiJIUzI1NiJ9.eyJ0b2tlbiI6IjEzZTIxMzE1YzAxMjIwOGFmZTI0ODE0NzNjYWNhZjg2MWNmM2UyNmMyNjg4YWU5ZGFhNzU5MmQ4OTU1NjM2MjAiLCJpZCI6IjcwNjM0MDdhLTkzMTctNDljMi04Y2U4LTBmMjgwZjFjMTVmNCJ9._1ZfH_1FmU3qjGZRMaFYQRNz8T7jrtOPb5ZLLvPJeWE","accessToken":"eyJhbGciOiJIUzI1NiJ9.ImQzZjBhZmU3N2EwNTQyY2M3ZjNlNTM1Yzk2MTNhNTYyNDBjMzE5ZjVjYWZkYmZkNjEzMDZhMmEyNmJmNmZjYTUi.g7h-4loTDHk0hEE91nz1w0IDsts21H2-7-pLKSiO-0Q"} eyJhbGciOiJIUzI1NiJ9.eyJ0b2tlbiI6IjEzZTIxMzE1YzAxMjIwOGFmZTI0ODE0NzNjYWNhZjg2MWNmM2UyNmMyNjg4YWU5ZGFhNzU5MmQ4OTU1NjM2MjAiLCJpZCI6IjcwNjM0MDdhLTkzMTctNDljMi04Y2U4LTBmMjgwZjFjMTVmNCJ9._1ZfH_1FmU3qjGZRMaFYQRNz8T7jrtOPb5ZLLvPJeWE rr
-[2026-03-03T04:56:17.327Z] {"token":"13e21315c012208afe2481473cacaf861cf3e26c2688ae9daa7592d895563620","id":"7063407a-9317-49c2-8ce8-0f280f1c15f4"} v now it is access "d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5"
-[2026-03-03T04:56:17.337Z] vtok {"token":"13e21315c012208afe2481473cacaf861cf3e26c2688ae9daa7592d895563620","id":"7063407a-9317-49c2-8ce8-0f280f1c15f4"} "d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5"
-[2026-03-03T04:56:17.666Z] supa data {"id":"7063407a-9317-49c2-8ce8-0f280f1c15f4","username":"mary.cramer@hotmail.ppp","created_at":"2026-01-25T02:47:25.465058+00:00","friends":[],"state_of_qs_answered":{},"modules_completed":null,"access_id":"d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5","session_id":"13e21315c012208afe2481473cacaf861cf3e26c2688ae9daa7592d895563620","email":"mary.cramer@hotmail.ppp","team_name":null,"online_quiz_data":[{"a":"{\"userConfig\":{\"username\":\"a\",\"roomId\":\"52ec204450.0afa\",\"xp\":0,\"status\":\"connected\",\"seatNum\":1,\"points\":0,\"teamId\":\"a91ukpb9u.prf\",\"teamName\":\"\"}}","xp":0,"points":0,"status":"finished","seatNum":1,"teamScore":0}],"xp":null,"league":null,"badges":null,"avatar":null,"role":null,"access_level":null,"profile_settings":null,"streak":null} refresh d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5
-[2026-03-03T04:56:17.668Z] refreash/refresh 13e21315c012208afe2481473cacaf861cf3e26c2688ae9daa7592d895563620 verus fromcok eyJhbGciOiJIUzI1NiJ9.ImQzZjBhZmU3N2EwNTQyY2M3ZjNlNTM1Yzk2MTNhNTYyNDBjMzE5ZjVjYWZkYmZkNjEzMDZhMmEyNmJmNmZjYTUi.g7h-4loTDHk0hEE91nz1w0IDsts21H2-7-pLKSiO-0Q false "d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5" vs d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5
-[2026-03-03T04:56:17.706Z] user b 
-[2026-03-03T04:56:17.706Z] success for dev 7063407a-9317-49c2-8ce8-0f280f1c15f4
-[2026-03-03T04:56:17.748Z] 
+msg  {"from":"a","to":"all_quizzes","date":1772747394237,"key":5,"payload":{"update":"quiz","status":{"a":"waiting for jumps from the user","target":false,"oldStatus":"*"},"username":"a"},"channel":"room:36044efa43.ffa2a"} 
+
+
+
+-------
+
+
+
+[2026-03-05T21:50:03.977Z] Who said it and to whom was it said, "Far beeei  rrom you,LLrrd! hhss shll  eeeer appen to you" testquesthodderr&&&&&
+[2026-03-05T21:50:04.519Z] swiching status  * to users waiting for next question tar none
+[2026-03-05T21:50:04.586Z] status  a waiting for jumps from the user data {"a":"waiting for jumps from the user"}
+[2026-03-05T21:50:04.660Z] key room:36044efa43.ffa2a valuse {"status":{"a":"users waiting for next question","target":false,"oldStatus":"*"}}
+[2026-03-05T21:50:04.785Z] 
+<<---------publish------->>
+
+Publsihing {"from":"a","to":"all_quizzes","date":1772747404661,"key":6,"payload":{"update":"quiz","status":{"a":"users waiting for next question","target":false,"oldStatus":"*"},"username":"a"},"channel":"room:36044efa43.ffa2a"} on channel room:36044efa43.ffa2a
+
+[2026-03-05T21:50:04.847Z] 
 ---------------
 ----
 
- {"payload":{"update":"profile","data":{"id":"","username":"mary.cramer@hotmail.ppp","created_at":"2026-01-25T02:47:25.465058+00:00","friends":[],"state_of_qs_answered":{},"modules_completed":null,"access_id":"d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5","session_id":"","email":"mary.cramer@hotmail.ppp","team_name":null,"online_quiz_data":[{"a":"{\"userConfig\":{\"username\":\"a\",\"roomId\":\"52ec204450.0afa\",\"xp\":0,\"status\":\"connected\",\"seatNum\":1,\"points\":0,\"teamId\":\"a91ukpb9u.prf\",\"teamName\":\"\"}}","xp":0,"points":0,"status":"finished","seatNum":1,"teamScore":0}],"xp":null,"league":null,"badges":null,"avatar":null,"role":null,"access_level":null,"profile_settings":null,"streak":null,"refresh_id":""}}} data being sent touser  b 
+ {"payload":{"update":"quiz","data":{"update":"quiz","status":{"a":"users waiting for next question","target":false,"oldStatus":"*"},"username":"a"}}} data being sent touser  a 
 
 -------
-[2026-03-03T04:56:17.830Z] sub to  user:b:req_id:* {}
-[2026-03-03T04:56:17.883Z] sub to  user:b:friend_reqs {}
-[2026-03-03T04:56:18.043Z] Client connected from: ::1
-[2026-03-03T04:57:11.912Z] conn closed because inactive too long (id:a
-[2026-03-03T05:09:29.520Z] Connection closed. Code: 1001, Reason: 
-[2026-03-03T05:09:31.009Z] unscribing  room:undefined
-[2026-03-03T05:09:31.239Z] Unsubscribed from pattern: room:undefined
-[2026-03-03T05:09:31.280Z] unscribing  user:b:req_id:*
-[2026-03-03T05:09:31.397Z] Unsubscribed from pattern: user:b:req_id:*
-[2026-03-03T05:09:31.397Z] unscribing  user:b:friend_reqs
-[2026-03-03T05:09:31.600Z] Unsubscribed from pattern: user:b:friend_reqs
-[2026-03-03T05:09:46.286Z] --session apemt-- {"refreshToken":"eyJhbGciOiJIUzI1NiJ9.eyJ0b2tlbiI6IjEzZTIxMzE1YzAxMjIwOGFmZTI0ODE0NzNjYWNhZjg2MWNmM2UyNmMyNjg4YWU5ZGFhNzU5MmQ4OTU1NjM2MjAiLCJpZCI6IjcwNjM0MDdhLTkzMTctNDljMi04Y2U4LTBmMjgwZjFjMTVmNCJ9._1ZfH_1FmU3qjGZRMaFYQRNz8T7jrtOPb5ZLLvPJeWE","accessToken":"eyJhbGciOiJIUzI1NiJ9.ImQzZjBhZmU3N2EwNTQyY2M3ZjNlNTM1Yzk2MTNhNTYyNDBjMzE5ZjVjYWZkYmZkNjEzMDZhMmEyNmJmNmZjYTUi.g7h-4loTDHk0hEE91nz1w0IDsts21H2-7-pLKSiO-0Q"} sogned {} eyJhbGciOiJIUzI1NiJ9.ImQzZjBhZmU3N2EwNTQyY2M3ZjNlNTM1Yzk2MTNhNTYyNDBjMzE5ZjVjYWZkYmZkNjEzMDZhMmEyNmJmNmZjYTUi.g7h-4loTDHk0hEE91nz1w0IDsts21H2-7-pLKSiO-0Q
-[2026-03-03T05:09:46.689Z] ---string vefity--
+[2026-03-05T21:50:04.850Z] reciedtuiyui
+[2026-03-05T21:50:04.850Z] ------
 
-[2026-03-03T05:09:47.709Z] {"access_id":"d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5","session_id":"13e21315c012208afe2481473cacaf861cf3e26c2688ae9daa7592d895563620"} upd saup virg data 13e21315c012208afe2481473cacaf861cf3e26c2688ae9daa7592d895563620 "d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5"
-[2026-03-03T05:09:47.720Z] compare refrsh 13e21315c012208afe2481473cacaf861cf3e26c2688ae9daa7592d895563620 vs 13e21315c012208afe2481473cacaf861cf3e26c2688ae9daa7592d895563620
-[2026-03-03T05:09:47.736Z] d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5 access vs "d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5"
-[2026-03-03T05:09:47.749Z] success with session v: undefined "d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5" 7063407a-9317-49c2-8ce8-0f280f1c15f4
-[2026-03-03T05:09:48.180Z] coks {"refreshToken":"eyJhbGciOiJIUzI1NiJ9.eyJ0b2tlbiI6IjEzZTIxMzE1YzAxMjIwOGFmZTI0ODE0NzNjYWNhZjg2MWNmM2UyNmMyNjg4YWU5ZGFhNzU5MmQ4OTU1NjM2MjAiLCJpZCI6IjcwNjM0MDdhLTkzMTctNDljMi04Y2U4LTBmMjgwZjFjMTVmNCJ9._1ZfH_1FmU3qjGZRMaFYQRNz8T7jrtOPb5ZLLvPJeWE","accessToken":"eyJhbGciOiJIUzI1NiJ9.ImQzZjBhZmU3N2EwNTQyY2M3ZjNlNTM1Yzk2MTNhNTYyNDBjMzE5ZjVjYWZkYmZkNjEzMDZhMmEyNmJmNmZjYTUi.g7h-4loTDHk0hEE91nz1w0IDsts21H2-7-pLKSiO-0Q"}
-[2026-03-03T05:09:48.190Z] coks {"refreshToken":"eyJhbGciOiJIUzI1NiJ9.eyJ0b2tlbiI6IjEzZTIxMzE1YzAxMjIwOGFmZTI0ODE0NzNjYWNhZjg2MWNmM2UyNmMyNjg4YWU5ZGFhNzU5MmQ4OTU1NjM2MjAiLCJpZCI6IjcwNjM0MDdhLTkzMTctNDljMi04Y2U4LTBmMjgwZjFjMTVmNCJ9._1ZfH_1FmU3qjGZRMaFYQRNz8T7jrtOPb5ZLLvPJeWE","accessToken":"eyJhbGciOiJIUzI1NiJ9.ImQzZjBhZmU3N2EwNTQyY2M3ZjNlNTM1Yzk2MTNhNTYyNDBjMzE5ZjVjYWZkYmZkNjEzMDZhMmEyNmJmNmZjYTUi.g7h-4loTDHk0hEE91nz1w0IDsts21H2-7-pLKSiO-0Q"} eyJhbGciOiJIUzI1NiJ9.eyJ0b2tlbiI6IjEzZTIxMzE1YzAxMjIwOGFmZTI0ODE0NzNjYWNhZjg2MWNmM2UyNmMyNjg4YWU5ZGFhNzU5MmQ4OTU1NjM2MjAiLCJpZCI6IjcwNjM0MDdhLTkzMTctNDljMi04Y2U4LTBmMjgwZjFjMTVmNCJ9._1ZfH_1FmU3qjGZRMaFYQRNz8T7jrtOPb5ZLLvPJeWE rr
-[2026-03-03T05:09:48.256Z] {"token":"13e21315c012208afe2481473cacaf861cf3e26c2688ae9daa7592d895563620","id":"7063407a-9317-49c2-8ce8-0f280f1c15f4"} v now it is access "d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5"
-[2026-03-03T05:09:48.264Z] vtok {"token":"13e21315c012208afe2481473cacaf861cf3e26c2688ae9daa7592d895563620","id":"7063407a-9317-49c2-8ce8-0f280f1c15f4"} "d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5"
-[2026-03-03T05:09:48.341Z] supa data {"id":"7063407a-9317-49c2-8ce8-0f280f1c15f4","username":"mary.cramer@hotmail.ppp","created_at":"2026-01-25T02:47:25.465058+00:00","friends":[],"state_of_qs_answered":{},"modules_completed":null,"access_id":"d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5","session_id":"13e21315c012208afe2481473cacaf861cf3e26c2688ae9daa7592d895563620","email":"mary.cramer@hotmail.ppp","team_name":null,"online_quiz_data":[{"a":"{\"userConfig\":{\"username\":\"a\",\"roomId\":\"52ec204450.0afa\",\"xp\":0,\"status\":\"connected\",\"seatNum\":1,\"points\":0,\"teamId\":\"a91ukpb9u.prf\",\"teamName\":\"\"}}","xp":0,"points":0,"status":"finished","seatNum":1,"teamScore":0}],"xp":null,"league":null,"badges":null,"avatar":null,"role":null,"access_level":null,"profile_settings":null,"streak":null} refresh d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5
-[2026-03-03T05:09:48.342Z] refreash/refresh 13e21315c012208afe2481473cacaf861cf3e26c2688ae9daa7592d895563620 verus fromcok eyJhbGciOiJIUzI1NiJ9.ImQzZjBhZmU3N2EwNTQyY2M3ZjNlNTM1Yzk2MTNhNTYyNDBjMzE5ZjVjYWZkYmZkNjEzMDZhMmEyNmJmNmZjYTUi.g7h-4loTDHk0hEE91nz1w0IDsts21H2-7-pLKSiO-0Q false "d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5" vs d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5
-[2026-03-03T05:09:48.342Z] user b 
-[2026-03-03T05:09:48.342Z] success for dev 7063407a-9317-49c2-8ce8-0f280f1c15f4
-[2026-03-03T05:09:48.353Z] 
+msg  {"from":"a","to":"all_quizzes","date":1772747404661,"key":6,"payload":{"update":"quiz","status":{"a":"users waiting for next question","target":false,"oldStatus":"*"},"username":"a"},"channel":"room:36044efa43.ffa2a"} 
+
+
+
+-------
+
+
+
+[2026-03-05T21:50:10.245Z] swiching status  * to users waiting for next question tar none
+[2026-03-05T21:50:10.363Z] status  a users waiting for next question data {"a":"users waiting for next question"}
+[2026-03-05T21:50:10.447Z] key room:36044efa43.ffa2a valuse {"status":{"a":"users waiting for next question","target":false,"oldStatus":"*"}}
+[2026-03-05T21:50:10.527Z] 
+<<---------publish------->>
+
+Publsihing {"from":"a","to":"all_quizzes","date":1772747410448,"key":7,"payload":{"update":"quiz","status":{"a":"users waiting for next question","target":false,"oldStatus":"*"},"username":"a"},"channel":"room:36044efa43.ffa2a"} on channel room:36044efa43.ffa2a
+
+[2026-03-05T21:50:10.537Z] 
 ---------------
 ----
 
- {"payload":{"update":"profile","data":{"id":"","username":"mary.cramer@hotmail.ppp","created_at":"2026-01-25T02:47:25.465058+00:00","friends":[],"state_of_qs_answered":{},"modules_completed":null,"access_id":"d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5","session_id":"","email":"mary.cramer@hotmail.ppp","team_name":null,"online_quiz_data":[{"a":"{\"userConfig\":{\"username\":\"a\",\"roomId\":\"52ec204450.0afa\",\"xp\":0,\"status\":\"connected\",\"seatNum\":1,\"points\":0,\"teamId\":\"a91ukpb9u.prf\",\"teamName\":\"\"}}","xp":0,"points":0,"status":"finished","seatNum":1,"teamScore":0}],"xp":null,"league":null,"badges":null,"avatar":null,"role":null,"access_level":null,"profile_settings":null,"streak":null,"refresh_id":""}}} data being sent touser  b 
+ {"payload":{"update":"quiz","data":{"update":"quiz","status":{"a":"users waiting for next question","target":false,"oldStatus":"*"},"username":"a"}}} data being sent touser  a 
 
 -------
-[2026-03-03T05:09:48.424Z] sub to  user:b:req_id:* {}
-[2026-03-03T05:09:48.483Z] sub to  user:b:friend_reqs {}
-[2026-03-03T05:09:48.577Z] Client connected from: ::1
-[2026-03-03T05:10:12.041Z] Connection closed. Code: 1001, Reason: 
-[2026-03-03T05:10:12.314Z] unscribing  room:undefined
-[2026-03-03T05:10:12.400Z] Unsubscribed from pattern: room:undefined
-[2026-03-03T05:10:12.469Z] unscribing  user:b:req_id:*
-[2026-03-03T05:10:12.565Z] Unsubscribed from pattern: user:b:req_id:*
-[2026-03-03T05:10:12.565Z] unscribing  user:b:friend_reqs
-[2026-03-03T05:10:12.630Z] Unsubscribed from pattern: user:b:friend_reqs
-[2026-03-03T05:10:20.431Z] --session apemt-- {"refreshToken":"eyJhbGciOiJIUzI1NiJ9.eyJ0b2tlbiI6IjEzZTIxMzE1YzAxMjIwOGFmZTI0ODE0NzNjYWNhZjg2MWNmM2UyNmMyNjg4YWU5ZGFhNzU5MmQ4OTU1NjM2MjAiLCJpZCI6IjcwNjM0MDdhLTkzMTctNDljMi04Y2U4LTBmMjgwZjFjMTVmNCJ9._1ZfH_1FmU3qjGZRMaFYQRNz8T7jrtOPb5ZLLvPJeWE","accessToken":"eyJhbGciOiJIUzI1NiJ9.ImQzZjBhZmU3N2EwNTQyY2M3ZjNlNTM1Yzk2MTNhNTYyNDBjMzE5ZjVjYWZkYmZkNjEzMDZhMmEyNmJmNmZjYTUi.g7h-4loTDHk0hEE91nz1w0IDsts21H2-7-pLKSiO-0Q"} sogned {} eyJhbGciOiJIUzI1NiJ9.ImQzZjBhZmU3N2EwNTQyY2M3ZjNlNTM1Yzk2MTNhNTYyNDBjMzE5ZjVjYWZkYmZkNjEzMDZhMmEyNmJmNmZjYTUi.g7h-4loTDHk0hEE91nz1w0IDsts21H2-7-pLKSiO-0Q
-[2026-03-03T05:10:20.605Z] ---string vefity--
+[2026-03-05T21:50:10.537Z] reciedtuiyui
+[2026-03-05T21:50:10.537Z] ------
 
-[2026-03-03T05:10:20.890Z] {"access_id":"d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5","session_id":"13e21315c012208afe2481473cacaf861cf3e26c2688ae9daa7592d895563620"} upd saup virg data 13e21315c012208afe2481473cacaf861cf3e26c2688ae9daa7592d895563620 "d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5"
-[2026-03-03T05:10:20.890Z] compare refrsh 13e21315c012208afe2481473cacaf861cf3e26c2688ae9daa7592d895563620 vs 13e21315c012208afe2481473cacaf861cf3e26c2688ae9daa7592d895563620
-[2026-03-03T05:10:20.892Z] d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5 access vs "d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5"
-[2026-03-03T05:10:20.895Z] success with session v: undefined "d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5" 7063407a-9317-49c2-8ce8-0f280f1c15f4
-[2026-03-03T05:10:21.829Z] coks {"refreshToken":"eyJhbGciOiJIUzI1NiJ9.eyJ0b2tlbiI6IjEzZTIxMzE1YzAxMjIwOGFmZTI0ODE0NzNjYWNhZjg2MWNmM2UyNmMyNjg4YWU5ZGFhNzU5MmQ4OTU1NjM2MjAiLCJpZCI6IjcwNjM0MDdhLTkzMTctNDljMi04Y2U4LTBmMjgwZjFjMTVmNCJ9._1ZfH_1FmU3qjGZRMaFYQRNz8T7jrtOPb5ZLLvPJeWE","accessToken":"eyJhbGciOiJIUzI1NiJ9.ImQzZjBhZmU3N2EwNTQyY2M3ZjNlNTM1Yzk2MTNhNTYyNDBjMzE5ZjVjYWZkYmZkNjEzMDZhMmEyNmJmNmZjYTUi.g7h-4loTDHk0hEE91nz1w0IDsts21H2-7-pLKSiO-0Q"}
-[2026-03-03T05:10:21.830Z] coks {"refreshToken":"eyJhbGciOiJIUzI1NiJ9.eyJ0b2tlbiI6IjEzZTIxMzE1YzAxMjIwOGFmZTI0ODE0NzNjYWNhZjg2MWNmM2UyNmMyNjg4YWU5ZGFhNzU5MmQ4OTU1NjM2MjAiLCJpZCI6IjcwNjM0MDdhLTkzMTctNDljMi04Y2U4LTBmMjgwZjFjMTVmNCJ9._1ZfH_1FmU3qjGZRMaFYQRNz8T7jrtOPb5ZLLvPJeWE","accessToken":"eyJhbGciOiJIUzI1NiJ9.ImQzZjBhZmU3N2EwNTQyY2M3ZjNlNTM1Yzk2MTNhNTYyNDBjMzE5ZjVjYWZkYmZkNjEzMDZhMmEyNmJmNmZjYTUi.g7h-4loTDHk0hEE91nz1w0IDsts21H2-7-pLKSiO-0Q"} eyJhbGciOiJIUzI1NiJ9.eyJ0b2tlbiI6IjEzZTIxMzE1YzAxMjIwOGFmZTI0ODE0NzNjYWNhZjg2MWNmM2UyNmMyNjg4YWU5ZGFhNzU5MmQ4OTU1NjM2MjAiLCJpZCI6IjcwNjM0MDdhLTkzMTctNDljMi04Y2U4LTBmMjgwZjFjMTVmNCJ9._1ZfH_1FmU3qjGZRMaFYQRNz8T7jrtOPb5ZLLvPJeWE rr
-[2026-03-03T05:10:21.845Z] {"token":"13e21315c012208afe2481473cacaf861cf3e26c2688ae9daa7592d895563620","id":"7063407a-9317-49c2-8ce8-0f280f1c15f4"} v now it is access "d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5"
-[2026-03-03T05:10:21.856Z] vtok {"token":"13e21315c012208afe2481473cacaf861cf3e26c2688ae9daa7592d895563620","id":"7063407a-9317-49c2-8ce8-0f280f1c15f4"} "d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5"
-[2026-03-03T05:10:22.031Z] supa data {"id":"7063407a-9317-49c2-8ce8-0f280f1c15f4","username":"mary.cramer@hotmail.ppp","created_at":"2026-01-25T02:47:25.465058+00:00","friends":[],"state_of_qs_answered":{},"modules_completed":null,"access_id":"d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5","session_id":"13e21315c012208afe2481473cacaf861cf3e26c2688ae9daa7592d895563620","email":"mary.cramer@hotmail.ppp","team_name":null,"online_quiz_data":[{"a":"{\"userConfig\":{\"username\":\"a\",\"roomId\":\"52ec204450.0afa\",\"xp\":0,\"status\":\"connected\",\"seatNum\":1,\"points\":0,\"teamId\":\"a91ukpb9u.prf\",\"teamName\":\"\"}}","xp":0,"points":0,"status":"finished","seatNum":1,"teamScore":0}],"xp":null,"league":null,"badges":null,"avatar":null,"role":null,"access_level":null,"profile_settings":null,"streak":null} refresh d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5
-[2026-03-03T05:10:22.032Z] refreash/refresh 13e21315c012208afe2481473cacaf861cf3e26c2688ae9daa7592d895563620 verus fromcok eyJhbGciOiJIUzI1NiJ9.ImQzZjBhZmU3N2EwNTQyY2M3ZjNlNTM1Yzk2MTNhNTYyNDBjMzE5ZjVjYWZkYmZkNjEzMDZhMmEyNmJmNmZjYTUi.g7h-4loTDHk0hEE91nz1w0IDsts21H2-7-pLKSiO-0Q false "d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5" vs d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5
-[2026-03-03T05:10:22.032Z] user b 
-[2026-03-03T05:10:22.032Z] success for dev 7063407a-9317-49c2-8ce8-0f280f1c15f4
-[2026-03-03T05:10:22.067Z] 
+msg  {"from":"a","to":"all_quizzes","date":1772747410448,"key":7,"payload":{"update":"quiz","status":{"a":"users waiting for next question","target":false,"oldStatus":"*"},"username":"a"},"channel":"room:36044efa43.ffa2a"} 
+
+
+
+-------
+
+
+
+[2026-03-05T21:50:13.544Z] key room:36044efa43.ffa2a:questions valuse {"question":{"wait":true}}
+[2026-03-05T21:50:13.673Z] 
+<<---------publish------->>
+
+Publsihing {"from":"a","to":"all_quizzes","date":1772747413613,"key":8,"payload":{"update":"quiz","question":{"wait":true},"username":"a"},"channel":"room:36044efa43.ffa2a"} on channel room:36044efa43.ffa2a
+
+[2026-03-05T21:50:13.674Z] 
 ---------------
 ----
 
- {"payload":{"update":"profile","data":{"id":"","username":"mary.cramer@hotmail.ppp","created_at":"2026-01-25T02:47:25.465058+00:00","friends":[],"state_of_qs_answered":{},"modules_completed":null,"access_id":"d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5","session_id":"","email":"mary.cramer@hotmail.ppp","team_name":null,"online_quiz_data":[{"a":"{\"userConfig\":{\"username\":\"a\",\"roomId\":\"52ec204450.0afa\",\"xp\":0,\"status\":\"connected\",\"seatNum\":1,\"points\":0,\"teamId\":\"a91ukpb9u.prf\",\"teamName\":\"\"}}","xp":0,"points":0,"status":"finished","seatNum":1,"teamScore":0}],"xp":null,"league":null,"badges":null,"avatar":null,"role":null,"access_level":null,"profile_settings":null,"streak":null,"refresh_id":""}}} data being sent touser  b 
+ {"payload":{"update":"quiz","data":{"update":"quiz","question":{"wait":true},"username":"a"}}} data being sent touser  a 
 
 -------
-[2026-03-03T05:10:22.107Z] sub to  user:b:req_id:* {}
-[2026-03-03T05:10:22.152Z] sub to  user:b:friend_reqs {}
-[2026-03-03T05:10:22.227Z] Client connected from: ::1
-[2026-03-03T13:17:54.120Z] Connection closed. Code: 1006, Reason: 
-[2026-03-03T13:18:00.156Z] coks {"refreshToken":"eyJhbGciOiJIUzI1NiJ9.eyJ0b2tlbiI6IjEzZTIxMzE1YzAxMjIwOGFmZTI0ODE0NzNjYWNhZjg2MWNmM2UyNmMyNjg4YWU5ZGFhNzU5MmQ4OTU1NjM2MjAiLCJpZCI6IjcwNjM0MDdhLTkzMTctNDljMi04Y2U4LTBmMjgwZjFjMTVmNCJ9._1ZfH_1FmU3qjGZRMaFYQRNz8T7jrtOPb5ZLLvPJeWE","accessToken":"eyJhbGciOiJIUzI1NiJ9.ImQzZjBhZmU3N2EwNTQyY2M3ZjNlNTM1Yzk2MTNhNTYyNDBjMzE5ZjVjYWZkYmZkNjEzMDZhMmEyNmJmNmZjYTUi.g7h-4loTDHk0hEE91nz1w0IDsts21H2-7-pLKSiO-0Q"}
-[2026-03-03T13:18:00.157Z] coks {"refreshToken":"eyJhbGciOiJIUzI1NiJ9.eyJ0b2tlbiI6IjEzZTIxMzE1YzAxMjIwOGFmZTI0ODE0NzNjYWNhZjg2MWNmM2UyNmMyNjg4YWU5ZGFhNzU5MmQ4OTU1NjM2MjAiLCJpZCI6IjcwNjM0MDdhLTkzMTctNDljMi04Y2U4LTBmMjgwZjFjMTVmNCJ9._1ZfH_1FmU3qjGZRMaFYQRNz8T7jrtOPb5ZLLvPJeWE","accessToken":"eyJhbGciOiJIUzI1NiJ9.ImQzZjBhZmU3N2EwNTQyY2M3ZjNlNTM1Yzk2MTNhNTYyNDBjMzE5ZjVjYWZkYmZkNjEzMDZhMmEyNmJmNmZjYTUi.g7h-4loTDHk0hEE91nz1w0IDsts21H2-7-pLKSiO-0Q"} eyJhbGciOiJIUzI1NiJ9.eyJ0b2tlbiI6IjEzZTIxMzE1YzAxMjIwOGFmZTI0ODE0NzNjYWNhZjg2MWNmM2UyNmMyNjg4YWU5ZGFhNzU5MmQ4OTU1NjM2MjAiLCJpZCI6IjcwNjM0MDdhLTkzMTctNDljMi04Y2U4LTBmMjgwZjFjMTVmNCJ9._1ZfH_1FmU3qjGZRMaFYQRNz8T7jrtOPb5ZLLvPJeWE rr
-[2026-03-03T13:18:00.328Z] {"token":"13e21315c012208afe2481473cacaf861cf3e26c2688ae9daa7592d895563620","id":"7063407a-9317-49c2-8ce8-0f280f1c15f4"} v now it is access "d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5"
-[2026-03-03T13:18:00.328Z] vtok {"token":"13e21315c012208afe2481473cacaf861cf3e26c2688ae9daa7592d895563620","id":"7063407a-9317-49c2-8ce8-0f280f1c15f4"} "d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5"
-[2026-03-03T13:18:01.750Z] unscribing  room:undefined
-[2026-03-03T13:18:03.678Z] supa data {"id":"7063407a-9317-49c2-8ce8-0f280f1c15f4","username":"mary.cramer@hotmail.ppp","created_at":"2026-01-25T02:47:25.465058+00:00","friends":[],"state_of_qs_answered":{},"modules_completed":null,"access_id":"d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5","session_id":"13e21315c012208afe2481473cacaf861cf3e26c2688ae9daa7592d895563620","email":"mary.cramer@hotmail.ppp","team_name":null,"online_quiz_data":[{"a":"{\"userConfig\":{\"username\":\"a\",\"roomId\":\"52ec204450.0afa\",\"xp\":0,\"status\":\"connected\",\"seatNum\":1,\"points\":0,\"teamId\":\"a91ukpb9u.prf\",\"teamName\":\"\"}}","xp":0,"points":0,"status":"finished","seatNum":1,"teamScore":0}],"xp":null,"league":null,"badges":null,"avatar":null,"role":null,"access_level":null,"profile_settings":null,"streak":null} refresh d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5
-[2026-03-03T13:18:03.678Z] refreash/refresh 13e21315c012208afe2481473cacaf861cf3e26c2688ae9daa7592d895563620 verus fromcok eyJhbGciOiJIUzI1NiJ9.ImQzZjBhZmU3N2EwNTQyY2M3ZjNlNTM1Yzk2MTNhNTYyNDBjMzE5ZjVjYWZkYmZkNjEzMDZhMmEyNmJmNmZjYTUi.g7h-4loTDHk0hEE91nz1w0IDsts21H2-7-pLKSiO-0Q false "d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5" vs d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5
-[2026-03-03T13:18:03.689Z] user b 
-[2026-03-03T13:18:03.689Z] success for dev 7063407a-9317-49c2-8ce8-0f280f1c15f4
-[2026-03-03T13:18:03.920Z] 
+[2026-03-05T21:50:13.674Z] reciedtuiyui
+[2026-03-05T21:50:13.674Z] ------
+
+msg  {"from":"a","to":"all_quizzes","date":1772747413613,"key":8,"payload":{"update":"quiz","question":{"wait":true},"username":"a"},"channel":"room:36044efa43.ffa2a"} 
+
+
+
+-------
+
+
+
+[2026-03-05T21:50:17.732Z]  13 14 Matthew 16:12 {"flight":"B","verse":"Then they understood that he did not tell them to beware of the leaven of bread, but of the teaching of the Pharisees and Sadducees.","ref":"Matthew 16:12","month":"february","type":"quote","numVerses":1,"chapter":"16","id":1198,"book":"Matthew","trigs":{"february":[1,5,null],"march":[1,8,null]},"answer":"Then they understood that he did not tell them to beware of the leaven of bread, but of the teaching of the Pharisees and Sadducees.","question":"ftv/quote"} 56660
+[2026-03-05T21:50:17.733Z] key room:36044efa43.ffa2a:questions valuse {"question":{"wait":false}}
+[2026-03-05T21:50:17.873Z] 
+<<---------publish------->>
+
+Publsihing {"from":"a","to":"all_quizzes","date":1772747417806,"key":9,"payload":{"update":"quiz","question":{"wait":false},"username":"a"},"channel":"room:36044efa43.ffa2a"} on channel room:36044efa43.ffa2a
+
+[2026-03-05T21:50:17.875Z] key room:36044efa43.ffa2a:questions valuse {"question":{"head":"1 Verse Quote"}}
+[2026-03-05T21:50:17.883Z] 
 ---------------
 ----
 
- {"payload":{"update":"profile","data":{"id":"","username":"mary.cramer@hotmail.ppp","created_at":"2026-01-25T02:47:25.465058+00:00","friends":[],"state_of_qs_answered":{},"modules_completed":null,"access_id":"d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5","session_id":"","email":"mary.cramer@hotmail.ppp","team_name":null,"online_quiz_data":[{"a":"{\"userConfig\":{\"username\":\"a\",\"roomId\":\"52ec204450.0afa\",\"xp\":0,\"status\":\"connected\",\"seatNum\":1,\"points\":0,\"teamId\":\"a91ukpb9u.prf\",\"teamName\":\"\"}}","xp":0,"points":0,"status":"finished","seatNum":1,"teamScore":0}],"xp":null,"league":null,"badges":null,"avatar":null,"role":null,"access_level":null,"profile_settings":null,"streak":null,"refresh_id":""}}} data being sent touser  b 
+ {"payload":{"update":"quiz","data":{"update":"quiz","question":{"wait":false},"username":"a"}}} data being sent touser  a 
 
 -------
-[2026-03-03T13:18:04.106Z] sub to  user:b:req_id:* {}
-[2026-03-03T13:18:04.171Z] sub to  user:b:friend_reqs {}
-[2026-03-03T13:18:04.508Z] Client connected from: ::1
-[2026-03-03T13:18:05.349Z] Unsubscribed from pattern: room:undefined
-[2026-03-03T13:18:05.350Z] unscribing  user:b:req_id:*
-[2026-03-03T13:18:05.417Z] Unsubscribed from pattern: user:b:req_id:*
-[2026-03-03T13:18:05.418Z] unscribing  user:b:friend_reqs
-[2026-03-03T13:18:05.493Z] Unsubscribed from pattern: user:b:friend_reqs
-[2026-03-03T13:18:07.360Z] Connection closed. Code: 1001, Reason: 
-[2026-03-03T13:18:07.725Z] unscribing  room:undefined
-[2026-03-03T13:18:07.803Z] Unsubscribed from pattern: room:undefined
-[2026-03-03T13:18:07.816Z] unscribing  user:b:req_id:*
-[2026-03-03T13:18:07.961Z] Unsubscribed from pattern: user:b:req_id:*
-[2026-03-03T13:18:07.963Z] unscribing  user:b:friend_reqs
-[2026-03-03T13:18:08.105Z] Unsubscribed from pattern: user:b:friend_reqs
-[2026-03-03T13:18:27.501Z] --session apemt-- {"refreshToken":"eyJhbGciOiJIUzI1NiJ9.eyJ0b2tlbiI6IjEzZTIxMzE1YzAxMjIwOGFmZTI0ODE0NzNjYWNhZjg2MWNmM2UyNmMyNjg4YWU5ZGFhNzU5MmQ4OTU1NjM2MjAiLCJpZCI6IjcwNjM0MDdhLTkzMTctNDljMi04Y2U4LTBmMjgwZjFjMTVmNCJ9._1ZfH_1FmU3qjGZRMaFYQRNz8T7jrtOPb5ZLLvPJeWE","accessToken":"eyJhbGciOiJIUzI1NiJ9.ImQzZjBhZmU3N2EwNTQyY2M3ZjNlNTM1Yzk2MTNhNTYyNDBjMzE5ZjVjYWZkYmZkNjEzMDZhMmEyNmJmNmZjYTUi.g7h-4loTDHk0hEE91nz1w0IDsts21H2-7-pLKSiO-0Q"} sogned {} eyJhbGciOiJIUzI1NiJ9.ImQzZjBhZmU3N2EwNTQyY2M3ZjNlNTM1Yzk2MTNhNTYyNDBjMzE5ZjVjYWZkYmZkNjEzMDZhMmEyNmJmNmZjYTUi.g7h-4loTDHk0hEE91nz1w0IDsts21H2-7-pLKSiO-0Q
-[2026-03-03T13:18:27.701Z] ---string vefity--
+[2026-03-05T21:50:17.883Z] reciedtuiyui
+[2026-03-05T21:50:17.892Z] ------
 
-[2026-03-03T13:18:28.276Z] {"access_id":"d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5","session_id":"13e21315c012208afe2481473cacaf861cf3e26c2688ae9daa7592d895563620"} upd saup virg data 13e21315c012208afe2481473cacaf861cf3e26c2688ae9daa7592d895563620 "d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5"
-[2026-03-03T13:18:28.312Z] compare refrsh 13e21315c012208afe2481473cacaf861cf3e26c2688ae9daa7592d895563620 vs 13e21315c012208afe2481473cacaf861cf3e26c2688ae9daa7592d895563620
-[2026-03-03T13:18:28.312Z] d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5 access vs "d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5"
-[2026-03-03T13:18:28.431Z] success with session v: undefined "d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5" 7063407a-9317-49c2-8ce8-0f280f1c15f4
-[2026-03-03T13:18:30.022Z] coks {"refreshToken":"eyJhbGciOiJIUzI1NiJ9.eyJ0b2tlbiI6IjEzZTIxMzE1YzAxMjIwOGFmZTI0ODE0NzNjYWNhZjg2MWNmM2UyNmMyNjg4YWU5ZGFhNzU5MmQ4OTU1NjM2MjAiLCJpZCI6IjcwNjM0MDdhLTkzMTctNDljMi04Y2U4LTBmMjgwZjFjMTVmNCJ9._1ZfH_1FmU3qjGZRMaFYQRNz8T7jrtOPb5ZLLvPJeWE","accessToken":"eyJhbGciOiJIUzI1NiJ9.ImQzZjBhZmU3N2EwNTQyY2M3ZjNlNTM1Yzk2MTNhNTYyNDBjMzE5ZjVjYWZkYmZkNjEzMDZhMmEyNmJmNmZjYTUi.g7h-4loTDHk0hEE91nz1w0IDsts21H2-7-pLKSiO-0Q"}
-[2026-03-03T13:18:30.030Z] coks {"refreshToken":"eyJhbGciOiJIUzI1NiJ9.eyJ0b2tlbiI6IjEzZTIxMzE1YzAxMjIwOGFmZTI0ODE0NzNjYWNhZjg2MWNmM2UyNmMyNjg4YWU5ZGFhNzU5MmQ4OTU1NjM2MjAiLCJpZCI6IjcwNjM0MDdhLTkzMTctNDljMi04Y2U4LTBmMjgwZjFjMTVmNCJ9._1ZfH_1FmU3qjGZRMaFYQRNz8T7jrtOPb5ZLLvPJeWE","accessToken":"eyJhbGciOiJIUzI1NiJ9.ImQzZjBhZmU3N2EwNTQyY2M3ZjNlNTM1Yzk2MTNhNTYyNDBjMzE5ZjVjYWZkYmZkNjEzMDZhMmEyNmJmNmZjYTUi.g7h-4loTDHk0hEE91nz1w0IDsts21H2-7-pLKSiO-0Q"} eyJhbGciOiJIUzI1NiJ9.eyJ0b2tlbiI6IjEzZTIxMzE1YzAxMjIwOGFmZTI0ODE0NzNjYWNhZjg2MWNmM2UyNmMyNjg4YWU5ZGFhNzU5MmQ4OTU1NjM2MjAiLCJpZCI6IjcwNjM0MDdhLTkzMTctNDljMi04Y2U4LTBmMjgwZjFjMTVmNCJ9._1ZfH_1FmU3qjGZRMaFYQRNz8T7jrtOPb5ZLLvPJeWE rr
-[2026-03-03T13:18:30.211Z] {"token":"13e21315c012208afe2481473cacaf861cf3e26c2688ae9daa7592d895563620","id":"7063407a-9317-49c2-8ce8-0f280f1c15f4"} v now it is access "d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5"
-[2026-03-03T13:18:30.251Z] vtok {"token":"13e21315c012208afe2481473cacaf861cf3e26c2688ae9daa7592d895563620","id":"7063407a-9317-49c2-8ce8-0f280f1c15f4"} "d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5"
-[2026-03-03T13:18:30.653Z] supa data {"id":"7063407a-9317-49c2-8ce8-0f280f1c15f4","username":"mary.cramer@hotmail.ppp","created_at":"2026-01-25T02:47:25.465058+00:00","friends":[],"state_of_qs_answered":{},"modules_completed":null,"access_id":"d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5","session_id":"13e21315c012208afe2481473cacaf861cf3e26c2688ae9daa7592d895563620","email":"mary.cramer@hotmail.ppp","team_name":null,"online_quiz_data":[{"a":"{\"userConfig\":{\"username\":\"a\",\"roomId\":\"52ec204450.0afa\",\"xp\":0,\"status\":\"connected\",\"seatNum\":1,\"points\":0,\"teamId\":\"a91ukpb9u.prf\",\"teamName\":\"\"}}","xp":0,"points":0,"status":"finished","seatNum":1,"teamScore":0}],"xp":null,"league":null,"badges":null,"avatar":null,"role":null,"access_level":null,"profile_settings":null,"streak":null} refresh d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5
-[2026-03-03T13:18:30.662Z] refreash/refresh 13e21315c012208afe2481473cacaf861cf3e26c2688ae9daa7592d895563620 verus fromcok eyJhbGciOiJIUzI1NiJ9.ImQzZjBhZmU3N2EwNTQyY2M3ZjNlNTM1Yzk2MTNhNTYyNDBjMzE5ZjVjYWZkYmZkNjEzMDZhMmEyNmJmNmZjYTUi.g7h-4loTDHk0hEE91nz1w0IDsts21H2-7-pLKSiO-0Q false "d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5" vs d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5
-[2026-03-03T13:18:30.663Z] user b 
-[2026-03-03T13:18:30.664Z] success for dev 7063407a-9317-49c2-8ce8-0f280f1c15f4
-[2026-03-03T13:18:30.705Z] 
+msg  {"from":"a","to":"all_quizzes","date":1772747417806,"key":9,"payload":{"update":"quiz","question":{"wait":false},"username":"a"},"channel":"room:36044efa43.ffa2a"} 
+
+
+
+-------
+
+
+
+[2026-03-05T21:50:18.001Z] 
+<<---------publish------->>
+
+Publsihing {"from":"a","to":"all_quizzes","date":1772747417938,"key":10,"payload":{"update":"quiz","question":{"head":"1 Verse Quote"},"username":"a"},"channel":"room:36044efa43.ffa2a"} on channel room:36044efa43.ffa2a
+
+[2026-03-05T21:50:18.003Z] 
 ---------------
 ----
 
- {"payload":{"update":"profile","data":{"id":"","username":"mary.cramer@hotmail.ppp","created_at":"2026-01-25T02:47:25.465058+00:00","friends":[],"state_of_qs_answered":{},"modules_completed":null,"access_id":"d3f0afe77a0542cc7f3e535c9613a56240c319f5cafdbfd61306a2a26bf6fca5","session_id":"","email":"mary.cramer@hotmail.ppp","team_name":null,"online_quiz_data":[{"a":"{\"userConfig\":{\"username\":\"a\",\"roomId\":\"52ec204450.0afa\",\"xp\":0,\"status\":\"connected\",\"seatNum\":1,\"points\":0,\"teamId\":\"a91ukpb9u.prf\",\"teamName\":\"\"}}","xp":0,"points":0,"status":"finished","seatNum":1,"teamScore":0}],"xp":null,"league":null,"badges":null,"avatar":null,"role":null,"access_level":null,"profile_settings":null,"streak":null,"refresh_id":""}}} data being sent touser  b 
+ {"payload":{"update":"quiz","data":{"update":"quiz","question":{"head":"1 Verse Quote"},"username":"a"}}} data being sent touser  a 
 
 -------
-[2026-03-03T13:18:30.781Z] sub to  user:b:req_id:* {}
-[2026-03-03T13:18:30.782Z] sub to  user:b:friend_reqs {}
-[2026-03-03T13:18:30.877Z] Client connected from: ::1
+[2026-03-05T21:50:18.006Z] reciedtuiyui
+[2026-03-05T21:50:18.007Z] ------
+
+msg  {"from":"a","to":"all_quizzes","date":1772747417938,"key":10,"payload":{"update":"quiz","question":{"head":"1 Verse Quote"},"username":"a"},"channel":"room:36044efa43.ffa2a"} 
+
+
+
+-------
+
+
+
+[2026-03-05T21:50:20.004Z] swiching status  * to waiting for jumps from the user tar none
+[2026-03-05T21:50:20.074Z] status  a users waiting for next question data {"a":"users waiting for next question"}
+[2026-03-05T21:50:20.158Z] key room:36044efa43.ffa2a valuse {"status":{"a":"waiting for jumps from the user","target":false,"oldStatus":"*"}}
+[2026-03-05T21:50:20.221Z] 
+<<---------publish------->>
+
+Publsihing {"from":"a","to":"all_quizzes","date":1772747420158,"key":11,"payload":{"update":"quiz","status":{"a":"waiting for jumps from the user","target":false,"oldStatus":"*"},"username":"a"},"channel":"room:36044efa43.ffa2a"} on channel room:36044efa43.ffa2a
+
+[2026-03-05T21:50:20.369Z] 
+---------------
+----
+
+ {"payload":{"update":"quiz","data":{"update":"quiz","status":{"a":"waiting for jumps from the user","target":false,"oldStatus":"*"},"username":"a"}}} data being sent touser  a 
+
+-------
+[2026-03-05T21:50:20.380Z] reciedtuiyui
+[2026-03-05T21:50:20.381Z] ------
+
+msg  {"from":"a","to":"all_quizzes","date":1772747420158,"key":11,"payload":{"update":"quiz","status":{"a":"waiting for jumps from the user","target":false,"oldStatus":"*"},"username":"a"},"channel":"room:36044efa43.ffa2a"} 
+
+
+
+-------
+
+
+
+[2026-03-05T21:50:21.657Z] Matthew 16:12 testquesthodderr&&&&&
+[2026-03-05T21:50:27.421Z] swiching status  * to users waiting for next question tar none
+[2026-03-05T21:50:27.484Z] status  a waiting for jumps from the user data {"a":"waiting for jumps from the user"}
+[2026-03-05T21:50:27.553Z] key room:36044efa43.ffa2a valuse {"status":{"a":"users waiting for next question","target":false,"oldStatus":"*"}}
+[2026-03-05T21:50:27.622Z] 
+<<---------publish------->>
+
+Publsihing {"from":"a","to":"all_quizzes","date":1772747427554,"key":12,"payload":{"update":"quiz","status":{"a":"users waiting for next question","target":false,"oldStatus":"*"},"username":"a"},"channel":"room:36044efa43.ffa2a"} on channel room:36044efa43.ffa2a
+
+[2026-03-05T21:50:27.751Z] 
+---------------
+----
+
+ {"payload":{"update":"quiz","data":{"update":"quiz","status":{"a":"users waiting for next question","target":false,"oldStatus":"*"},"username":"a"}}} data being sent touser  a 
+
+-------
+[2026-03-05T21:50:27.752Z] reciedtuiyui
+[2026-03-05T21:50:27.754Z] ------
+
+msg  {"from":"a","to":"all_quizzes","date":1772747427554,"key":12,"payload":{"update":"quiz","status":{"a":"users waiting for next question","target":false,"oldStatus":"*"},"username":"a"},"channel":"room:36044efa43.ffa2a"} 
+
+
+
+-------
+
+
+
+[2026-03-05T21:50:30.791Z] key room:36044efa43.ffa2a:questions valuse {"question":{"wait":true}}
+[2026-03-05T21:50:30.923Z] 
+<<---------publish------->>
+
+Publsihing {"from":"a","to":"all_quizzes","date":1772747430860,"key":13,"payload":{"update":"quiz","question":{"wait":true},"username":"a"},"channel":"room:36044efa43.ffa2a"} on channel room:36044efa43.ffa2a
+
+[2026-03-05T21:50:30.925Z] 
+---------------
+----
+
+ {"payload":{"update":"quiz","data":{"update":"quiz","question":{"wait":true},"username":"a"}}} data being sent touser  a 
+
+-------
+[2026-03-05T21:50:30.934Z] reciedtuiyui
+[2026-03-05T21:50:30.945Z] ------
+
+msg  {"from":"a","to":"all_quizzes","date":1772747430860,"key":13,"payload":{"update":"quiz","question":{"wait":true},"username":"a"},"channel":"room:36044efa43.ffa2a"} 
+
+
+
+-------
+
+
+
+[2026-03-05T21:50:34.979Z]  34 35 Who healed every disease and every affliction {"flight":"B","verse":"Who healed every disease and every affliction? Jesus","ref":"Matthew 9:35","month":"november","type":"question","chapter":"9","id":456,"book":"Matthew","trigs":{"november":[-1,-1],"december":[-1,-1],"january":[-1,-1],"february":[-1,-1],"march":[-1,-1]},"answer":" Jesus","question":"Who healed every disease and every affliction"} -1
+[2026-03-05T21:50:34.987Z] key room:36044efa43.ffa2a:questions valuse {"question":{"wait":false}}
+[2026-03-05T21:50:35.141Z] 
+<<---------publish------->>
+
+Publsihing {"from":"a","to":"all_quizzes","date":1772747435077,"key":14,"payload":{"update":"quiz","question":{"wait":false},"username":"a"},"channel":"room:36044efa43.ffa2a"} on channel room:36044efa43.ffa2a
+
+[2026-03-05T21:50:35.150Z] key room:36044efa43.ffa2a:questions valuse {"question":{"head":" Question"}}
+[2026-03-05T21:50:35.156Z] 
+---------------
+----
+
+ {"payload":{"update":"quiz","data":{"update":"quiz","question":{"wait":false},"username":"a"}}} data being sent touser  a 
+
+-------
+[2026-03-05T21:50:35.158Z] reciedtuiyui
+[2026-03-05T21:50:35.162Z] ------
+
+msg  {"from":"a","to":"all_quizzes","date":1772747435077,"key":14,"payload":{"update":"quiz","question":{"wait":false},"username":"a"},"channel":"room:36044efa43.ffa2a"} 
+
+
+
+-------
+
+
+
+[2026-03-05T21:50:35.277Z] 
+---------------
+----
+
+ {"payload":{"update":"quiz","data":{"update":"quiz","question":{"head":" Question"},"username":"a"}}} data being sent touser  a 
+
+-------
+[2026-03-05T21:50:35.277Z] reciedtuiyui
+[2026-03-05T21:50:35.279Z] ------
+
+msg  {"from":"a","to":"all_quizzes","date":1772747435213,"key":15,"payload":{"update":"quiz","question":{"head":" Question"},"username":"a"},"channel":"room:36044efa43.ffa2a"} 
+
+
+
+-------
+
+
+
+[2026-03-05T21:50:35.291Z] 
+<<---------publish------->>
+
+Publsihing {"from":"a","to":"all_quizzes","date":1772747435213,"key":15,"payload":{"update":"quiz","question":{"head":" Question"},"username":"a"},"channel":"room:36044efa43.ffa2a"} on channel room:36044efa43.ffa2a
+
+[2026-03-05T21:50:37.295Z] swiching status  * to waiting for jumps from the user tar none
+[2026-03-05T21:50:37.407Z] status  a users waiting for next question data {"a":"users waiting for next question"}
+[2026-03-05T21:50:37.481Z] key room:36044efa43.ffa2a valuse {"status":{"a":"waiting for jumps from the user","target":false,"oldStatus":"*"}}
+[2026-03-05T21:50:37.812Z] 
+---------------
+----
+
+ {"payload":{"update":"quiz","data":{"update":"quiz","status":{"a":"waiting for jumps from the user","target":false,"oldStatus":"*"},"username":"a"}}} data being sent touser  a 
+
+-------
+[2026-03-05T21:50:37.812Z] reciedtuiyui
+[2026-03-05T21:50:37.813Z] ------
+
+msg  {"from":"a","to":"all_quizzes","date":1772747437485,"key":16,"payload":{"update":"quiz","status":{"a":"waiting for jumps from the user","target":false,"oldStatus":"*"},"username":"a"},"channel":"room:36044efa43.ffa2a"} 
+
+
+
+-------
+
+
+
+[2026-03-05T21:50:37.848Z] 
+<<---------publish------->>
+
+Publsihing {"from":"a","to":"all_quizzes","date":1772747437485,"key":16,"payload":{"update":"quiz","status":{"a":"waiting for jumps from the user","target":false,"oldStatus":"*"},"username":"a"},"channel":"room:36044efa43.ffa2a"} on channel room:36044efa43.ffa2a
+
+[2026-03-05T21:50:42.462Z] Who healld every disease and every affliccion testquesthodderr&&&&&
+[2026-03-05T21:50:48.227Z] swiching status  * to users waiting for next question tar none
+[2026-03-05T21:50:49.086Z] status  a waiting for jumps from the user data {"a":"waiting for jumps from the user"}
+[2026-03-05T21:50:50.126Z] key room:36044efa43.ffa2a valuse {"status":{"a":"users waiting for next question","target":false,"oldStatus":"*"}}
+[2026-03-05T21:50:51.391Z] 
+<<---------publish------->>
+
+Publsihing {"from":"a","to":"all_quizzes","date":1772747451177,"key":17,"payload":{"update":"quiz","status":{"a":"users waiting for next question","target":false,"oldStatus":"*"},"username":"a"},"channel":"room:36044efa43.ffa2a"} on channel room:36044efa43.ffa2a
+
+[2026-03-05T21:50:52.602Z] 
+---------------
+----
+
+ {"payload":{"update":"quiz","data":{"update":"quiz","status":{"a":"users waiting for next question","target":false,"oldStatus":"*"},"username":"a"}}} data being sent touser  a 
+
+-------
+[2026-03-05T21:50:52.602Z] reciedtuiyui
+[2026-03-05T21:50:52.602Z] ------
+
+msg  {"from":"a","to":"all_quizzes","date":1772747451177,"key":17,"payload":{"update":"quiz","status":{"a":"users waiting for next question","target":false,"oldStatus":"*"},"username":"a"},"channel":"room:36044efa43.ffa2a"} 
+
+
+
+-------
+
+
+
+[2026-03-05T21:50:56.730Z] key room:36044efa43.ffa2a:questions valuse {"question":{"wait":true}}
+[2026-03-05T21:50:57.475Z] 
+<<---------publish------->>
+
+Publsihing {"from":"a","to":"all_quizzes","date":1772747457146,"key":18,"payload":{"update":"quiz","question":{"wait":true},"username":"a"},"channel":"room:36044efa43.ffa2a"} on channel room:36044efa43.ffa2a
+
+[2026-03-05T21:50:57.592Z] 
+---------------
+----
+
+ {"payload":{"update":"quiz","data":{"update":"quiz","question":{"wait":true},"username":"a"}}} data being sent touser  a 
+
+-------
+[2026-03-05T21:50:57.593Z] reciedtuiyui
+[2026-03-05T21:50:57.594Z] ------
+
+msg  {"from":"a","to":"all_quizzes","date":1772747457146,"key":18,"payload":{"update":"quiz","question":{"wait":true},"username":"a"},"channel":"room:36044efa43.ffa2a"} 
+
+
+
+-------
+
+
+
+[2026-03-05T21:51:03.736Z] have 16 13 Without what have these twelve received {"flight":"C","verse":"Without what have these twelve received? Paying","ref":"Matthew 10:08","month":"december","type":"question","chapter":"10","id":477,"book":"Matthew","trigs":{"december":[0,4],"january":[2,13],"february":[2,13],"march":[2,13]},"answer":" Paying","question":"Without what have these twelve received"} 2
+[2026-03-05T21:51:07.041Z] key room:36044efa43.ffa2a:questions valuse {"question":{"wait":false}}
+[2026-03-05T21:51:08.456Z] 
+---------------
+----
+
+ {"payload":{"update":"quiz","data":{"update":"quiz","question":{"wait":false},"username":"a"}}} data being sent touser  a 
+
+-------
+[2026-03-05T21:51:08.562Z] reciedtuiyui
+[2026-03-05T21:51:08.562Z] ------
+
+msg  {"from":"a","to":"all_quizzes","date":1772747468046,"key":19,"payload":{"update":"quiz","question":{"wait":false},"username":"a"},"channel":"room:36044efa43.ffa2a"} 
+
+
+
+-------
+
+
+
+[2026-03-05T21:51:08.837Z] 
+<<---------publish------->>
+
+Publsihing {"from":"a","to":"all_quizzes","date":1772747468046,"key":19,"payload":{"update":"quiz","question":{"wait":false},"username":"a"},"channel":"room:36044efa43.ffa2a"} on channel room:36044efa43.ffa2a
+
+[2026-03-05T21:51:08.902Z] key room:36044efa43.ffa2a:questions valuse {"question":{"head":" Question"}}
+[2026-03-05T21:51:09.027Z] 
+---------------
+----
+
+ {"payload":{"update":"quiz","data":{"update":"quiz","question":{"head":" Question"},"username":"a"}}} data being sent touser  a 
+
+-------
+[2026-03-05T21:51:09.108Z] reciedtuiyui
+[2026-03-05T21:51:09.108Z] ------
+
+msg  {"from":"a","to":"all_quizzes","date":1772747468963,"key":20,"payload":{"update":"quiz","question":{"head":" Question"},"username":"a"},"channel":"room:36044efa43.ffa2a"} 
+
+
+
+-------
+
+
+
+[2026-03-05T21:51:09.109Z] 
+<<---------publish------->>
+
+Publsihing {"from":"a","to":"all_quizzes","date":1772747468963,"key":20,"payload":{"update":"quiz","question":{"head":" Question"},"username":"a"},"channel":"room:36044efa43.ffa2a"} on channel room:36044efa43.ffa2a
+
+[2026-03-05T21:51:12.879Z] swiching status  * to waiting for jumps from the user tar none
+[2026-03-05T21:51:14.054Z] status  a users waiting for next question data {"a":"users waiting for next question"}
+[2026-03-05T21:51:14.189Z] key room:36044efa43.ffa2a valuse {"status":{"a":"waiting for jumps from the user","target":false,"oldStatus":"*"}}
+[2026-03-05T21:51:14.631Z] 
+<<---------publish------->>
+
+Publsihing {"from":"a","to":"all_quizzes","date":1772747474189,"key":21,"payload":{"update":"quiz","status":{"a":"waiting for jumps from the user","target":false,"oldStatus":"*"},"username":"a"},"channel":"room:36044efa43.ffa2a"} on channel room:36044efa43.ffa2a
+
+[2026-03-05T21:51:15.096Z] 
+---------------
+----
+
+ {"payload":{"update":"quiz","data":{"update":"quiz","status":{"a":"waiting for jumps from the user","target":false,"oldStatus":"*"},"username":"a"}}} data being sent touser  a 
+
+-------
+[2026-03-05T21:51:15.119Z] reciedtuiyui
+[2026-03-05T21:51:15.120Z] ------
+
+msg  {"from":"a","to":"all_quizzes","date":1772747474189,"key":21,"payload":{"update":"quiz","status":{"a":"waiting for jumps from the user","target":false,"oldStatus":"*"},"username":"a"},"channel":"room:36044efa43.ffa2a"} 
+
+
+
+-------
+
+
+
+[2026-03-05T21:51:20.015Z] Wittout what have these twelvv received testquesthodderr&&&&&
+[2026-03-05T21:51:27.521Z] swiching status  * to users waiting for next question tar none
+[2026-03-05T21:51:28.439Z] status  a waiting for jumps from the user data {"a":"waiting for jumps from the user"}
+[2026-03-05T21:51:29.058Z] key room:36044efa43.ffa2a valuse {"status":{"a":"users waiting for next question","target":false,"oldStatus":"*"}}
+[2026-03-05T21:51:29.923Z] 
+<<---------publish------->>
+
+Publsihing {"from":"a","to":"all_quizzes","date":1772747489079,"key":22,"payload":{"update":"quiz","status":{"a":"users waiting for next question","target":false,"oldStatus":"*"},"username":"a"},"channel":"room:36044efa43.ffa2a"} on channel room:36044efa43.ffa2a
+
+[2026-03-05T21:51:30.448Z] 
+---------------
+----
+
+ {"payload":{"update":"quiz","data":{"update":"quiz","status":{"a":"users waiting for next question","target":false,"oldStatus":"*"},"username":"a"}}} data being sent touser  a 
+
+-------
+[2026-03-05T21:51:30.450Z] reciedtuiyui
+[2026-03-05T21:51:30.450Z] ------
+
+msg  {"from":"a","to":"all_quizzes","date":1772747489079,"key":22,"payload":{"update":"quiz","status":{"a":"users waiting for next question","target":false,"oldStatus":"*"},"username":"a"},"channel":"room:36044efa43.ffa2a"} 
+
+
+
+-------
+
+
+
+[2026-03-05T21:51:34.553Z] key room:36044efa43.ffa2a:questions valuse {"question":{"wait":true}}
+[2026-03-05T21:51:35.175Z] 
+<<---------publish------->>
+
+Publsihing {"from":"a","to":"all_quizzes","date":1772747494962,"key":23,"payload":{"update":"quiz","question":{"wait":true},"username":"a"},"channel":"room:36044efa43.ffa2a"} on channel room:36044efa43.ffa2a
+
+[2026-03-05T21:51:35.191Z] 
+---------------
+----
+
+ {"payload":{"update":"quiz","data":{"update":"quiz","question":{"wait":true},"username":"a"}}} data being sent touser  a 
+
+-------
+[2026-03-05T21:51:35.192Z] reciedtuiyui
+[2026-03-05T21:51:35.193Z] ------
+
+msg  {"from":"a","to":"all_quizzes","date":1772747494962,"key":23,"payload":{"update":"quiz","question":{"wait":true},"username":"a"},"channel":"room:36044efa43.ffa2a"} 
+
+
+
+-------
+
+
+
+[2026-03-05T21:51:41.340Z] herdsmen 20 13 When did the herdsmen flee {"flight":"T","verse":"When did the herdsmen flee? When the whole herd rushed down the steep bank into the sea","ref":"Matthew 8:32-33","month":"november","type":"question","chapter":"8","id":389,"book":"Matthew","trigs":{"november":[3,14],"december":[3,14],"january":[3,14],"february":[3,14],"march":[3,14]},"answer":" When the whole herd rushed down the steep bank into the sea","question":"When did the herdsmen flee"} 3
+[2026-03-05T21:51:41.483Z] key room:36044efa43.ffa2a:questions valuse {"question":{"wait":false}}
+[2026-03-05T21:51:41.917Z] 
+<<---------publish------->>
+
+Publsihing {"from":"a","to":"all_quizzes","date":1772747501854,"key":24,"payload":{"update":"quiz","question":{"wait":false},"username":"a"},"channel":"room:36044efa43.ffa2a"} on channel room:36044efa43.ffa2a
+
+[2026-03-05T21:51:42.271Z] key room:36044efa43.ffa2a:questions valuse {"question":{"head":" Question"}}
+[2026-03-05T21:51:42.317Z] 
+---------------
+----
+
+ {"payload":{"update":"quiz","data":{"update":"quiz","question":{"wait":false},"username":"a"}}} data being sent touser  a 
+
+-------
+[2026-03-05T21:51:42.318Z] reciedtuiyui
+[2026-03-05T21:51:42.318Z] ------
+
+msg  {"from":"a","to":"all_quizzes","date":1772747501854,"key":24,"payload":{"update":"quiz","question":{"wait":false},"username":"a"},"channel":"room:36044efa43.ffa2a"} 
+
+
+
+-------
+
+
+
+[2026-03-05T21:51:42.474Z] 
+<<---------publish------->>
+
+Publsihing {"from":"a","to":"all_quizzes","date":1772747502413,"key":25,"payload":{"update":"quiz","question":{"head":" Question"},"username":"a"},"channel":"room:36044efa43.ffa2a"} on channel room:36044efa43.ffa2a
+
+[2026-03-05T21:51:42.602Z] 
+---------------
+----
+
+ {"payload":{"update":"quiz","data":{"update":"quiz","question":{"head":" Question"},"username":"a"}}} data being sent touser  a 
+
+-------
+[2026-03-05T21:51:42.602Z] reciedtuiyui
+[2026-03-05T21:51:42.602Z] ------
+
+msg  {"from":"a","to":"all_quizzes","date":1772747502413,"key":25,"payload":{"update":"quiz","question":{"head":" Question"},"username":"a"},"channel":"room:36044efa43.ffa2a"} 
+
+
+
+-------
+
+
+
+[2026-03-05T21:51:45.427Z] swiching status  * to waiting for jumps from the user tar none
+[2026-03-05T21:51:45.972Z] status  a users waiting for next question data {"a":"users waiting for next question"}
+[2026-03-05T21:51:46.196Z] key room:36044efa43.ffa2a valuse {"status":{"a":"waiting for jumps from the user","target":false,"oldStatus":"*"}}
+[2026-03-05T21:51:46.435Z] 
+<<---------publish------->>
+
+Publsihing {"from":"a","to":"all_quizzes","date":1772747506235,"key":26,"payload":{"update":"quiz","status":{"a":"waiting for jumps from the user","target":false,"oldStatus":"*"},"username":"a"},"channel":"room:36044efa43.ffa2a"} on channel room:36044efa43.ffa2a
+
+[2026-03-05T21:51:46.557Z] 
+---------------
+----
+
+ {"payload":{"update":"quiz","data":{"update":"quiz","status":{"a":"waiting for jumps from the user","target":false,"oldStatus":"*"},"username":"a"}}} data being sent touser  a 
+
+-------
+[2026-03-05T21:51:46.634Z] reciedtuiyui
+[2026-03-05T21:51:46.664Z] ------
+
+msg  {"from":"a","to":"all_quizzes","date":1772747506235,"key":26,"payload":{"update":"quiz","status":{"a":"waiting for jumps from the user","target":false,"oldStatus":"*"},"username":"a"},"channel":"room:36044efa43.ffa2a"} 
+
+
+
+-------
+
+
+
+[2026-03-05T21:51:53.265Z] When did the herdsmenn lee testquesthodderr&&&&&
+[2026-03-05T21:52:04.825Z] swiching status  * to users waiting for next question tar none
+[2026-03-05T21:52:07.358Z] status  a waiting for jumps from the user data {"a":"waiting for jumps from the user"}
+[2026-03-05T21:52:09.772Z] key room:36044efa43.ffa2a valuse {"status":{"a":"users waiting for next question","target":false,"oldStatus":"*"}}
+[2026-03-05T21:52:10.844Z] 
+<<---------publish------->>
+
+Publsihing {"from":"a","to":"all_quizzes","date":1772747530299,"key":27,"payload":{"update":"quiz","status":{"a":"users waiting for next question","target":false,"oldStatus":"*"},"username":"a"},"channel":"room:36044efa43.ffa2a"} on channel room:36044efa43.ffa2a
+
+[2026-03-05T21:52:10.856Z] 
+---------------
+----
+
+ {"payload":{"update":"quiz","data":{"update":"quiz","status":{"a":"users waiting for next question","target":false,"oldStatus":"*"},"username":"a"}}} data being sent touser  a 
+
+-------
+[2026-03-05T21:52:10.856Z] reciedtuiyui
+[2026-03-05T21:52:10.856Z] ------
+
+msg  {"from":"a","to":"all_quizzes","date":1772747530299,"key":27,"payload":{"update":"quiz","status":{"a":"users waiting for next question","target":false,"oldStatus":"*"},"username":"a"},"channel":"room:36044efa43.ffa2a"} 
+
+
+
+-------
+
+
+
+[2026-03-05T21:52:15.327Z] key room:36044efa43.ffa2a:questions valuse {"question":{"wait":true}}
+[2026-03-05T21:52:18.028Z] 
+<<---------publish------->>
+
+Publsihing {"from":"a","to":"all_quizzes","date":1772747536980,"key":28,"payload":{"update":"quiz","question":{"wait":true},"username":"a"},"channel":"room:36044efa43.ffa2a"} on channel room:36044efa43.ffa2a
+
+[2026-03-05T21:52:20.165Z] 
+---------------
+----
+
+ {"payload":{"update":"quiz","data":{"update":"quiz","question":{"wait":true},"username":"a"}}} data being sent touser  a 
+
+-------
+[2026-03-05T21:52:20.167Z] reciedtuiyui
+[2026-03-05T21:52:20.212Z] ------
+
+msg  {"from":"a","to":"all_quizzes","date":1772747536980,"key":28,"payload":{"update":"quiz","question":{"wait":true},"username":"a"},"channel":"room:36044efa43.ffa2a"} 
+
+
+
+-------
+
+
+
+[2026-03-05T21:52:27.869Z]  9 10 ftv/quote {"flight":"A","verse":"An evil and adulterous generation seeks for a sign, but no sign will be given to it except the sign of Jonah.\" So he left them and departed.","ref":"Matthew 16:04","month":"february","type":"ftv","numVerses":1,"chapter":"16","id":1196,"book":"Matthew","trigs":{"february":[0,2,null],"march":[0,2,null]},"answer":"An evil and adulterous generation seeks for a sign, but no sign will be given to it except the sign of Jonah.\" So he left them and departed.","question":"ftv/quote"} 3000
+[2026-03-05T21:52:29.298Z] key room:36044efa43.ffa2a:questions valuse {"question":{"wait":false}}
+[2026-03-05T21:52:30.112Z] 
+<<---------publish------->>
+
+Publsihing {"from":"a","to":"all_quizzes","date":1772747550008,"key":29,"payload":{"update":"quiz","question":{"wait":false},"username":"a"},"channel":"room:36044efa43.ffa2a"} on channel room:36044efa43.ffa2a
+
+[2026-03-05T21:52:30.367Z] key room:36044efa43.ffa2a:questions valuse {"question":{"head":"1 Verse Ftv"}}
+[2026-03-05T21:52:30.369Z] 
+---------------
+----
+
+ {"payload":{"update":"quiz","data":{"update":"quiz","question":{"wait":false},"username":"a"}}} data being sent touser  a 
+
+-------
+[2026-03-05T21:52:30.369Z] reciedtuiyui
+[2026-03-05T21:52:30.369Z] ------
+
+msg  {"from":"a","to":"all_quizzes","date":1772747550008,"key":29,"payload":{"update":"quiz","question":{"wait":false},"username":"a"},"channel":"room:36044efa43.ffa2a"} 
+
+
+
+-------
+
+
+
+[2026-03-05T21:52:30.578Z] 
+<<---------publish------->>
+
+Publsihing {"from":"a","to":"all_quizzes","date":1772747550430,"key":30,"payload":{"update":"quiz","question":{"head":"1 Verse Ftv"},"username":"a"},"channel":"room:36044efa43.ffa2a"} on channel room:36044efa43.ffa2a
+
+[2026-03-05T21:52:30.647Z] 
+---------------
+----
+
+ {"payload":{"update":"quiz","data":{"update":"quiz","question":{"head":"1 Verse Ftv"},"username":"a"}}} data being sent touser  a 
+
+-------
+[2026-03-05T21:52:30.647Z] reciedtuiyui
+[2026-03-05T21:52:30.647Z] ------
+
+msg  {"from":"a","to":"all_quizzes","date":1772747550430,"key":30,"payload":{"update":"quiz","question":{"head":"1 Verse Ftv"},"username":"a"},"channel":"room:36044efa43.ffa2a"} 
+
+
+
+-------
+
+
+
+[2026-03-05T21:52:33.368Z] swiching status  * to waiting for jumps from the user tar none
+[2026-03-05T21:52:34.040Z] status  a users waiting for next question data {"a":"users waiting for next question"}
+[2026-03-05T21:52:34.106Z] key room:36044efa43.ffa2a valuse {"status":{"a":"waiting for jumps from the user","target":false,"oldStatus":"*"}}
+[2026-03-05T21:52:34.294Z] 
+<<---------publish------->>
+
+Publsihing {"from":"a","to":"all_quizzes","date":1772747554110,"key":31,"payload":{"update":"quiz","status":{"a":"waiting for jumps from the user","target":false,"oldStatus":"*"},"username":"a"},"channel":"room:36044efa43.ffa2a"} on channel room:36044efa43.ffa2a
+
+[2026-03-05T21:52:34.392Z] 
+---------------
+----
+
+ {"payload":{"update":"quiz","data":{"update":"quiz","status":{"a":"waiting for jumps from the user","target":false,"oldStatus":"*"},"username":"a"}}} data being sent touser  a 
+
+-------
+[2026-03-05T21:52:34.395Z] reciedtuiyui
+[2026-03-05T21:52:34.397Z] ------
+
+msg  {"from":"a","to":"all_quizzes","date":1772747554110,"key":31,"payload":{"update":"quiz","status":{"a":"waiting for jumps from the user","target":false,"oldStatus":"*"},"username":"a"},"channel":"room:36044efa43.ffa2a"} 
+
+
+
+-------
+
+
+
+[2026-03-05T21:52:57.314Z] An evilland adulterous geenration seeks for a sign, but no sign will be given to ii eecept the sign  f Jooah." So he left them and departedd. testquesthodderr&&&&&
+[2026-03-05T21:53:06.839Z] swiching status  * to users waiting for next question tar none
+[2026-03-05T21:53:07.087Z] status  a waiting for jumps from the user data {"a":"waiting for jumps from the user"}
+[2026-03-05T21:53:07.409Z] key room:36044efa43.ffa2a valuse {"status":{"a":"users waiting for next question","target":false,"oldStatus":"*"}}
+[2026-03-05T21:53:07.649Z] 
+<<---------publish------->>
+
+Publsihing {"from":"a","to":"all_quizzes","date":1772747587431,"key":32,"payload":{"update":"quiz","status":{"a":"users waiting for next question","target":false,"oldStatus":"*"},"username":"a"},"channel":"room:36044efa43.ffa2a"} on channel room:36044efa43.ffa2a
+
+[2026-03-05T21:53:07.669Z] 
+---------------
+----
+
+ {"payload":{"update":"quiz","data":{"update":"quiz","status":{"a":"users waiting for next question","target":false,"oldStatus":"*"},"username":"a"}}} data being sent touser  a 
+
+-------
+[2026-03-05T21:53:07.670Z] reciedtuiyui
+[2026-03-05T21:53:07.671Z] ------
+
+msg  {"from":"a","to":"all_quizzes","date":1772747587431,"key":32,"payload":{"update":"quiz","status":{"a":"users waiting for next question","target":false,"oldStatus":"*"},"username":"a"},"channel":"room:36044efa43.ffa2a"} 
+
+
+
+-------
+
+
+
+[2026-03-05T21:53:10.666Z] key room:36044efa43.ffa2a:questions valuse {"question":{"wait":true}}
+[2026-03-05T21:53:11.041Z] 
+---------------
+----
+
+ {"payload":{"update":"quiz","data":{"update":"quiz","question":{"wait":true},"username":"a"}}} data being sent touser  a 
+
+-------
+[2026-03-05T21:53:11.041Z] reciedtuiyui
+[2026-03-05T21:53:11.042Z] ------
+
+msg  {"from":"a","to":"all_quizzes","date":1772747590981,"key":33,"payload":{"update":"quiz","question":{"wait":true},"username":"a"},"channel":"room:36044efa43.ffa2a"} 
+
+
+
+-------
+
+
+
+[2026-03-05T21:53:11.273Z] 
+<<---------publish------->>
+
+Publsihing {"from":"a","to":"all_quizzes","date":1772747590981,"key":33,"payload":{"update":"quiz","question":{"wait":true},"username":"a"},"channel":"room:36044efa43.ffa2a"} on channel room:36044efa43.ffa2a
+
+[2026-03-05T21:53:17.390Z] need 7 4 Who need a physician {"flight":"C","verse":"Who need a physician? Those who are sick","ref":"Matthew 9:12","month":"november","type":"question","chapter":"9","id":411,"book":"Matthew","trigs":{"november":[1,4],"december":[1,4],"january":[1,4],"february":[1,4],"march":[1,4]},"answer":" Those who are sick","question":"Who need a physician"} 1
+[2026-03-05T21:53:17.717Z] key room:36044efa43.ffa2a:questions valuse {"question":{"wait":false}}
+[2026-03-05T21:53:17.853Z] 
+---------------
+----
+
+ {"payload":{"update":"quiz","data":{"update":"quiz","question":{"wait":false},"username":"a"}}} data being sent touser  a 
+
+-------
+[2026-03-05T21:53:18.207Z] reciedtuiyui
+[2026-03-05T21:53:18.208Z] ------
+
+msg  {"from":"a","to":"all_quizzes","date":1772747597789,"key":34,"payload":{"update":"quiz","question":{"wait":false},"username":"a"},"channel":"room:36044efa43.ffa2a"} 
+
+
+
+-------
+
+
+
+[2026-03-05T21:53:18.259Z] 
+<<---------publish------->>
+
+Publsihing {"from":"a","to":"all_quizzes","date":1772747597789,"key":34,"payload":{"update":"quiz","question":{"wait":false},"username":"a"},"channel":"room:36044efa43.ffa2a"} on channel room:36044efa43.ffa2a
+
+[2026-03-05T21:53:18.261Z] key room:36044efa43.ffa2a:questions valuse {"question":{"head":" Question"}}
+[2026-03-05T21:53:18.388Z] 
+<<---------publish------->>
+
+Publsihing {"from":"a","to":"all_quizzes","date":1772747598327,"key":35,"payload":{"update":"quiz","question":{"head":" Question"},"username":"a"},"channel":"room:36044efa43.ffa2a"} on channel room:36044efa43.ffa2a
+
+[2026-03-05T21:53:18.401Z] 
+---------------
+----
+
+ {"payload":{"update":"quiz","data":{"update":"quiz","question":{"head":" Question"},"username":"a"}}} data being sent touser  a 
+
+-------
+[2026-03-05T21:53:18.515Z] reciedtuiyui
+[2026-03-05T21:53:18.516Z] ------
+
+msg  {"from":"a","to":"all_quizzes","date":1772747598327,"key":35,"payload":{"update":"quiz","question":{"head":" Question"},"username":"a"},"channel":"room:36044efa43.ffa2a"} 
+
+
+
+-------
+
+
+
+[2026-03-05T21:53:21.209Z] swiching status  * to waiting for jumps from the user tar none
+[2026-03-05T21:53:21.802Z] status  a users waiting for next question data {"a":"users waiting for next question"}
+[2026-03-05T21:53:21.869Z] key room:36044efa43.ffa2a valuse {"status":{"a":"waiting for jumps from the user","target":false,"oldStatus":"*"}}
+[2026-03-05T21:53:22.204Z] 
+<<---------publish------->>
+
+Publsihing {"from":"a","to":"all_quizzes","date":1772747601938,"key":36,"payload":{"update":"quiz","status":{"a":"waiting for jumps from the user","target":false,"oldStatus":"*"},"username":"a"},"channel":"room:36044efa43.ffa2a"} on channel room:36044efa43.ffa2a
+
+[2026-03-05T21:53:22.206Z] 
+---------------
+----
+
+ {"payload":{"update":"quiz","data":{"update":"quiz","status":{"a":"waiting for jumps from the user","target":false,"oldStatus":"*"},"username":"a"}}} data being sent touser  a 
+
+-------
+[2026-03-05T21:53:22.207Z] reciedtuiyui
+[2026-03-05T21:53:22.208Z] ------
+
+msg  {"from":"a","to":"all_quizzes","date":1772747601938,"key":36,"payload":{"update":"quiz","status":{"a":"waiting for jumps from the user","target":false,"oldStatus":"*"},"username":"a"},"channel":"room:36044efa43.ffa2a"} 
+
+
+
+-------
+
+
+
+[2026-03-05T21:53:27.804Z] Who need a physician testquesthodderr&&&&&
+[2026-03-05T21:53:34.562Z] swiching status  * to users waiting for next question tar none
+[2026-03-05T21:53:35.292Z] status  a waiting for jumps from the user data {"a":"waiting for jumps from the user"}
+[2026-03-05T21:53:35.356Z] key room:36044efa43.ffa2a valuse {"status":{"a":"users waiting for next question","target":false,"oldStatus":"*"}}
+[2026-03-05T21:53:35.546Z] 
+---------------
+----
+
+ {"payload":{"update":"quiz","data":{"update":"quiz","status":{"a":"users waiting for next question","target":false,"oldStatus":"*"},"username":"a"}}} data being sent touser  a 
+
+-------
+[2026-03-05T21:53:36.204Z] reciedtuiyui
+[2026-03-05T21:53:36.204Z] ------
+
+msg  {"from":"a","to":"all_quizzes","date":1772747615357,"key":37,"payload":{"update":"quiz","status":{"a":"users waiting for next question","target":false,"oldStatus":"*"},"username":"a"},"channel":"room:36044efa43.ffa2a"} 
+
+
+
+-------
+
+
+
+[2026-03-05T21:53:36.208Z] 
+<<---------publish------->>
+
+Publsihing {"from":"a","to":"all_quizzes","date":1772747615357,"key":37,"payload":{"update":"quiz","status":{"a":"users waiting for next question","target":false,"oldStatus":"*"},"username":"a"},"channel":"room:36044efa43.ffa2a"} on channel room:36044efa43.ffa2a
+
+[2026-03-05T21:53:41.359Z] key room:36044efa43.ffa2a:questions valuse {"question":{"wait":true}}
+[2026-03-05T21:53:49.500Z] 
+<<---------publish------->>
+
+Publsihing {"from":"a","to":"all_quizzes","date":1772747628647,"key":38,"payload":{"update":"quiz","question":{"wait":true},"username":"a"},"channel":"room:36044efa43.ffa2a"} on channel room:36044efa43.ffa2a
+
+[2026-03-05T21:53:53.626Z] 
+---------------
+----
+
+ {"payload":{"update":"quiz","data":{"update":"quiz","question":{"wait":true},"username":"a"}}} data being sent touser  a 
+
+-------
+[2026-03-05T21:53:53.806Z] reciedtuiyui
+[2026-03-05T21:53:54.766Z] ------
+
+msg  {"from":"a","to":"all_quizzes","date":1772747628647,"key":38,"payload":{"update":"quiz","question":{"wait":true},"username":"a"},"channel":"room:36044efa43.ffa2a"} 
+
+
+
+-------
+
+
+
+[2026-03-05T21:53:58.729Z] Peter 18 14 Who is called Peter {"flight":"C","verse":"Who is called Peter? Simon","ref":"Matthew 10:02","month":"december","type":"question","chapter":"10","id":465,"book":"Matthew","trigs":{"december":[3,14],"january":[3,14],"february":[3,14],"march":[3,14]},"answer":" Simon","question":"Who is called Peter"} 3
+[2026-03-05T21:54:02.492Z] key room:36044efa43.ffa2a:questions valuse {"question":{"wait":false}}
+[2026-03-05T21:54:04.016Z] 
+<<---------publish------->>
+
+Publsihing {"from":"a","to":"all_quizzes","date":1772747643519,"key":39,"payload":{"update":"quiz","question":{"wait":false},"username":"a"},"channel":"room:36044efa43.ffa2a"} on channel room:36044efa43.ffa2a
+
+[2026-03-05T21:54:04.030Z] key room:36044efa43.ffa2a:questions valuse {"question":{"head":" Question"}}
+[2026-03-05T21:54:04.043Z] 
+---------------
+----
+
+ {"payload":{"update":"quiz","data":{"update":"quiz","question":{"wait":false},"username":"a"}}} data being sent touser  a 
+
+-------
+[2026-03-05T21:54:04.043Z] reciedtuiyui
+[2026-03-05T21:54:04.043Z] ------
+
+msg  {"from":"a","to":"all_quizzes","date":1772747643519,"key":39,"payload":{"update":"quiz","question":{"wait":false},"username":"a"},"channel":"room:36044efa43.ffa2a"} 
+
+
+
+-------
+
+
+
+[2026-03-05T21:54:04.170Z] 
+<<---------publish------->>
+
+Publsihing {"from":"a","to":"all_quizzes","date":1772747644101,"key":40,"payload":{"update":"quiz","question":{"head":" Question"},"username":"a"},"channel":"room:36044efa43.ffa2a"} on channel room:36044efa43.ffa2a
+
+[2026-03-05T21:54:04.344Z] 
+---------------
+----
+
+ {"payload":{"update":"quiz","data":{"update":"quiz","question":{"head":" Question"},"username":"a"}}} data being sent touser  a 
+
+-------
+[2026-03-05T21:54:04.350Z] reciedtuiyui
+[2026-03-05T21:54:04.350Z] ------
+
+msg  {"from":"a","to":"all_quizzes","date":1772747644101,"key":40,"payload":{"update":"quiz","question":{"head":" Question"},"username":"a"},"channel":"room:36044efa43.ffa2a"} 
+
+
+
+-------
+
+
+
+[2026-03-05T21:54:06.177Z] swiching status  * to waiting for jumps from the user tar none
+[2026-03-05T21:54:06.409Z] status  a users waiting for next question data {"a":"users waiting for next question"}
+[2026-03-05T21:54:06.546Z] key room:36044efa43.ffa2a valuse {"status":{"a":"waiting for jumps from the user","target":false,"oldStatus":"*"}}
+[2026-03-05T21:54:06.633Z] 
+---------------
+----
+
+ {"payload":{"update":"quiz","data":{"update":"quiz","status":{"a":"waiting for jumps from the user","target":false,"oldStatus":"*"},"username":"a"}}} data being sent touser  a 
+
+-------
+[2026-03-05T21:54:06.633Z] reciedtuiyui
+[2026-03-05T21:54:06.633Z] ------
+
+msg  {"from":"a","to":"all_quizzes","date":1772747646546,"key":41,"payload":{"update":"quiz","status":{"a":"waiting for jumps from the user","target":false,"oldStatus":"*"},"username":"a"},"channel":"room:36044efa43.ffa2a"} 
+
+
+
+-------
+
+
+
+[2026-03-05T21:54:06.634Z] 
+<<---------publish------->>
+
+Publsihing {"from":"a","to":"all_quizzes","date":1772747646546,"key":41,"payload":{"update":"quiz","status":{"a":"waiting for jumps from the user","target":false,"oldStatus":"*"},"username":"a"},"channel":"room:36044efa43.ffa2a"} on channel room:36044efa43.ffa2a
+

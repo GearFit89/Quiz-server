@@ -22,6 +22,35 @@ const parseCookies = (cookies: string | undefined): Record<string, string> => {
   });
   return allCookies;
 };
+
+const parseSignedCookies = (
+  cookieString: string | undefined,
+  secret: string,
+  algorithm: 'HS256' | 'HS512' = 'HS256',
+  options?: { verify?: boolean }
+): Record<string, string> => {
+  if (!cookieString) return {};
+  
+  const cookies: Record<string, string> = {};
+  
+  cookieString.split('; ').forEach((cookie) => {
+    const [name, value] = cookie.split('=');
+    const decodedValue = decodeURIComponent(value || '');
+    
+    if (options?.verify) {
+      try {
+        const verified = jwt.verify(decodedValue, secret, { algorithms: [algorithm] });
+        cookies[name as string] = typeof verified === 'string' ? verified : JSON.stringify(verified);
+      } catch {
+        cookies[name as string] = decodedValue;
+      }
+    } else {
+      cookies[name as string] = decodedValue;
+    }
+  });
+  
+  return cookies;
+};
 export const Clients = new Map()
 export function handleWsConnection(
   ws: WebSocketServer, // Ensure the server instance is passed or refreshible

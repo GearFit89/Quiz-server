@@ -1,8 +1,10 @@
 {
     "modes": {
-        "novice": {
+        "b1": {
             "name": "Timothy",
             "difficulty": 1,
+            "id": "b1",
+            "display": "Novice",
             "minReactionTimeMs": 1500,
             "maxReactionTimeMs": 4000,
             "minAns": 1000,
@@ -14,9 +16,11 @@
             ],
             "isAggressiveStrategy": false
         },
-        "easy": {
+        "b2": {
             "name": "James",
             "difficulty": 2,
+            "id": "b2",
+            "display": "Easy",
             "minReactionTimeMs": 1200,
             "maxReactionTimeMs": 3500,
             "minAns": 800,
@@ -28,9 +32,11 @@
             ],
             "isAggressiveStrategy": false
         },
-        "medium": {
+        "b3": {
             "name": "Rachel",
             "difficulty": 3,
+            "id": "b3",
+            "display": "Medium",
             "minReactionTimeMs": 1000,
             "maxReactionTimeMs": 3000,
             "minAns": 600,
@@ -43,9 +49,11 @@
             ],
             "isAggressiveStrategy": false
         },
-        "normal": {
+        "b4": {
             "name": "Michael",
             "difficulty": 4,
+            "id": "b4",
+            "display": "Normal",
             "minReactionTimeMs": 800,
             "maxReactionTimeMs": 2500,
             "minAns": 500,
@@ -58,9 +66,11 @@
             ],
             "isAggressiveStrategy": false
         },
-        "hard": {
+        "b5": {
             "name": "Christopher",
             "difficulty": 6,
+            "id": "b5",
+            "display": "Hard",
             "minReactionTimeMs": 600,
             "maxReactionTimeMs": 2000,
             "minAns": 350,
@@ -73,9 +83,11 @@
             ],
             "isAggressiveStrategy": false
         },
-        "superhard": {
+        "b6": {
             "name": "Nathan",
             "difficulty": 8,
+            "id": "b6",
+            "display": "Superhard",
             "minReactionTimeMs": 300,
             "maxReactionTimeMs": 1200,
             "minAns": 200,
@@ -89,9 +101,11 @@
             ],
             "isAggressiveStrategy": true
         },
-        "impossible": {
+        "b7": {
             "name": "Gabriel",
             "difficulty": 10,
+            "id": "b7",
+            "display": "Impossible",
             "minReactionTimeMs": 50,
             "maxReactionTimeMs": 500,
             "minAns": 25,
@@ -106,9 +120,11 @@
             ],
             "isAggressiveStrategy": true
         },
-        "trickster": {
+        "b8": {
             "name": "Rebecca",
             "difficulty": 7,
+            "id": "b8",
+            "display": "Trickster",
             "minReactionTimeMs": 300,
             "maxReactionTimeMs": 1200,
             "minAns": 200,
@@ -121,9 +137,11 @@
             ],
             "isAggressiveStrategy": true
         },
-        "Marcus": {
-            "botId": "aggressive",
+        "b9": {
+            "name": "Marcus",
             "difficulty": 8,
+            "id": "b9",
+            "display": "Aggressive",
             "minReactionTimeMs": 150,
             "maxReactionTimeMs": 1500,
             "minAns": 78,
@@ -138,9 +156,11 @@
             ],
             "isAggressiveStrategy": true
         },
-        "David": {
-            "botId": "conservative",
+        "b10": {
+            "name": "David",
             "difficulty": 4,
+            "id": "b10",
+            "display": "Conservative",
             "minReactionTimeMs": 800,
             "maxReactionTimeMs": 2500,
             "minAns": 500,
@@ -150,9 +170,11 @@
             "specializedBooks": [],
             "isAggressiveStrategy": false
         },
-        "Sarah": {
-            "botId": "balanced",
+        "b11": {
+            "name": "Sarah",
             "difficulty": 5,
+            "id": "b11",
+            "display": "Balanced",
             "minReactionTimeMs": 400,
             "maxReactionTimeMs": 1800,
             "minAns": 300,
@@ -165,9 +187,11 @@
             ],
             "isAggressiveStrategy": false
         },
-        "Alex": {
-            "botId": "speedrunner",
+        "b12": {
+            "name": "Alex",
             "difficulty": 9,
+            "id": "b12",
+            "display": "Speedrunner",
             "minReactionTimeMs": 50,
             "maxReactionTimeMs": 600,
             "minAns": 30,
@@ -179,9 +203,11 @@
             ],
             "isAggressiveStrategy": true
         },
-        "Elizabeth": {
-            "botId": "expert",
+        "b13": {
+            "name": "Elizabeth",
             "difficulty": 10,
+            "id": "b13",
+            "display": "Expert",
             "minReactionTimeMs": 500,
             "maxReactionTimeMs": 2000,
             "minAns": 400,
@@ -196,9 +222,11 @@
             ],
             "isAggressiveStrategy": false
         },
-        "Jonathan": {
-            "botId": "methodical",
+        "b14": {
+            "name": "Jonathan",
             "difficulty": 6,
+            "id": "b14",
+            "display": "Methodical",
             "minReactionTimeMs": 900,
             "maxReactionTimeMs": 2800,
             "minAns": 700,
@@ -211,9 +239,11 @@
             ],
             "isAggressiveStrategy": false
         },
-        "Victoria": {
-            "botId": "wildcard",
+        "b15": {
+            "name": "Victoria",
             "difficulty": 6,
+            "id": "b15",
+            "display": "Wildcard",
             "minReactionTimeMs": 200,
             "maxReactionTimeMs": 3000,
             "minAns": 100,
@@ -227,6 +257,138 @@
                 {"book": "John", "chapters": [1, 3, 11]}
             ],
             "isAggressiveStrategy": true
+        },
+        "b16": {
+            "name": "Peter",
+            "difficulty": 4,
+            "id": "b16",
+            "display": "Enthusiast",
+            "minReactionTimeMs": 600,
+            "maxReactionTimeMs": 2200,
+            "minAns": 400,
+            "maxAns": 1800,
+            "knowledgeBaseDepth": 0.60,
+            "verseConfusionRate": 0.20,
+            "specializedBooks": [
+                {"book": "Mark", "chapters": [1, 8, 14]},
+                {"book": "Matthew", "chapters": [14, 16]}
+            ],
+            "isAggressiveStrategy": true
+        },
+        "b17": {
+            "name": "Paul",
+            "difficulty": 7,
+            "id": "b17",
+            "display": "Scholar",
+            "minReactionTimeMs": 400,
+            "maxReactionTimeMs": 1800,
+            "minAns": 300,
+            "maxAns": 1500,
+            "knowledgeBaseDepth": 0.85,
+            "verseConfusionRate": 0.05,
+            "specializedBooks": [
+                {"book": "Luke", "chapters": [9, 10, 24]},
+                {"book": "John", "chapters": [1, 15]}
+            ],
+            "isAggressiveStrategy": true
+        },
+        "b18": {
+            "name": "Mary",
+            "difficulty": 5,
+            "id": "b18",
+            "display": "Devout",
+            "minReactionTimeMs": 800,
+            "maxReactionTimeMs": 2500,
+            "minAns": 600,
+            "maxAns": 2000,
+            "knowledgeBaseDepth": 0.75,
+            "verseConfusionRate": 0.10,
+            "specializedBooks": [
+                {"book": "Luke", "chapters": [1, 2]},
+                {"book": "John", "chapters": [2, 19, 20]}
+            ],
+            "isAggressiveStrategy": false
+        },
+        "b19": {
+            "name": "Luke",
+            "difficulty": 6,
+            "id": "b19",
+            "display": "Historian",
+            "minReactionTimeMs": 900,
+            "maxReactionTimeMs": 2600,
+            "minAns": 700,
+            "maxAns": 2100,
+            "knowledgeBaseDepth": 0.90,
+            "verseConfusionRate": 0.03,
+            "specializedBooks": [
+                {"book": "Luke", "chapters": [1, 2, 3, 24]}
+            ],
+            "isAggressiveStrategy": false
+        },
+        "b20": {
+            "name": "John",
+            "difficulty": 8,
+            "id": "b20",
+            "display": "Visionary",
+            "minReactionTimeMs": 500,
+            "maxReactionTimeMs": 2000,
+            "minAns": 400,
+            "maxAns": 1500,
+            "knowledgeBaseDepth": 0.95,
+            "verseConfusionRate": 0.02,
+            "specializedBooks": [
+                {"book": "John", "chapters": [1, 3, 14, 15, 16, 17, 21]}
+            ],
+            "isAggressiveStrategy": false
+        },
+        "b21": {
+            "name": "Thomas",
+            "difficulty": 3,
+            "id": "b21",
+            "display": "Skeptic",
+            "minReactionTimeMs": 1000,
+            "maxReactionTimeMs": 3000,
+            "minAns": 800,
+            "maxAns": 2500,
+            "knowledgeBaseDepth": 0.50,
+            "verseConfusionRate": 0.25,
+            "specializedBooks": [
+                {"book": "John", "chapters": [11, 14, 20]}
+            ],
+            "isAggressiveStrategy": false
+        },
+        "b22": {
+            "name": "Stephen",
+            "difficulty": 9,
+            "id": "b22",
+            "display": "Martyr",
+            "minReactionTimeMs": 300,
+            "maxReactionTimeMs": 1200,
+            "minAns": 200,
+            "maxAns": 1000,
+            "knowledgeBaseDepth": 0.92,
+            "verseConfusionRate": 0.04,
+            "specializedBooks": [
+                {"book": "Matthew", "chapters": [5, 6, 7, 23, 24]}
+            ],
+            "isAggressiveStrategy": true
+        },
+        "b23": {
+            "name": "Silas",
+            "difficulty": 5,
+            "id": "b23",
+            "display": "Companion",
+            "minReactionTimeMs": 700,
+            "maxReactionTimeMs": 2400,
+            "minAns": 500,
+            "maxAns": 1900,
+            "knowledgeBaseDepth": 0.65,
+            "verseConfusionRate": 0.15,
+            "specializedBooks": [
+                {"book": "Mark", "chapters": [1, 2, 3]},
+                {"book": "Luke", "chapters": [10]}
+            ],
+            "isAggressiveStrategy": false
         }
     }
 }

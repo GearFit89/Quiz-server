@@ -99,6 +99,15 @@ export interface Trigs  {
   [monthnName:str]:(int | null)[];
   
 }
+export type QuestionTypes = 'ftv' | 'quote' | 'ftv/quote' | 'According to' | 'SQ:' | 'question';
+export const QUEST_TYPES: Record<string, QuestionTypes> = {
+  ftv: 'ftv',
+  quote: 'quote',
+  'FQ': 'ftv/quote',
+  'According to': 'According to',
+  'SQ:': 'SQ:',
+  question: 'question'
+} as const;
 export interface QuestionSettings {
      month?: string[]; 
      book?:string[]
@@ -108,18 +117,20 @@ export interface QuestionSettings {
     flight: ('A' | 'B' | 'C' | 'T')[];
     trigs?:Trigs;
      quizMode?: string[]; 
+     type?: QuestionTypes[];
 }
+export type VerseSelection = 'random' | 'quiz'| 'alphabetical' | 'sequential';
 // Defining a default object that satisfies the QuizSettings interface
 export const defaultQuizSettings: QuizSettings = {
     // Initializing with an empty array of month strings
-   
+   type: ['ftv', 'quote', 'ftv/quote', 'According to', 'SQ:', 'question'], // Default to 'ftv'
     flight: ['A', 'B', 'C', 'T'],
     // Initializing with an empty Trigs object
     mode:'quiz',
     // Setting the default selection behavior to 'random'
-    verseSelection: 'quiz',
+  verseSelection: 'quiz',
     // Setting highlight to an empty string by default
-    highlight: 0,
+    highlight: false,
     // Defaulting to 20 questions based on the logic threshold
     numQuestions: 20,
     // Setting the timer to 0 (off) by default
@@ -129,13 +140,14 @@ export const defaultQuizSettings: QuizSettings = {
     // Initializing with an empty array for quiz modes
     
 };
+export type modes = 'practice' | 'quiz' | 'challenge' | 'tournament';
 export interface QuizSettings extends QuestionSettings {
     // Selection mode for verses (e.g., 'random', 'sequential')
-    verseSelection: string; 
+  verseSelection: VerseSelection; 
     // Highlight setting based on verseSelectionH input
-    highlight: int; 
+    highlight: bool; 
     // A flag indicating if specific chapters were selected
-    mode:string;
+    mode:modes;
     // List of months selected for the quiz data pool
   
     numQuestions: int; 

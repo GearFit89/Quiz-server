@@ -218,7 +218,7 @@ const JWT_ACCESS_KEY = process.env.JWT_ACCESS_KEY;
 const app = express(); 
 // Access the ESV API key from environment variables
 const ESV_API_KEY = process.env.ESV_API_KEY; 
-const COOKIE_KEY = process.env.COOKIE_KEYU
+export const COOKIE_KEY = process.env.COOKIE_KEY
 const logger = new FileLogger();
 logger.clear();//clear the file for now 
 console.log = (...args: any[]): void => {
@@ -249,7 +249,7 @@ const resUrl = process.env.NODE_ENV === 'development' ?   localUrl: myUrl;
 const PORT = process.env.PORT || 3000; // Define server port, using environment variable or default
 const corsOptions = {
   // Specifies the allowed origins for CORS
-  origin: ['http://localhost:5173','http://localhost:5174', 'https://gearfit89.github.io/Practice-TBQN-Quizzing/', 'http://localhost:8080','http://127.0.0.1:5500', 'http://127.0.0.1:5500/src'], // Allowed origins for CORS
+  origin: ['http://localhost:5173','https://bible-quizzing.netlify.app','http://localhost:5174', 'https://gearfit89.github.io/Practice-TBQN-Quizzing/', 'http://localhost:8080','http://127.0.0.1:5500', 'http://127.0.0.1:5500/src'], // Allowed origins for CORS
   methods: 'GET,HEAD,PUT,PATCH,POST,DELETE', // Allowed HTTP methods
   credentials: true, // Allows cookies and authorization headers
    // Status code for successful preflight requests
@@ -291,7 +291,7 @@ function createJwtCookie(res:any, req:any,  newJwt=false, data:Record<string, an
         maxAge: data.age || 90 * 24 * 60 * 60 * 1000, 
         // Prevent client-side JavaScript from accessing the cookie for security
         httpOnly: true, 
-      signed: process.env.NODE_ENV === 'production',
+      //signed: process.env.NODE_ENV === 'production',
         // Ensure cookies are only sent over HTTPS in production
         secure: process.env.NODE_ENV === 'production', 
         // Mitigate Cross-Site Request Forgery (CSRF) attacks
@@ -356,7 +356,15 @@ app.use(bodyParser.json()); // Middleware to parse incoming JSON bodies
 app.use(bodyParser.urlencoded({ extended: true })); // Middleware to parse URL-encoded bodies
 
 // Custom middleware to add errors to the response JSON object
+// Using the root endpoint (e.g., https://quizzing-serverd.onrender.com/)
+app.get('/', (req:any, res:any) => { // Respond to root path
+  res.status(200).send('OK, the serveer is running'); // Send 200 status to stop 502 errors
+});
 
+// Using a dedicated health endpoint (e.g., https://quizzing-serverd.onrender.com/health)
+app.get('/health', (req:any, res:any) => { // Respond to health path
+  res.status(200).json({ status: 'UP', timestamp: new Date() }); // Return JSON status
+});
 
 // --- AUTHENTICATION FUNCTIONS ---
 

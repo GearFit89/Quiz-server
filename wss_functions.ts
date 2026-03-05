@@ -2,7 +2,7 @@
 import  fs  from 'fs/promises';
 import { supabase, JWT_ACCESS_KEY, IS_DEV_MODE} from './mainApp.js';
 import RAW_BOTS from './json/bots.json'  with {type:'json'}
-const BOTS:Record<string, any> = RAW_BOTS;
+const BOTS:Record<string, any> = RAW_BOTS.modes;
 import { WebSocketServer, WebSocket } from 'ws';
 import http from 'http';
 import https  from 'https';
@@ -500,7 +500,7 @@ async getUsersOffline(){
   }
  async computerQuiz(config:RoomData){
 const botName = config.quizId || 'b1';
-    if(botName in BOTS){
+    if(Object.values( BOTS)){
       const botConfig = BOTS[botName];
       config.settings = {...config.settings, ...(botConfig.settings || this.settings || {}), quizId: botConfig.quizId} as unknown as RoomData["settings"];
       await this.soloQuiz(config);
