@@ -1,8 +1,5 @@
 # Quiz-server
-Back end design for my website in node js and express js
-answer, jumpTime, status, req --like in data { data:{userrid:{status:?, req:?, jumpTime:?}} }
-most data will need to be json.parse for redis keys--
-data from serever when frined sent {req, username}
+The main server in my online Bible quizzing app. It provides an auth system, using supabase and my own cookie system. On the same port (300) exsits my websocket server that also verifies users. wss_funcs is where the funcs are designed to be called from the client.
 ## Project Structure
 
 ```
