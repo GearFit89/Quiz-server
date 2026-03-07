@@ -94,7 +94,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "tsc": "tsc",
-    "start": "cross-env NODE_ENV=production  npx tsx app.ts",
+    "start": "NODE_ENV=production  npx tsx app.ts",
     "dev": "NODE_ENV=development npx tsx --watch app.ts ",
     "expApp": "NODE_ENV=development node mainApp.js"
   },
