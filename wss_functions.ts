@@ -2,7 +2,7 @@
 import  fs  from 'fs/promises';
 import { supabase, JWT_ACCESS_KEY, IS_DEV_MODE} from './mainApp.js';
 import RAW_BOTS from './json/bots.json'  with {type:'json'}
-const BOTS:Record<string, any> = RAW_BOTS.modes;
+export const BOTS:Record<string, any> = RAW_BOTS.modes;
 import { WebSocketServer, WebSocket } from 'ws';
 import http from 'http';
 import https  from 'https';
@@ -317,6 +317,7 @@ return {dTS}
     
     const newRoom = async () => {
       const roomId = this.Session.createRoom({ maxUsers: maxUsers, ...this.settings, quizId:'o9' });
+     this.roomId = roomId;
       await redis.hset(REDIS_KEY.USER_PROFILE(this.ws.userId as string), { status: USER_STATES.WAITCHALLANGE });
       await redis.sadd(REDIS_KEY.OPEN_ROOM, roomId)
 };
@@ -329,6 +330,7 @@ return {dTS}
 
      const randRoom = await redis.srandmember(REDIS_KEY.OPEN_ROOM);
      await this.Session.joinRoom(randRoom);
+     this.roomId = randRoom as string;
       this.redis.updateFontend(Updates.QUIZ, {success:true})
      }
      const dTS =  {success:true}
@@ -338,8 +340,10 @@ return {dTS}
   async sendChallenage(config:RoomData, ): Promise<Record<string, any>>{
     
     let {requiredUsers:usersToInvite, settings, quizId, canDecline} = config;
-    if(!usersToInvite || !quizId){const  dTS = {error:'can not send invite without users or quiz id' , success:false}
+    if(!usersToInvite || !quizId || usersToInvite.length === 0){const  dTS = {error:'can not send invite without users or quiz id' , success:false}
     return {dTS};  }
+    const freindSet = new Set(this.ws.friends || []);
+    // if (!usersToInvite.every(f => freindSet.has(f)) && !IS_DEV_MODE) { return { dTS: { error: 'can not send a req game to non friend', success: false } } }
     if (usersToInvite.includes( this.ws.username) && !IS_DEV_MODE) { return { dTS: { error: 'can not send game invite request to ur self', success: false } } }
    if(typeof usersToInvite === 'string') usersToInvite = [usersToInvite];
     const status  = await redis.hget(REDIS_KEY.USER_PROFILE(this.ws.userId as string), 'status')
@@ -520,6 +524,16 @@ setSettings(settings:Record<string, any>|string){
   }
   this.settings = settings;
   return {dTS:{success:true}}
+}
+async start(){
+  const id = this.ws.userId as string;
+  const room = this.ws.roomId as string;
+
+  const dTS = { error: 'not waiting so no start', success: false }
+  const status = await redis.hget(REDIS_KEY.ROOM_PLAYERS_STATES(room), id);
+  if (status !== USER_STATES.CONNECTED) { return { dTS }; }
+  this.Session.checkStartCondition();
+  return { dTS: { success: true } };
 }
   async getPassage(
     month: string,

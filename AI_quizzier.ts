@@ -10,7 +10,7 @@ import { Question } from "./logic_scripts.js";
  */
 class AIWebSocket extends EventTarget { 
   public isAi;// Extend EventTarget to handle .addEventListener()
-  public readonly userId: string; // Custom property for AI ID
+  public readonly aiId: string; // Custom property for AI ID
   public readonly username: string; // Custom property for AI Name
   public readyState: number = 1; // 1 = OPEN. Mimic a successful connection.
   public url: string = "ws://ai-internal-agent"; // Fake connection URL
@@ -19,7 +19,7 @@ class AIWebSocket extends EventTarget {
   constructor(aiId: string, name:string) { // Initialize the agent
     super(); // Initialize EventTarget
     this.isAi = true; // Custom flag to identify this as an AI WebSocket
-    this.userId = `AI_Bot_${aiId}`; // Assign unique ID
+    this.aiId = `AI_Bot_${aiId}`; // Assign unique ID
     this.username = name; // Assign unique username
   } // End constructor
 
@@ -90,6 +90,7 @@ export class Agent {
     private roomId:string;
     private Session:L.Quiz;
     private wsf:WssFuncs;
+    private username:string;
     private jumpTimeout: NodeJS.Timeout | null = null; // To track the jump timeout
     protected config:QuizBotConfig;
     constructor(config:QuizBotConfig={
@@ -109,11 +110,35 @@ name:'QuizBot Max',
     
         this.wsf = new WssFuncs(ws, aiId, myRedis)
          this.aiId = aiId;
+         this.username = config.name;
          this.config = config;
          this.Session = new L.Quiz(aiId, ws );
          this.jumpTimeout = null; // Initialize jump timeout
     }
     async init(){
+      const userCount = await L.redis.scard(this.roomId + L.ROOM_COUNTS.USERS) || 0;
+      const usernames = await L.redis.smembers(this.roomId + L.ROOM_COUNTS.USERS) || [];
+      const teamObj:Record<string, string> = {};
+    const userConfig: L.QuizUserData = {
+      username: this.username,
+
+      roomId:this.roomId,
+      xp: 0,
+      status: L.USER_STATES.CONNECTED,
+      seatNum: userCount,
+      points: 0,
+      //teamId: usernames.length === 1 ? this.ws.teamId : teamObj[this.ws.username],
+      teamName: ''
+    }
+    const expireTime = 60 * 60 * 3;
+         await L.redis.expire(L.REDIS_KEY.USER_ROOM_DATA(this.roomId, this.aiId), expireTime)
+        // 1. Initialize a pipeline for batched operations
+    await this.Session.updateUsers(L.REDIS_KEY.USER_ROOM_DATA(this.roomId, this.aiId), { userConfig }, false, { channel: L.REDIS_KEY.ROOM(this.roomId) })
+  
+      await L.redis.sadd(this.roomId + L.ROOM_COUNTS.USERS, this.username)
+
+      await L.redis.hset(L.REDIS_KEY.ROOM_PLAYERS_STATES(this.roomId), { status:L. USER_STATES.CONNECTED });
+
        await this.Session.psubscribe(L.REDIS_KEY.AI_ROOM(this.roomId), (chan:string, data:Record<string, boolean|string|L.Question>)=>{
         if(data.trig){
             const time:number = new Number(data.time) as number;

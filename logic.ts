@@ -7,7 +7,7 @@ import { Redis } from 'ioredis';
 
 import RAW_QUIZZES from "./json/quizzes.json" with { type: "json" };
 export const QUIZZES:Record<string, any> = RAW_QUIZZES;
-import { WssFuncs } from './wss_functions.js'
+import { BOTS, WssFuncs } from './wss_functions.js'
 import AnswerLogic from './CheckAns.js';
 import { ServerLogic } from './logic_scripts.js';
 import {
@@ -215,7 +215,10 @@ class RedisMananger  extends EventEmitter implements RedisSet {
   public user_id: string;
   public sub: Redis;
   lags:int[];
-  startTime:int;
+  timerIds = new Set();
+  resetTOFalse= new Set();
+    startTime:int;
+  isStop=false;
   protected isHost:boolean;
   public redis: Redis;
 private heartId: any;
@@ -320,6 +323,7 @@ public async updateUsers(
     update = undefined, n= false , isChar=false// Extract update type or default to undefined
   } = payload ?? {}; // Use nullish coalescing to handle missing payload
   !isChar && console.log('key' , key, 'valuse', value)
+  
     const data = {...value, username:usrIdToUp ?? this.ws.userId};
     const valueStr = typeof value ==='object'? JSON.stringify(value):value;
     const data2 = {[usrIdToUp ?? this.ws.userId as string]:valueStr};
@@ -375,6 +379,8 @@ public heartBeat (time:int =30 * 1000){
 }
 public async destroy(roomId:string, roomNS?:string){
   this.isActive = false;
+  this.isStop = true;
+  
   function awaitDisater(){
     return new Promise((resolve, reject)=>{
   const stream = redis.scanStream({count:4
@@ -457,6 +463,7 @@ class Rooms extends RedisMananger {
   questNum:int;
   private isTimeout:boolean;
   timer:any;
+  checkflag=false;
   bots:string[];
   tWordTimestamp:int;
   setAiJump:Function|boolean;
@@ -466,6 +473,7 @@ class Rooms extends RedisMananger {
   questions:Question[];
   timerSettings:Record<string, int>
   public month:string;
+  questData:Question[]=[]; 
   public questInterId:any;
   protected hasError:boolean;
  public requiredUsers:string[];
@@ -529,8 +537,9 @@ public isStop:boolean;
     questionAnswer:settings.lenOfTimer || 30* 1000,
 
   }
+  
       // Filter questions based on settings or fallback to all DATA
-      let pool = ServerLogic.multiFilter(DATA, settings);
+      let pool = ServerLogic.multiFilter(this.questData ?? DATA, settings);
       if (!pool || pool.length === 0) pool = DATA;
 
       // Determine if we need to generate a quiz or just slice the pool
@@ -573,6 +582,8 @@ public isStop:boolean;
   } // End function
   async checkStartCondition() {
      console.log('loading')
+     if(this.checkflag)return;
+     this.checkflag = true
     // If questions aren't loaded yet, wait for them
     if (!this.isReady) {
       console.log('waitnig')
@@ -611,8 +622,15 @@ const type = config.type in RoomTypes ? config.type:'quiz'
     const team1 = (config.team1 ?? this.ws.teamId) as string;
     const team2 = (config.team2 ?? (Date.now() * Math.random() ).toString(16)+this.ws.username )as string;
    if(config.quizId?.includes('c')){ this.settings = {...defaultQuizSettings, ...config.settings}}else{
-      this.settings =   QUIZZES[config.quizId || 's1' ].settings ?? QUIZZES['s1'].settings as QuizSettings;
+      this.settings =   QUIZZES[config.quizId || 's1' ]?.settings ?? QUIZZES['s1'].settings as QuizSettings;
    };
+   if(config.quizId?.includes('!')) {
+     const incorrectQs = await redis.hgetall(REDIS_KEY.ROOM(roomId) + ':question_incorrect');
+    this.questData = Object.keys(incorrectQs).map((id:string)=>DATA[parseInt(id)])
+   }
+   if(config.quizId?.includes('b')){
+    this.settings= BOTS[config.quizId || 'bot1']?.settings ?? defaultQuizSettings
+   }
     const teams = [team1, team2];
   console.log ('config for quiz', config,maxUsers )
     if (config?.settings?.month && config.settings.month.length > 0) {
@@ -662,6 +680,7 @@ console.log ('\n',teamsObj, '\n')
     this.ws.teams  = teams;
    //this lets the code know that you control the game and to oprate there 
     const expireTime = 60 * 60 * 3;
+    
     // 1. Initialize a pipeline for batched operations
 const pipeline = this.store.pipeline(); // Batching prevents multiple network round-trips
 
@@ -710,8 +729,10 @@ await pipeline.exec(); // Returns results as an array of [error, result]
      this.store.expire(REDIS_KEY.REACTION_TIMES(roomId, team2), expireTime),
     this.store.expire(REDIS_KEY.TEAM(roomId, team1), expireTime),
     this.store.expire(REDIS_KEY.TEAM(roomId, team2), expireTime),
-     redis.hset(REDIS_KEY.CURRENT_ROOM_USERS(roomId), {[this.ws.userId as string]:this.ws.username}),
-]);
+     
+    redis.hset(REDIS_KEY.CURRENT_ROOM_USERS(roomId), {[this.ws.userId as string]:this.ws.username}),
+          redis.expire(REDIS_KEY.CURRENT_ROOM_USERS(roomId), expireTime)
+  ]);
 const userConfig:QuizUserData ={
    username:this.ws.username,
    roomId,
@@ -723,6 +744,7 @@ const userConfig:QuizUserData ={
    teamName:''
 
  }  ;
+     await redis.expire(REDIS_KEY.USER_ROOM_DATA(roomId, this.userId), expireTime)
  await this.updateUsers(REDIS_KEY.USER_ROOM_DATA(roomId, this.userId), {userConfig}, false, {channel:REDIS_KEY.ROOM(roomId)})
  // Inside createRoom method in logic.ts
 
@@ -766,7 +788,7 @@ await this.psubscribe(REDIS_KEY.ROOM(roomId), async (chan: string, msg: Record<s
           return;
         };
         if(!msg.payload.start && !msg.payload.answer && !msg.payload.jumpTime){
-          console.warn('------|N___\n_______-------no start, answer, or jumpTime in payload, ignoring message-____------|\n\n')
+          //console.log('------|N___\n_______-------no start, answer, or jumpTime in payload, ignoring message-____------|\n\n')
           return;
         }
           let username = ''
@@ -833,6 +855,7 @@ return false;
                  await  this.updateUsers(REDIS_KEY.ROOM(this.roomId), {questState:QUESTION_STATUS.more});
                    return;
                } else {
+                await this.addIncorrectQuest();
                await  this.middleQuiz('incorrect', false, username)
                
                };  
@@ -890,8 +913,16 @@ return false;
 return roomId;
       
   }
-  
-
+  async addIncorrectQuest(){
+  const question = this.questions[this.questNum];
+  await redis.hincrbyfloat(REDIS_KEY.USER_PROFILE(this.ws.userId as string )+':question_incorrect' , question.id+'', 1.00);
+  //await this.updateUsers(REDIS_KEY.ROOM(this.roomId), {question, questState:QUESTION_STATUS.incontroversial}, false, {update:'quiz'})
+  }
+  async addCorrectQuest() {
+    const question = this.questions[this.questNum];
+    await redis.hincrbyfloat(REDIS_KEY.USER_PROFILE(this.ws.userId as string) + ':question_incorrect', question.id + '', -0.5);
+    //await this.updateUsers(REDIS_KEY.ROOM(this.roomId), {question, questState:QUESTION_STATUS.incontroversial}, false, {update:'quiz'})
+  }
  async  joinRoom(roomId:string){
   
   if(! this.store.exists(REDIS_KEY.ROOM(roomId))){console.error(`Room ${roomId} doesn't exsit`); return;}
@@ -911,6 +942,7 @@ console.log('room id ', roomId)
         return
    
       }
+      
       await this.store.sadd(roomId +ROOM_COUNTS.USERS, this.ws.username)
      
        await  this.updateUsers(REDIS_KEY.ROOM_PLAYERS_STATES(roomId), {status:USER_STATES.CONNECTED});
@@ -957,6 +989,9 @@ this.isActive = true;
    teamId: usernames.length === 1? this.ws.teamId: teamObj[this.ws.username],
   teamName:''
  }
+   const expireTime = 60 * 60 * 3;
+   await redis.expire(REDIS_KEY.USER_ROOM_DATA(roomId, this.userId), expireTime)
+   // 1. Initialize a pipeline for batched operations
    await this.updateUsers(REDIS_KEY.USER_ROOM_DATA(roomId, this.userId), {userConfig},  false, {channel:REDIS_KEY.ROOM(roomId)} )
   }
   async  handleUserMsgs(chan:string, data:obj){
@@ -1049,6 +1084,7 @@ async  processScoreBackground(state: QuestionStates, user: any, isBonus: boolean
   const {points, correctQs,  incorrectQs, xp,  seatNum, teamId} = data;
   switch (state) {
     case 'correct': // Logic for correct answers
+    await this.addCorrectQuest();
       if (this.lastQuest && isBonus) {
         await redis.incrby(QUIZ_KEYS.POINTS, 40)
       //nus for last question
@@ -1089,7 +1125,7 @@ async  processScoreBackground(state: QuestionStates, user: any, isBonus: boolean
 async incorrect(isBonus:boolean, user:string, inStatus?:string, inincorrectQs?:int){
   const status  =inStatus ||  await redis.hget(REDIS_KEY.ROOM_PLAYERS_STATES(this.roomId), user)
    const incorrectQs = inincorrectQs || ((await redis.hgetall(REDIS_KEY.USER_ROOM_DATA(this.roomId, this.ws.userId as string))) as unknown as  QuizUserData).incorrectQs;
-  
+  await this.addIncorrectQuest();
   if (this.lastQuest && !isBonus ) {
         await this.updateScores(QUIZ_KEYS.POINTS, -20, user); 
       } else {
@@ -1146,7 +1182,7 @@ async incorrect(isBonus:boolean, user:string, inStatus?:string, inincorrectQs?:i
      const  questNum = this.questNum;
       console.warn('start quest', questNum);
       try{
-     if( this.questInterId) this.isStop = true;
+      this.isStop = true;
       this.skipQId && clearTimeout(this.skipQId)
       }catch(e){
         console.error(e, 'e with timers')
@@ -1249,23 +1285,25 @@ if(type === QUESTION_TYPES.ACCORDING){
        this.isStop= false;
        let testQuestHolder = ''
         this.tWordTimestamp = Infinity; 
-    const awaitQuest = ():Promise<void>=>{   return new Promise( resolve=>{
-       this.questInterId= setInterval(async ()=>{
-        if(i >= quest.length || this.isStop){clearInterval(this.questInterId); resolve(); return;}
+        const wait = (ms:int) =>new Promise((resolve)=>setTimeout(resolve, ms))
+    const awaitQuest = async ():Promise<void>=>{   
+      for ( i = 0; i < quest.length && !this.isStop;i++ )  {
+       
         char = quest[i];  
         testQuestHolder += char;
       
         
-        
          await redis.publish(REDIS_KEY.ROOM(this.roomId), JSON.stringify({ payload:  [clientQuestId, char, i+1] }) )//this is for the ai to know when to react
-        i++;
+      await wait(time)
+        };
+       
 
-      }, time);
       
-    });
+      
+    
   };
          await awaitQuest();
-         console.warn('ettttts quest hohdl', testQuestHolder)
+         console.warn('ettttts quest value:', testQuestHolder)
          console.log(testQuestHolder, 'testquesthodderr&&&&&')
         this.questEnd = true;
         console.warn('end quest', questNum);

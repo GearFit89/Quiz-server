@@ -3,60 +3,168 @@
     "id": "s1",
     "title": "Quick Solo Practice",
     "questions": 10,
-    "settings": { "numQuestions": 10, "verseSelection": "random", "mode": "quiz" }
+    "settings": { "numQuestions": 10, "verseSelection": "random", "mode": "quiz", "lenOfTimer": 120 }
   },
   "s2": {
     "id": "s2",
     "title": "March Madness",
     "questions": 20,
-    "settings": { "numQuestions": 20, "month": ["march"], "verseSelection": "quiz" }
+    "settings": { "numQuestions": 20, "month": ["march"], "flight": ["A", "B"], "verseSelection": "quiz", "lenOfTimer": 45 }
   },
   "s3": {
     "id": "s3",
     "title": "Chapter 1 Mastery",
     "questions": 15,
-    "settings": { "numQuestions": 15, "chapter": ["1"], "verseSelection": "sequential" }
+    "settings": { "numQuestions": 15, "chapter": ["1"], "verseSelection": "sequential", "lenOfTimer": 35 }
   },
   "s4": {
     "id": "s4",
     "title": "Speed Trial",
     "questions": 20,
-    "settings": { "numQuestions": 20, "lenOfTimer": 10, "speed_tOf_text": 0.4 }
+    "settings": { "numQuestions": 20, "lenOfTimer": 40, "speed_tOf_text": 0.4 }
   },
   "a1": {
     "id": "a1",
     "title": "Training Bot",
     "questions": 10,
-    "settings": { "numQuestions": 10, "difficulty": "easy", "flight": ["A", "B", "C", "T"] }
+    "settings": { "numQuestions": 10, "difficulty": "easy", "flight": ["A", "B"], "lenOfTimer": 40 }
   },
   "a2": {
     "id": "a2",
     "title": "Cyber Challenger",
     "questions": 20,
-    "settings": { "numQuestions": 20, "difficulty": "medium", "lenOfTimer": 12 }
+    "settings": { "numQuestions": 20, "difficulty": "medium", "lenOfTimer": 40 }
   },
   "a3": {
     "id": "a3",
     "title": "Grandmaster AI",
     "questions": 30,
-    "settings": { "numQuestions": 30, "difficulty": "hard" }
+    "settings": { "numQuestions": 30, "difficulty": "hard", "flight": ["A"], "lenOfTimer": 50 }
   },
   "o1": {
     "id": "o1",
     "title": "Standard Online Match",
     "questions": 20,
-    "settings": { "numQuestions": 20, "mode": "online" }
+    "settings": { "numQuestions": 20, "mode": "online", "lenOfTimer": 45 }
   },
   "o2": {
     "id": "o2",
     "title": "Elite Team Battle",
     "questions": 50,
-    "settings": { "numQuestions": 50, "mode": "online",  "month": ["march"] }
+    "settings": { "numQuestions": 50, "mode": "online", "flight": ["A", "B"], "month": ["march"], "lenOfTimer": 60 }
   },
   "o3": {
     "id": "o3",
     "title": "Blitz Duel",
     "questions": 10,
-    "settings": { "numQuestions": 10, "lenOfTimer": 8, "mode": "online" }
+    "settings": { "numQuestions": 10, "lenOfTimer": 40, "mode": "online" }
+  },
+  "s!": {
+    "id": "s!",
+    "title": "Solo Practice with Focused Review",
+    "questions": 10,
+    "settings": { "numQuestions": 10, "verseSelection": "random", "mode": "quiz", "reviewIncorrect": true, "lenOfTimer": 40 }
+  },
+  "s5": {
+    "id": "s5",
+    "title": "Quote Master",
+    "questions": 15,
+    "settings": { "numQuestions": 15, "type": ["quote"], "verseSelection": "random", "mode": "practice", "lenOfTimer": 40 }
+  },
+  "s6": {
+    "id": "s6",
+    "title": "Fill the Verse Challenge",
+    "questions": 20,
+    "settings": { "numQuestions": 20, "type": ["ftv"], "flight": ["A", "B", "C"], "verseSelection": "sequential", "mode": "quiz", "lenOfTimer": 40 }
+  },
+  "s7": {
+    "id": "s7",
+    "title": "Mixed Mode Marathon",
+    "questions": 25,
+    "settings": { "numQuestions": 25, "type": ["ftv", "quote", "question"], "chapter": ["1", "2", "3"], "verseSelection": "random", "mode": "practice", "lenOfTimer": 40 }
+  },
+  "s8": {
+    "id": "s8",
+    "title": "Jonah Deep Dive",
+    "questions": 12,
+    "settings": { "numQuestions": 12, "book": ["Jonah"], "type": ["ftv/quote"], "verseSelection": "sequential", "mode": "quiz", "lenOfTimer": 40 }
+  },
+  "s!1": {
+    "id": "s!1",
+    "title": "Practice Incorrect - Solo",
+    "questions": 10,
+    "settings": { "numQuestions": 10, "verseSelection": "random", "mode": "practice", "type": ["ftv", "quote"], "lenOfTimer": 40 }
+  },
+  "sc1": {
+    "id": "sc1",
+    "title": "Custom Solo - Matthew Focus",
+    "questions": 20,
+    "settings": { "numQuestions": 20, "book": ["Matthew"], "flight": ["A", "B"], "lenOfTimer": 45, "verseSelection": "quiz", "mode": "quiz" }
+  },
+  "sc2": {
+    "id": "sc2",
+    "title": "Custom Solo - Speed Runner",
+    "questions": 15,
+    "settings": { "numQuestions": 15, "type": ["ftv"], "lenOfTimer": 40, "speed_tOf_text": 0.5, "verseSelection": "random", "mode": "practice" }
+  },
+  "sc3": {
+    "id": "sc3",
+    "title": "Custom Solo - Flight A Only",
+    "questions": 18,
+    "settings": { "numQuestions": 18, "flight": ["A"], "month": ["october", "november"], "verseSelection": "sequential", "mode": "quiz", "lenOfTimer": 40 }
+  },
+  "o4": {
+    "id": "o4",
+    "title": "Online Team Showdown",
+    "questions": 30,
+    "settings": { "numQuestions": 30, "mode": "online", "type": ["ftv", "quote"], "flight": ["A", "B", "C", "T"], "lenOfTimer": 40 }
+  },
+  "o5": {
+    "id": "o5",
+    "title": "Online Relay Race",
+    "questions": 25,
+    "settings": { "numQuestions": 25, "mode": "online", "lenOfTimer": 40, "verseSelection": "random", "chapter": ["1", "2", "3", "4", "5"] }
+  },
+  "o6": {
+    "id": "o6",
+    "title": "Online Quote Duel",
+    "questions": 20,
+    "settings": { "numQuestions": 20, "mode": "online", "type": ["quote"], "verseSelection": "quiz", "flight": ["B", "C"], "lenOfTimer": 40 }
+  },
+  "o7": {
+    "id": "o7",
+    "title": "Online Chapter Champion",
+    "questions": 22,
+    "settings": { "numQuestions": 22, "mode": "online", "chapter": ["Jonah"], "type": ["ftv/quote"], "verseSelection": "sequential", "lenOfTimer": 40 }
+  },
+  "o8": {
+    "id": "o8",
+    "title": "Online Marathon - All Modes",
+    "questions": 50,
+    "settings": { "numQuestions": 50, "mode": "online", "type": ["ftv", "quote", "ftv/quote", "According to"], "verseSelection": "random", "flight": ["A", "B", "C", "T"], "lenOfTimer": 60 }
+  },
+  "o!1": {
+    "id": "o!1",
+    "title": "Practice Incorrect - Online",
+    "questions": 15,
+    "settings": { "numQuestions": 15, "mode": "online", "verseSelection": "random", "type": ["ftv", "quote"], "lenOfTimer": 40 }
+  },
+  "oc1": {
+    "id": "oc1",
+    "title": "Custom Online - Elite Battle",
+    "questions": 35,
+    "settings": { "numQuestions": 35, "mode": "online", "flight": ["A", "B"], "month": ["march"], "lenOfTimer": 45, "verseSelection": "quiz" }
+  },
+  "oc2": {
+    "id": "oc2",
+    "title": "Custom Online - Speed Blitz",
+    "questions": 20,
+    "settings": { "numQuestions": 20, "mode": "online", "type": ["ftv"], "lenOfTimer": 40, "speed_tOf_text": 0.6, "verseSelection": "random", "flight": ["A", "B", "C"] }
+  },
+  "oc3": {
+    "id": "oc3",
+    "title": "Custom Online - Advanced Mix",
+    "questions": 28,
+    "settings": { "numQuestions": 28, "mode": "online", "type": ["ftv/quote", "According to", "SQ:"], "chapter": ["1", "2", "3"], "verseSelection": "sequential", "flight": ["B", "C", "T"], "lenOfTimer": 40 }
   }
 }

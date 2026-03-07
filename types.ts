@@ -193,11 +193,13 @@ export const REDIS_KEY = {
   USER_LOOK: (username: str) => 'user:' + username+':avatar',// a hset
  USER_PROFILE:(username:str)=>'user:' + username,
   ROOM: (roomId: string) => `room:${roomId}`,
+  USER_INCORRECT:(user:string)=>`user:${user}:incorrect`,
+  USER_CORRECT: (user: string) => `user:${user}:correct`,
   ROOM_QUESTIONS: (roomId: string) => `room:${roomId}:questions`,
   ROOM_PLAYERS_STATES: (roomId: string) => `room:${roomId}:players_states`,
   TEAM_BONUSES:(roomId:str, teamId:str, tag:str)=> `room:${roomId}:team:${teamId}:bonus_type:${tag}`,//this is a set;
   //ROOM_PLAYERS_COUNT: (roomId: string) => `room:${roomId}:players:count`,
-  USER_ROOM_DATA: (roomId:str, userId: string) => `room:${roomId}user:${userId}`,
+  USER_ROOM_DATA: (roomId:str, userId: string) => `room:${roomId}:user:${userId}`,
   TEAM: (roomId:str, teamId: string) => `room:${roomId}:team:${teamId}`,
   REACTION_TIMES : (roomId:str, teamId:str) => `room:${roomId}:team:${teamId}:jump_time`
 } as const;

@@ -74,23 +74,7 @@ export function handleWsConnection(
       if (typeof onError === 'function') onError();
     });
 
-    wsc.on('close', async (code, reason) => {
-      Clients.delete(wsc.username)
-      console.log(`Connection closed. Code: ${code}, Reason: ${reason}`);
-      await redis.srem(REDIS_KEY.ONLINE_USERS, wsc.username)
-      await redis.sadd(REDIS_KEY.OFFLINE_USERS, wsc.username)
-
-try {
-  await ServerClient.cleanUser(wsc.roomId as string)//maybe id:IoI(8SUHVBSKJjh>DJlklkja.sdfsjfskaflpooo [poop])
-  await ServerClient.unsubscribeAll();
- if(cleanUp)  cleanUp();
-} catch (error) {
-  console.error(error)
-}
-      
-     
-      if (typeof onClose === 'function') onClose();
-    });
+    
 
     wsc['clientIp'] =( req.headers['x-forwarded-for'] || req.socket.remoteAddress) as string;
     let id:string= 'empty';
@@ -136,7 +120,23 @@ try {
   meta.refresh_id = '';
   meta.session_id = '';
   meta.id = '';
+    wsc.on('close', async (code, reason) => {
+      Clients.delete(wsc.username)
+      console.log(`Connection closed. Code: ${code}, Reason: ${reason}`);
+      await redis.srem(REDIS_KEY.ONLINE_USERS, wsc.username)
+      await redis.sadd(REDIS_KEY.OFFLINE_USERS, wsc.username)
 
+      try {
+        await ServerClient.cleanUser(wsc.roomId as string)//maybe id:IoI(8SUHVBSKJjh>DJlklkja.sdfsjfskaflpooo [poop])
+        await ServerClient.unsubscribeAll();
+        if (cleanUp) cleanUp();
+      } catch (error) {
+        console.error(error)
+      }
+
+
+      if (typeof onClose === 'function') onClose();
+    });
     ServerClient.updateFontend(Updates.PROFILE, meta);
     userInit.userData.metaData = JSON.stringify(userInit.userData.metaData) as string;
     redis.hset(REDIS_KEY.USER_PROFILE(wsc.username), userInit.userData)
