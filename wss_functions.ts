@@ -10,7 +10,7 @@ import { Agent } from './AI_quizzier.js';
 import { ServerLogic } from './logic_scripts.js';
 import { Redis } from 'ioredis';
 
-import {redis, sub, RedisSet, RedisMananger, Updates , IRooms, REDIS_KEY, USER_STATES, Quiz, RoomType, RoomData, QUIZZES} from './logic.js'
+import {redis, sub, RedisSet, RedisMananger, Updates , IRooms, REDIS_KEY, USER_STATES, Quiz, RoomType, RoomData, QUIZZES} from './logic/logic.js'
 
 type int = number;
  const REDIS_HOST:string = process.env.REDIS_HOST || 'localhost';

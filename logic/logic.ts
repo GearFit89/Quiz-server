@@ -1,15 +1,15 @@
 
 import { WebSocketServer, WebSocket } from 'ws';
 import  fs  from 'fs/promises';
-import { DATA } from "./app.js"
-import { supabase, JWT_ACCESS_KEY, IS_DEV_MODE } from './mainApp.js';
+import { DATA } from "../app.js"
+import { supabase, JWT_ACCESS_KEY, IS_DEV_MODE } from '../mainApp.js';
 import { Redis } from 'ioredis';
 
-import RAW_QUIZZES from "./json/quizzes.json" with { type: "json" };
+import RAW_QUIZZES from "../json/quizzes.json" with { type: "json" };
 export const QUIZZES:Record<string, any> = RAW_QUIZZES;
-import { BOTS, WssFuncs } from './wss_functions.js'
-import AnswerLogic from './CheckAns.js';
-import { ServerLogic } from './logic_scripts.js';
+import { BOTS, WssFuncs } from '../wss_functions.js'
+import AnswerLogic from '../CheckAns.js';
+import { ServerLogic } from '../logic_scripts.js';
 import {
   // Constants
   UserUpdate,
@@ -52,9 +52,9 @@ import {
   RedisSet,
   MSG,
   RoomData
-} from './types.js'; // Change this to the actual path of your file
+} from '../types.js'; // Change this to the actual path of your file
 import { EventEmitter } from 'events';
-import FileLogger from './Logger.js';
+import FileLogger from '../Logger.js';
 import { resolve } from 'dns';
 import { devNull } from 'os';
 type int = number;
@@ -615,7 +615,7 @@ public isStop:boolean;
      //the active room is helpful for knowing if a user is already in a room and for cleanup if they try to make another one
      this.isHost = true;
     this.isActive = true;
-const type = config.type in RoomTypes ? config.type:'quiz'
+const type = config.type as string in RoomTypes ? config.type:'quiz'
     const requiredUsers = (config.requiredUsers as string[] ?? []);
     requiredUsers.push(this.ws.username)
     const maxUsers = config.maxUsers ?? requiredUsers.length;
@@ -633,6 +633,7 @@ const type = config.type in RoomTypes ? config.type:'quiz'
    }
     const teams = [team1, team2];
   console.log ('config for quiz', config,maxUsers )
+  if(typeof config.settings?.month === 'string') 
     if (config?.settings?.month && config.settings.month.length > 0) {
     // Assign from the correct path: config.settings.montha
     this.month = config.settings.month[config.settings.month.length -1]; 
@@ -1423,5 +1424,5 @@ class Quiz extends Rooms{
 }
     // Rooms class constructor
 
-export * from './types.js'
+export * from '../types.js'
 export {   Rooms, RedisMananger , Quiz};

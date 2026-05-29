@@ -11,7 +11,7 @@ import { WssFuncs } from './wss_functions.js'
 import { ServerLogic } from './logic_scripts.js';
 import {SupaColumns,QUESTION_TYPES,SUPA_COLUMNS, QuizUserData, Question, QuizSettings, QUIZ_KEYS, defaultQuizSettings, Tables, WsMessage, QuestionSettings, Options, SpellCheckResult, UserData, REDIS_KEY,USER_STATES,RedisSet, RedisMananger, redis, Quiz, /// <reference path=" " />
 Updates
- } from './logic.js'
+ } from './logic/logic.js'
 import { EventEmitter } from 'events';
 const parseCookies = (cookies: string | undefined): Record<string, string> => {
   if (!cookies) return {};

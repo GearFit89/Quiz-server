@@ -1,0 +1,27 @@
+{
+  "globals": {
+    "xpOffset": 50,
+    "xpMultiplier": 1.5,
+    "teamBonusThreshold": 3,
+    "teamBonusPoints": 50
+  },
+  "modes": {
+    "bonus": {
+      "correct": { "points": 10, "xp": 25, "isLastQuest": 40 },
+      "incorrect": { "points": 0, "xp": 0 }
+    },
+    "regular": {
+      "correct": {
+        "basePoints": 20,
+        "baseXp": 15,
+        "perfectOut": { "threshold": 4, "points": 20 },
+        "imperfectOut": { "threshold": 4, "points": 0 }
+      },
+      "incorrect": {
+        "basePenalty": -10,
+        "lastQuestPenalty": -20,
+        "backwardOut": { "threshold": 2, "penalty": -20 }
+      }
+    }
+  }
+}

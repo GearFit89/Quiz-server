@@ -137,6 +137,7 @@ export const defaultQuizSettings: QuizSettings = {
     lenOfTimer: 0,
     // Setting text display speed to 0 by default
     speed_tOf_text: 0,
+    skipTime:5200
     // Initializing with an empty array for quiz modes
     
 };
@@ -155,6 +156,9 @@ export interface QuizSettings extends QuestionSettings {
     lenOfTimer: int; 
     // The scrolling or display speed of the text
     speed_tOf_text: float; 
+    skipTime?:float;
+
+
     // List of flights selected (e.g., ['A', 'B', 'C', 'T'])
    
     // The modes active for this quiz (e.g., ['ftv', 'quote', 'ftv/quote'])
@@ -179,11 +183,29 @@ export const QUESTION_TYPES = {
 export const REDIS_KEY = {
   // Use colons to create "folders" in Redis Insight
   MAIN: `main:`,
-
+ 
+QUESTIONS_LOADED_FLAG:(ri:string)=>`room:${ri}:questions:flag`,
   OFFLINE_USERS:`main:offline_users:`,
+  // If this server crashes, Server 2 will look in this folder to see what needs rescuing.
+  PENDING_TASKS_BY_SERVER: (serverId: string) => `server:${serverId}:tasks:pending`,
+
+  
+  // You update this key every 5 seconds with a TTL (Time To Live) of 10 seconds.
+  // If the server dies, the key vanishes. Other servers know this server is "off the bike."
+  SERVER_HEARTBEAT: (serverId: string) => `server:${serverId}:alive`,
+
+  
+  // A single list of ALL servers currently pedaling. 
+  // When a server boots up, it adds its ID here. If it gracefully shuts down, it removes it.
+  ACTIVE_SERVERS: `main:servers:active`,
+
+ 
+  // When Server 1 grabs a task, it puts its serverId in this lock. 
+  
+  TASK_LOCK: (taskId: string) => `task:${taskId}:lock`,
   ONLINE_USERS: `main:online_users:`,
   ACTIVE_USER_ROOM:(user:string) =>`user:${user}:active_room`, //this is a string
-  OPEN_ROOM:'open-rooms-set',
+  OPEN_ROOM:'open_rooms_set:flag',
   AI_ROOM:(room:string)=>`room:${room}:ai`,//this is a hash
   TEAM_SCORE:(room:str, team:str)=>`room:${room}:${team}:scores`,//this is not currently used 
   CURRENT_ROOM_USERS:(roomId:str)=>`room:${roomId}:current_users`,
@@ -255,6 +277,7 @@ export interface Question {
   answer?: string; // The specific answer to the question
   question?: string; 
   numVerses?: number;
+  [extra:string]: any; // Allow for additional properties
   // The text of the question being asked
 }
 // Interface representing the structure of the Rooms class
@@ -463,11 +486,11 @@ export interface RoomData {
  // array of objects
  roomId?:string;
             // 'RoomType' in your example
-    requiredUsers: string[]; // List of required usernames
+    requiredUsers: string[]  // List of required usernames
     maxUsers: number;       // Optional: Defaults to requiredUsers.length
     team1?: string;         // Optional: Default to empty string
-    team2: string; 
-    settings: QuizSettings; 
+    team2?: string; 
+    settings?: QuizSettings; 
      teams?:Record<string, any>
         action?:string;
         canDecline?:boolean;
@@ -478,7 +501,7 @@ export interface RoomData {
   status?:string;
  
   channel?:string;
-  type:RoomType;
+  type?:RoomType;
   id?:string;
   isActive?:string;
   timeActive?:int;
@@ -510,3 +533,57 @@ export interface AnswerReturn {
    incorrectWords?:Record<string, int>;
 
 };
+
+
+/**
+ * Represents the base unit of a score reward or penalty
+ */
+interface ScoreUnit {
+  points: number;
+  xp: number;
+  isLastQuest?: number; // Optional: specific value for the final question
+}
+
+/**
+ * Configuration for "Out" scenarios (Perfect/Imperfect/Backward)
+ */
+interface ThresholdRule {
+  threshold: number;
+  points?: number;
+  penalty?: number;
+}
+
+/**
+ * The full structure of your scoring logic JSON
+ */
+export interface ScoringConfig {
+  globals: {
+    xpOffset: number;
+    xpMultiplier: number;
+    teamBonusThreshold: number;
+    teamBonusPoints: number;
+  };
+  modes: {
+    bonus: {
+      correct: ScoreUnit;
+      incorrect: ScoreUnit;
+    };
+    regular: {
+      correct: {
+        basePoints: number;
+        baseXp: number;
+        perfectOut: ThresholdRule;
+        imperfectOut: ThresholdRule;
+      };
+      incorrect: {
+        basePenalty: number;
+        lastQuestPenalty: number;
+        backwardOut: ThresholdRule;
+      };
+    };
+  };
+}
+
+/**
+ * Expected structure for User Data from Redis
+ */

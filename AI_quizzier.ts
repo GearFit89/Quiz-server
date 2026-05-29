@@ -1,6 +1,6 @@
 import { WssFuncs } from "./wss_functions.js";
 import WebSocket from "ws";
-import * as L from "./logic.js";
+import * as L from "./logic/logic.js";
  import {DATA} from './app.js'
 import { Question } from "./logic_scripts.js";
 

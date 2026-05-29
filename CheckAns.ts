@@ -3,9 +3,9 @@ import { Options, AnswerReturn } from "./types.js";
 
 
 class AnswerLogic {
-    private readonly commonWords: Set<string> = new Set(['the', 'and', 'is', 'in', 'to', 'of', 'a', 'that', 'it', 'on', 'for', 'with', 'as', 'was', 'at', 'by', 'an', 'be', 'this', 'from']);
+    private static readonly commonWords: Set<string> = new Set(['the', 'and', 'is', 'in', 'to', 'of', 'a', 'that', 'it', 'on', 'for', 'with', 'as', 'was', 'at', 'by', 'an', 'be', 'this', 'from']);
 
-    public checkAnswer(
+    public static  checkAnswer(
         answer: string,
         enteredAnswer: string,
         options: Options = {
@@ -93,7 +93,7 @@ class AnswerLogic {
         }
     }
 
-    private wordsCount(input: string[] = []): Record<string, number> {
+    private static wordsCount(input: string[] = []): Record<string, number> {
         const objectCount: Record<string, number> = {};
         // Loop and increment count for each word
         input.forEach(word => {
@@ -102,7 +102,7 @@ class AnswerLogic {
         return objectCount;
     }
 
-    public stripChar(input: string | string[], nums: boolean = false): string | string[] {
+    public static stripChar(input: string | string[], nums: boolean = false): string | string[] {
         const charToStripArr = ['!', '/', ';', ':', '.', '"', "'", ',', '-', '(', ')', '?', ' ', '\n', '\r', '\t', '[', ']', '{', '}', '—', '–', '|'];
         if (nums) charToStripArr.push('0', '1', '2', '3', '4', '5', '6', '7', '8', '9');
         const charToStrip = new Set(charToStripArr);
@@ -116,7 +116,7 @@ class AnswerLogic {
         return Array.isArray(input) ? input.map(processString) : processString(input);
     }
 
-    private levenshtein(a: string, b: string): number {
+    private static levenshtein(a: string, b: string): number {
         const matrix: number[][] = [];
         // Standard Levenshtein distance algorithm
         for (let i = 0; i <= a.length; i++) matrix[i] = [i];
@@ -136,7 +136,7 @@ class AnswerLogic {
         }
         return matrix[a.length][b.length];
     }
-    checkAlt(ogphars: string, altans: string[], corspondAns: string[]) {
+    static checkAlt(ogphars: string, altans: string[], corspondAns: string[]) {
         // Keep spaces initially to allow word boundaries (\b) to work correctly
         let switched = ogphars.toLowerCase(); // Initialize with lowercase version of original
 
@@ -158,7 +158,7 @@ class AnswerLogic {
         return this.stripChar(switched) as string; // Final sanitization
     }
 
-    manageAnswer(ans:string, issplit = false, og = '') {
+   static manageAnswer(ans:string, issplit = false, og = '') {
         //removes () and[] from answers
         let inAns;
         let lastWord;
@@ -216,7 +216,7 @@ class AnswerLogic {
         const switched = this.checkAlt(og, altans, corspondAns as string[]);
     return {cleanans, altans, corspondAns, exANs, switched};
     }
-    private spellCheck(answer: string[] = [], enteredAnswer: string[] = [], options = { threshold: 2, correction: true, spellIndexEnd: 2, spellIndexStart: 2 }) {
+    private static spellCheck(answer: string[] = [], enteredAnswer: string[] = [], options = { threshold: 2, correction: true, spellIndexEnd: 2, spellIndexStart: 2 }) {
         const correctedAnswer: string[] = [];
         const misspelledWords: string[] = [];
 

@@ -1,4 +1,9 @@
 import { EventEmitter } from 'events'; // Import the standard Node.js EventEmitter
+import { Question, REDIS_KEY } from '../types.js';
+import { getMetaData, getQuestion, getRoomId } from '../logic/utils/quizCotext.js';
+import AnswerLogic from '../CheckAns.js';
+import { QuizManager } from '../logic/redishelpers.js';
+import { Timers } from '../logic/utils/timerMap.js';
 //import { QuestionData, TimerSettings, QuestionManager } from './base_question';
 // Helper function to handle async delays without blocking the thread
 const wait = (ms: number) => new Promise((resolve) => setTimeout(resolve, ms)); // Resolves after ms milliseconds
@@ -12,6 +17,8 @@ export interface TimerSettings {
   waitAfterQuest: number; // Delay after a question ends
   waitBetween: number; // Delay between full question cycles
   waitFromHead: number; // Delay after header appears
+  timer:number;
+  jumpWinner:number;
 }
 
 /**
@@ -75,23 +82,25 @@ export interface WordDataResult {
 //   public newQuestion(overrideQuestNum?: number): Promise<void>; // Primary method
 // // }
 // The main class managing the lifecycle of a single question
-export class QuestionManager extends EventEmitter {
+export class QuestionManager extends QuizManager {
   public questNum: number = 0; // Tracks the current question index
   public isStop: boolean = false; // Flag to halt the character loop and timers
   public questEnd: boolean = false; // Flag indicating if the question has fully rendered
   public tWordTimestamp: number = Infinity; // Timestamp of when the trigger word was shown
-
+private isQuote:boolean;
   private skipQId: NodeJS.Timeout | undefined; // Holds the timeout ID for skipping a question
   private clientQuestId: string = ''; // Unique ID generated per question for the client
 
   // Class constructor initializing the required state variables
   constructor(
     private roomId: string, // The Redis room ID string
-    private questions: QuestionData[], // Array of loaded question objects
+    private question: Question, // Array of loaded question objects
     private timerSettings: TimerSettings, // Configuration for question timings
     private month: string // The active month for trigger word lookup
   ) {
-    super(); // Call the EventEmitter parent constructor
+     super(); // Call the EventEmitter parent constructor
+    this.isQuote = this.question.type.includes('ftv') || this.question.type.includes('quote');
+
   }
 
   // Helper method to calculate random numbers (kept internal as requested)
@@ -126,23 +135,23 @@ export class QuestionManager extends EventEmitter {
       testQuestHolder += char; // Append it to the debug string
 
       // Emit the publish event instead of calling Redis directly
-      this.emit('publish', this.roomId, { payload: [this.clientQuestId, char, i + 1] });
+      await this.store.publish(REDIS_KEY.ROOM(this.roomId), JSON.stringify({ payload: [this.clientQuestId, char, i + 1] }))//this is for the ai to know when to react
 
       await wait(time); // Pause execution to simulate the typing effect
     } // End of the sequential loop
 
     console.warn('Completed quest string:', testQuestHolder); // Log the final constructed string to verify order
     this.questEnd = true; // Mark the question as fully rendered
-    this.questNum++; // Increment the question counter for the next round
+ // Increment the question counter for the next round
 
     // Emit the final question mark/end signal
-    this.emit('publish', this.roomId, { payload: [this.clientQuestId, '?', questChars.length] });
-  }
+    await this.store.publish(REDIS_KEY.ROOM(this.roomId), JSON.stringify({ payload: [this.clientQuestId, '?', questChars.length+1] }))//this is for the ai to know when to react
+}
 
   // The main entry point to start generating a new question
   public async newQuestion(overrideQuestNum?: number): Promise<void> {
-    if (overrideQuestNum !== undefined) this.questNum = overrideQuestNum; // Apply override if provided
-    const questNum = this.questNum; // Create a local reference
+    //if (overrideQuestNum !== undefined) this.questNum = overrideQuestNum; // Apply override if provided
+    const questNum = ( await getMetaData()?.questionIndex || 0 )// Create a local reference
     console.warn('Starting quest index:', questNum); // Log the start
 
     try {
@@ -153,7 +162,7 @@ export class QuestionManager extends EventEmitter {
     }
 
     try {
-      if (questNum >= this.questions.length) { // Check if we have exhausted the question array
+      if (questNum >= ( getMetaData()?.questionsLen || 0 )) { // Check if we have exhausted the question array
         console.warn('Quiz over - no more questions'); // Log completion
         this.emit('updateUsers', this.roomId, { end: true }, true); // Emit state update
         this.emit('finish'); // Trigger the finish teardown logic
@@ -165,7 +174,7 @@ export class QuestionManager extends EventEmitter {
       this.emit('updateUsers', this.roomId, { question: { wait: true } }, true, { channel: this.roomId }); // Set UI to waiting state
       await wait(this.timerSettings.waitBetween || 4000); // Wait between questions
 
-      const questObj = this.questions[questNum]; // Fetch the current question object
+      const questObj = getQuestion() as Question // Fetch the current question object
       if (!questObj) { // Safety check if object is undefined
         this.emit('updateUsers', this.roomId, { end: true }, true); // Force UI end state
         this.emit('finish'); // Emit finish
@@ -206,24 +215,61 @@ export class QuestionManager extends EventEmitter {
 
       await wait(this.timerSettings.waitFromHead || 2000); // Final delay before rendering text
       this.emit('switchStatus', '*', 'waiting for jumps from the user'); // Change player states
-      this.emit('publish', this.roomId, { payload: [this.clientQuestId, "Question: ", 0] }); // Broadcast the prefix
+      await this.store.publish(REDIS_KEY.ROOM(this.roomId), JSON.stringify({ payload: [this.clientQuestId, "Question: ", 0] }))//this is for the ai to know when to react
+; // Broadcast the prefix
 
       if (type === 'sq') this.questEnd = true; // SQs are instantly marked as ended
 
       await this.displayToClient(finalQuestionString); // Delegate to the rendering loop
 
       // Setup the timeout for moving to the next question if nobody answers
-      this.skipQId = setTimeout(() => {
+      Timers.setTimer( `${getRoomId()}:skip`, 
+    () => {
         if (this.isStop) return; // Prevent triggering if game halted
         console.warn('Next question coming as this question timed out.'); // Log timeout
         this.emit('switchStatus', '*', 'users waiting for next question'); // Reset player states
 
         // FIXED: Now calls nextQuestion event with the updated questNum instead of 0
-        this.emit('nextQuestion', this.questNum);
+        this.emit('nextQuestion', questNum);
       }, 5675); // Timeout duration
-
+     
     } catch (error) {
       this.emit('error', error, 'newQuestion_execution'); // Safely emit uncaught execution errors
     }
   }
+  checkAnswer(isQuestionAnswer:boolean, entered:string){
+    const questionText = this.getQuestionText();
+    const answerToCheck = isQuestionAnswer ? questionText : this.question.answer as string;
+    return AnswerLogic.checkAnswer(answerToCheck, entered, {
+      isQuote:this.isQuote, 
+      spellThreshold:2, 
+      closeThreshold:2,
+       extraThreshold:2, 
+       correction:true 
+      });
+
+  }
+  private getQuestionText(): string {
+    if (this.question.type === 'quote') {
+      return this.question.ref ?? '';
+    }
+
+    if (this.question.question === 'ftv/quote' || !this.question.question) {
+      return this.question.verse ?? '';
+    }
+
+    return this.question.question ?? '';
+  }
+
+
+  
 }
+const text = ' switchstatus. finish. erro. newQuestio. updateUsers. '
+const events: QuestionEvents = {
+  updateUsers: (roomId, data, force, options) => {},
+  finish: () => {},
+  switchStatus: (oldStatus, newStatus) => {},
+  publish: (roomId, payload) => {},
+  nextQuestion: (nextQuestNum) => {},
+  error: (err, context) => {},
+};

@@ -198,7 +198,7 @@ import bodyParser from 'body-parser';
 import cors from 'cors'; 
 // Import the Supabase client creation function
 import { createClient } from '@supabase/supabase-js'; 
-import { redis, RedisMananger } from './logic.js';
+import { redis, RedisMananger } from './logic/logic.js';
 import { resolve } from 'dns';
 import FileLogger from './Logger.js';
 // Import OS information utilities
