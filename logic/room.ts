@@ -1,14 +1,14 @@
-import { shuffleArray, alphabeticalSort } from "./utils/array.js";
+import { shuffleArray, alphabeticalSort } from "../../Bible-Quizzing-App/apps/server/src/config/utils/array.js";
 import { WebSocketServer, WebSocket } from 'ws';
 import  fs  from 'fs/promises';
 import { DATA } from "../app.js"
 import { supabase, JWT_ACCESS_KEY, IS_DEV_MODE } from '../mainApp.js';
 import { Redis } from 'ioredis';
-import Rand from "./utils/rand.js";
+import Rand from "../../Bible-Quizzing-App/apps/server/src/config/utils/rand.js";
 import RAW_QUIZZES from "../json/quizzes.json" with { type: "json" };
 export const QUIZZES:Record<string, any> = RAW_QUIZZES;
 import { BOTS, WssFuncs } from '../wss_functions.js'
-import AnswerLogic from '../CheckAns.js';
+import AnswerLogic from '../answer-logic.js';
 import { ServerLogic } from '../logic_scripts.js';
 import {
   // Constants
@@ -48,7 +48,7 @@ import { EventEmitter } from 'events';
 import FileLogger from '../Logger.js';
 import { QuizManager, redis, sub as rSub, RedisSub } from "./redishelpers.js";
 import { SERVER_CHANNELS } from "./server.js";
-import { MetaData, RoomMeta } from "./utils/quizCotext.js";
+import { MetaData, RoomMeta } from "../../Bible-Quizzing-App/apps/server/src/config/utils/quizCotexnt.js";
 const sub = new RedisSub(rSub);
  const logger = new FileLogger();
  logger.clear();//clear the file for now 

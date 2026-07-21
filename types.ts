@@ -1,14 +1,11 @@
-type str = string;
+
 type int = number;
 type bool= boolean;
 type float=  number;
- import  {Redis} from 'ioredis'
-type arr = any[]
-;
+ import  { Redis } from 'ioredis'
 
-export {
-  
-};
+
+
 
 export interface SupaColumns {
   id: string; // uuid maps to string
@@ -55,15 +52,15 @@ export const SUPA_COLUMNS = {
 export interface QuizUserData {
   correctQs?:int;
   incorrectQs?:int
- username?:str;
-  roomId?:str;
+ username?:string;
+  roomId?:string;
   xp?: number;
   PQO?:int; //Perfect Quiz Out
   IQO?:int; //imperfect Quiz out
   points:int;
-  teamId?:str;
-  teamName:str;
-  status:str;
+  teamId?:string;
+  teamName:string;
+  status:string;
   Bpoints?:int;
   seatNum:int;
   BQO?:int; ///backward quiz out
@@ -79,7 +76,7 @@ Object.freeze(Tables);
 /*enum WsStatus {
   SUCCESS = 'success',
   ERROR = 'error',
-  RETRY = 'retry'
+  RETRY = 'retry
 }*/
 export interface SpellCheckResult {
   correctedAnswer: string[]; // Array of strings after spell correction
@@ -96,7 +93,7 @@ export interface Options {
   shouldCorrectAtErr?:bool;
 }
 export interface Trigs  {
-  [monthnName:str]:(int | null)[];
+  [monthnName:string]:(int | null)[];
   
 }
 export type QuestionTypes = 'ftv' | 'quote' | 'ftv/quote' | 'According to' | 'SQ:' | 'question';
@@ -168,8 +165,8 @@ export interface WsMessage {
   requestId: string;
   func: string;
   args?: any[];
-  type?:str;
-  data?:str|Record<str, any>
+  type?:string;
+  data?:string|Record<string, any>
 }
 export const QUESTION_TYPES = {
   QUOTE:'quote',
@@ -207,23 +204,23 @@ QUESTIONS_LOADED_FLAG:(ri:string)=>`room:${ri}:questions:flag`,
   ACTIVE_USER_ROOM:(user:string) =>`user:${user}:active_room`, //this is a string
   OPEN_ROOM:'open_rooms_set:flag',
   AI_ROOM:(room:string)=>`room:${room}:ai`,//this is a hash
-  TEAM_SCORE:(room:str, team:str)=>`room:${room}:${team}:scores`,//this is not currently used 
-  CURRENT_ROOM_USERS:(roomId:str)=>`room:${roomId}:current_users`,
-   USER_REQ_INVITES:(username:str, reqName:str)=>'user:' + username + ':req_id:' +reqName ,
-   USER_REQ_FRIENDS:(username:str)=>'user:' + username + ':friend_reqs' ,//this is a set;
-   USER_AUTH:(userId:str)=>'user:' + userId,
-  USER_LOOK: (username: str) => 'user:' + username+':avatar',// a hset
- USER_PROFILE:(username:str)=>'user:' + username,
+  TEAM_SCORE:(room:string, team:string)=>`room:${room}:${team}:scores`,//this is not currently used 
+  CURRENT_ROOM_USERS:(roomId:string)=>`room:${roomId}:current_users`,
+   USER_REQ_INVITES:(username:string, reqName:string)=>'user:' + username + ':req_id:' +reqName ,
+   USER_REQ_FRIENDS:(username:string)=>'user:' + username + ':friend_reqs' ,//this is a set;
+   USER_AUTH:(userId:string)=>'user:' + userId,
+  USER_LOOK: (username: string) => 'user:' + username+':avatar',// a hset
+ USER_PROFILE:(username:string)=>'user:' + username,
   ROOM: (roomId: string) => `room:${roomId}`,
   USER_INCORRECT:(user:string)=>`user:${user}:incorrect`,
   USER_CORRECT: (user: string) => `user:${user}:correct`,
   ROOM_QUESTIONS: (roomId: string) => `room:${roomId}:questions`,
   ROOM_PLAYERS_STATES: (roomId: string) => `room:${roomId}:players_states`,
-  TEAM_BONUSES:(roomId:str, teamId:str, tag:str)=> `room:${roomId}:team:${teamId}:bonus_type:${tag}`,//this is a set;
+  TEAM_BONUSES:(roomId:string, teamId:string, tag:string)=> `room:${roomId}:team:${teamId}:bonus_type:${tag}`,//this is a set;
   //ROOM_PLAYERS_COUNT: (roomId: string) => `room:${roomId}:players:count`,
-  USER_ROOM_DATA: (roomId:str, userId: string) => `room:${roomId}:user:${userId}`,
-  TEAM: (roomId:str, teamId: string) => `room:${roomId}:team:${teamId}`,
-  REACTION_TIMES : (roomId:str, teamId:str) => `room:${roomId}:team:${teamId}:jump_time`
+  USER_ROOM_DATA: (roomId:string, userId: string) => `room:${roomId}:user:${userId}`,
+  TEAM: (roomId:string, teamId: string) => `room:${roomId}:team:${teamId}`,
+  REACTION_TIMES : (roomId:string, teamId:string) => `room:${roomId}:team:${teamId}:jump_time`
 } as const;
 export interface Token {
   name:string;

@@ -1,4 +1,5 @@
 import { EventEmitter } from 'events'; // Import EventEmitter for class inheritance
+import Redis from 'ioredis';
 
 /**
  * Configuration for timing logic between question segments
@@ -63,3 +64,4 @@ export declare class QuestionManager extends EventEmitter {
      */
     public newQuestion(overrideQuestNum?: number): Promise<void>; // Primary method
 }
+

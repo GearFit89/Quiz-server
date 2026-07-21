@@ -1,15 +1,15 @@
-import { alphabeticalSort, shuffleArray } from "./utils/array.js";
+import { alphabeticalSort, shuffleArray } from "../../Bible-Quizzing-App/apps/server/src/config/utils/array.js";
 import Rand
- from "./utils/rand.js";
+ from "../../Bible-Quizzing-App/apps/server/src/config/utils/rand.js";
  import config from '../json/score.json' with {"type": "json"};
- import TimerMap, { Timers } from "./utils/timerMap.js";
+ import TimerMap, { Timers } from "../../Bible-Quizzing-App/apps/server/src/config/utils/timerMap.js";
  import { QuizManager, RedisManager , redis as store, sub as rSub, RedisSub, quizEvents, redis} from "./redishelpers.js";
 import { DATA } from "../app.js";
 import { ServerLogic } from '../logic_scripts.js';
 import { QUIZ_KEYS, ScoringConfig, QUESTION_TYPES, QUESTION_STATUS, QuestionStates, QuizSettings, QuizUserData, defaultQuizSettings, ROOM_STATES } from "../types.js";
 import { REDIS_KEY, SUPA_COLUMNS, USER_STATES, Question } from "../types.js";
 import { QuizConfig, SERVER_CHANNELS } from "./server.js";
-import quizContext, { getQuestion, getRoomId, getUserId, getIsTeamMode, getSettings, getTeamObject, getQuestId, getMetaData, setMetaData, stringToBool, boolToStrng, getAllMetaData } from "./utils/quizCotext.js";
+import quizContext, { getQuestion, getRoomId, getUserId, getIsTeamMode, getSettings, getTeamObject, getQuestId, getMetaData, setMetaData, stringToBool, boolToStrng, getAllMetaData } from "../../Bible-Quizzing-App/apps/server/src/config/utils/quizCotexnt.js";
 import { QuestionManager, TimerSettings } from "../questions/base_question.js";
 async function getQuestData({keys=false}){
   const data =await redis.hgetall(REDIS_KEY.USER_PROFILE(getUserId() as string) + ':question_incorrect')

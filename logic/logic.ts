@@ -8,7 +8,7 @@ import { Redis } from 'ioredis';
 import RAW_QUIZZES from "../json/quizzes.json" with { type: "json" };
 export const QUIZZES:Record<string, any> = RAW_QUIZZES;
 import { BOTS, WssFuncs } from '../wss_functions.js'
-import AnswerLogic from '../CheckAns.js';
+import AnswerLogic from '../answer-logic.js';
 import { ServerLogic } from '../logic_scripts.js';
 import {
   // Constants

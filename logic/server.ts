@@ -14,7 +14,7 @@ import {
 } from '../types.js';
 import { Quiz } from './quiz.js';
 import { resolve } from 'dns';
-import quizContext, { getAllMetaData, getMetaData } from './utils/quizCotext.js';
+import quizContext, { getAllMetaData, getMetaData } from '../../Bible-Quizzing-App/apps/server/src/config/utils/quizCotexnt.js';
 
 export interface QuizConfig extends ManagerOptions{
    roomId:string;

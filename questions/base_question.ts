@@ -1,9 +1,9 @@
 import { EventEmitter } from 'events'; // Import the standard Node.js EventEmitter
 import { Question, REDIS_KEY } from '../types.js';
-import { getMetaData, getQuestion, getRoomId } from '../logic/utils/quizCotext.js';
-import AnswerLogic from '../CheckAns.js';
+import { getMetaData, getQuestion, getRoomId } from '../../Bible-Quizzing-App/apps/server/src/config/utils/quizCotexnt.js';
+import AnswerLogic from '../answer-logic.js';
 import { QuizManager } from '../logic/redishelpers.js';
-import { Timers } from '../logic/utils/timerMap.js';
+import { Timers } from '../../Bible-Quizzing-App/apps/server/src/config/utils/timerMap.js';
 //import { QuestionData, TimerSettings, QuestionManager } from './base_question';
 // Helper function to handle async delays without blocking the thread
 const wait = (ms: number) => new Promise((resolve) => setTimeout(resolve, ms)); // Resolves after ms milliseconds
